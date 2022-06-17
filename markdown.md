@@ -1,4 +1,5 @@
-## Bon dia
-### Què tal?
+# Bon dia
 
-  <a href="markdownDos.md">Esto es el link al md2</a>
+## Què tal?
+
+> Bon dia, que tal
