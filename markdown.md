@@ -1,9 +1,3 @@
----
-title: "Geekateca"
-author:
-  - Github Pages Team
----
-
 # Bon dia
 
 ## Què tal?
