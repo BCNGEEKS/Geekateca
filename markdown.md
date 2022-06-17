@@ -1,7 +1,7 @@
 ---
+layout:default
 title: "Hola k tal"
-author:
-  - Best team
+author: Best team
 ---
 
 # Bon dia
