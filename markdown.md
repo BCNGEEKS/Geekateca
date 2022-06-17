@@ -1,6 +1,6 @@
 ---
 layout:default
-title: "Hola k tal"
+title: Hola k tal
 author: Best team
 ---
 
