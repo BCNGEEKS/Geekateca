@@ -1,3 +1,2 @@
-# Travelport_Notes
+# Geekateca
 This is a repository for Travelport students' notes
-HOLA K TAL
