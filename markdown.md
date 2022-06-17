@@ -1,3 +1,9 @@
+---
+title: "Hola k tal"
+author:
+  - Best team
+---
+
 # Bon dia
 
 ## Què tal?
