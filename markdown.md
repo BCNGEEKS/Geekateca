@@ -1,7 +1,6 @@
 ---
 layout:default
-title: Hola k tal
-author: Best team
+title: Página prueba
 ---
 
 # Bon dia
