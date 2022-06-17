@@ -4,4 +4,4 @@
 
 > Bon dia, que tal
 
-[An Internal Link](./markdown2.md)
+Esto va a ser un link interno: [An Internal Link](./markdown2.md)
