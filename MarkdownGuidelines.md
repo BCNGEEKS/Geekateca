@@ -2,7 +2,13 @@
 
 The title will also appear in the index, so make it descriptive while brief! Use only one h1!
 
-## First section
+## Table of Contents
+1. [First Section](#first-section)
+2. [Examples](#examples)
+3. [Lists](#lists)
+4. [Hyperlinks](#hyperlinks)
+
+## First Section
 
 You can use as many h2 as you want. They indicate a general section in your content.
 
@@ -28,7 +34,7 @@ Sometimes lists like to misbehave so adding a `<!-- end of the list -->` at the 
 
     - id: must be unique
     - name: must be unique
-        - id and name have different properties in <form>
+        - id and name have different properties in `<form>`
     - class: can be repeated
 
     <!-- end of the list -->
@@ -37,7 +43,7 @@ There are different kind of selectors in HTML:
 
 - id: must be unique
 - name: must be unique
-    - id and name have different properties in <form>
+    - id and name have different properties in `<form>`
 - class: can be repeated
 
 <!-- end of the list -->
@@ -61,6 +67,10 @@ To do a tortilla de patatas you will need both potatoes, eggs and onion.
 3. Finally merge everything with the eggs.
 
 <!-- end of the list -->
+
+### Nested Lists
+
+Sincerely making nested lists can be a bit complex
 
 ## Hyperlinks
 
