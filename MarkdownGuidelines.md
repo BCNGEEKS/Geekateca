@@ -11,7 +11,7 @@
 
 ## General Structure
 
-Use only one h1 to name the whole document, and then several h2 to refer to each section. If your markdown page is long enough include a Table of Contents.
+Use only one h1 to name the whole document, and then several h2 to refer to each section. Please add a Table of Contents for easy navigation.
 
 ## Examples
 
@@ -80,13 +80,23 @@ If you do any reference to external concepts please use hyperlinks for easier na
     [This same page](./MarkdownGuidelines.html)
 
 [This same page](./MarkdownGuidelines.html)
-    
+
 ## Tables
 
-| Tastiness | Cookie Type |
-|:----:|:-------------|
-| -5  | Raisin |
-| 8th  | Chocolate Chip |
-| 11th | 2 or lower |
-| 14th | 3 or lower |
-| 17th | 4 or lower |
+Your tables should be readable both in the original markdown and the final HTML.
+
+    | Left Align | Center Align | Right Align |
+    |:-----------|:------------:|------------:|
+    | Monday     |      20      |       Online|
+    | Tuesday    |      21      |       Online|
+    | Wednesday  |      22      |       Online|
+    | Thursday   |      23      |       Office|
+    | Friday     |      24      |      No work|
+
+| Left Align | Center Align | Right Align |
+|:-----------|:------------:|------------:|
+| Monday     |      20      |       Online|
+| Tuesday    |      21      |       Online|
+| Wednesday  |      22      |       Online|
+| Thursday   |      23      |       Office|
+| Friday     |      24      |      No work|
