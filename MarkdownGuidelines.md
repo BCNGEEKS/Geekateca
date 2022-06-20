@@ -99,7 +99,7 @@ Please take into account that both `-` and `*` will result in the same list but 
 
 ### Ordered Lists
 
-    To do a tortilla de patatas you will need both potatoes, eggs and onion.
+    To do a tortilla de patatas you will need potatoes, eggs and onion.
 
     1. First peel the potatoes and fry them.
     2. Then fry the onion.
