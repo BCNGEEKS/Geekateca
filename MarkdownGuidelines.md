@@ -55,7 +55,7 @@ You can also use blockquotes by using the character `>` but do not use it for co
 
 ### Mixing Examples
 
-You can also mix both bloquotes and code snippets but we don't recommend such practice unless completely needed; the final style will not look great. Take into account that to mix these two you need to intend 5 spaces instead of 4.
+You can also mix both blockquotes and code snippets but we don't recommend such practice unless completely needed; the final style will not look great. Take into account that to mix these two you need to intend 5 spaces instead of 4.
 
     > This is a much better alternative:
     >
