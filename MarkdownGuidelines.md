@@ -95,7 +95,6 @@ Your tables should be readable both in the original markdown and the final HTML.
     | Friday     |      24      |      No work|
 
 | Left Align | Center Align | Right Align |
-|:-----------|:------------:|------------:|
 | Monday     |      20      |       Online|
 | Tuesday    |      21      |       Online|
 | Wednesday  |      22      |       Online|
