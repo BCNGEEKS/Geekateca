@@ -24,7 +24,7 @@ date: 20th June 2022
 
 Use only one h1 to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation. 
 
-Also take into consideration the *look* of your markdown document. It won't be shown in the final result, but both your markdown document and the resulting HTML should be easily readable.
+>Also take into consideration the *look* of your markdown document. It won't be shown in the final result, but both your markdown document and the resulting HTML should be easily readable.
 
 ## Examples
 
