@@ -1,3 +1,9 @@
+---
+title: Markdown Guidelines
+author: Eduardo Vázquez Espín
+date: 20th June 2022
+---
+
 # Markdown Guidelines
 
 ## Table of Contents
@@ -33,7 +39,7 @@ For example: The `<a>` tag should only be used for hyperlinks.
 
 There are two kind of lists: ordered or unordered. Please use them accordingly, sorting only a series of consecutive steps causally connected.
 
-Sometimes lists misbehave so adding a `<!-- end of the list -->` at the end of them prevents any problems.
+Sometimes lists like to misbehave so adding a `<!-- end of the list -->` at the end of them prevents any problems.
 
 ### Unordered Lists
 
@@ -155,7 +161,7 @@ If you do any reference to external concepts please use hyperlinks for easier na
 ## Tables
 
 Your tables should be readable both in the original markdown and the final HTML. Tables will always have one and only one table header (which will be the first row), followed by one and only row of `----------` where you can indicate alignment with `:`, followed by as many normal rows as you need.
-    
+
     | Left Align | Center Align | Right Align |
     |:-----------|:------------:|------------:|
     | Monday     |      20      |       Online|
