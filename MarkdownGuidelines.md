@@ -33,7 +33,7 @@ For example: The `<a>` tag should only be used for hyperlinks.
 
 There are two kind of lists: ordered or unordered. Please use them accordingly, sorting only a series of consecutive steps causally connected.
 
-Sometimes lists like to misbehave so adding a `<!-- end of the list -->` at the end of them prevents any problems.
+Sometimes lists misbehave so adding a `<!-- end of the list -->` at the end of them prevents any problems.
 
 ### Unordered Lists
 
@@ -77,7 +77,72 @@ To do a tortilla de patatas you will need both potatoes, eggs and onion.
 
 ### Nested Lists
 
-Sincerely making nested lists can be a bit complex
+Making nested lists is easy. Only problem is that there is only 2 indexes: either numbers or unordered lists (as previously shown). So to prevent confusion we recommend that all sublists be unordered.
+
+    1.  List item one.
+
+        List item one continued with a second paragraph followed by an
+        Indented block.
+
+            $ ls *.sh
+            $ mv *.sh ~/tmp
+    
+        List item continued with a third paragraph.
+    
+    2.  List item two continued with an open block.
+    
+        This paragraph is part of the preceding list item.
+    
+        -  This list is nested and does not require explicit item continuation.
+
+            This paragraph is part of the preceding list item.
+ 
+        -  List item b.
+
+        This paragraph belongs to item two of the outer list.
+        
+    <!-- end of the list -->
+
+1.  List item one.
+
+    List item one continued with a second paragraph followed by an
+    Indented block.
+
+        $ ls *.sh
+        $ mv *.sh ~/tmp
+
+    List item continued with a third paragraph.
+
+2.  List item two continued with an open block.
+
+    This paragraph is part of the preceding list item.
+
+    -  This list is nested and does not require explicit item continuation.
+
+        This paragraph is part of the preceding list item.
+
+    -  List item b.
+
+    This paragraph belongs to item two of the outer list.
+
+<!-- end of the list -->
+
+---
+
+If you really need roman indeces (or any other kind) you will have to work with HTML:
+
+    <ol type="I">
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+    </ol>
+
+
+<ol type="I">
+  <li>List 1</li>
+  <li>List 2</li>
+  <li>List 3</li>
+</ol>
 
 ## Hyperlinks
 
