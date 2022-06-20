@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Markdown Guidelines
-author: Eduardo Vázquez Espín
+author: BCNGeeks
 date: 20th June 2022
 ---
 
