@@ -54,9 +54,13 @@ For example: The `<a>` tag should only be used for hyperlinks.
 
 You can also use blockquotes by using the character `>` but do not use it for code. All text in a blockquote will be rendered as normal but contained in a box. Blockquotes should be reserved for highlighted paragraphs of normal text.
 
+#### _Markdown Code:_
+
     > Very important:
     >
     > Never use `<center>` again! It's obsolete!
+
+#### _Result:_
 
 > Very important:
 >
@@ -66,11 +70,15 @@ You can also use blockquotes by using the character `>` but do not use it for co
 
 You can also mix both blockquotes and code snippets but we don't recommend such practice unless completely needed; the final style will not look great. Take into account that to mix these two you need to intend 5 spaces instead of 4.
 
+#### _Markdown Code:_
+
     > This is a much better alternative:
     >
     >     <h2 style="text-align: center">
     >       CSS center property
     >     </h2>>
+
+#### _Result:_
 
 > This is a much better alternative:
 >
@@ -86,6 +94,8 @@ Sometimes lists like to misbehave so adding a `<!-- end of the list -->` at the 
 
 ### Unordered Lists
 
+#### _Markdown Code:_
+
     There are different kind of selectors in HTML:
 
     - id: must be unique
@@ -94,6 +104,8 @@ Sometimes lists like to misbehave so adding a `<!-- end of the list -->` at the 
     - class: can be repeated
 
     <!-- end of the list -->
+
+#### _Result:_
 
 There are different kind of selectors in HTML:
 
@@ -108,6 +120,8 @@ Please take into account that both `-` and `*` will result in the same list but 
 
 ### Ordered Lists
 
+#### _Markdown Code:_
+
     To do a tortilla de patatas you will need potatoes, eggs and onion.
 
     1. First peel the potatoes and fry them.
@@ -115,6 +129,8 @@ Please take into account that both `-` and `*` will result in the same list but 
     3. Finally merge everything with the eggs.
 
     <!-- end of the list -->
+
+#### _Result:_
 
 To do a tortilla de patatas you will need both potatoes, eggs and onion.
 
@@ -127,6 +143,8 @@ To do a tortilla de patatas you will need both potatoes, eggs and onion.
 ### Nested Lists
 
 Making nested lists is easy. Only problem is that there is only 2 indexes: either numbers or unordered lists (as previously shown). So to prevent confusion we recommend that all sublists be unordered.
+
+#### _Markdown Code:_
 
     1.  List item one.
 
@@ -151,6 +169,8 @@ Making nested lists is easy. Only problem is that there is only 2 indexes: eithe
         This paragraph belongs to item two of the outer list.
         
     <!-- end of the list -->
+
+#### _Result:_
 
 1.  List item one.
 
@@ -180,12 +200,15 @@ Making nested lists is easy. Only problem is that there is only 2 indexes: eithe
 
 If you really need roman indeces (or any other kind) you will have to work with HTML:
 
+#### _Markdown Code:_
+
     <ol type="I">
       <li>List 1</li>
       <li>List 2</li>
       <li>List 3</li>
     </ol>
 
+#### _Result:_
 
 <ol type="I">
   <li>List 1</li>
@@ -197,13 +220,19 @@ If you really need roman indeces (or any other kind) you will have to work with 
 
 If you do any reference to external concepts please use hyperlinks for easier navigation. For that use a relative path to your same folder AND make the extension an .html since your markdowns will be converted to that.
 
+#### _Markdown Code:_
+
     [This same page](./MarkdownGuidelines.html)
+
+#### _Result:_
 
 [This same page](./MarkdownGuidelines.html)
 
 ## Tables
 
 Your tables should be readable both in the original markdown and the final HTML. Tables will always have one and only one table header (which will be the first row), followed by one and only one row of `----------` where you can indicate alignment with `:`, followed by as many normal rows as you need.
+
+#### _Markdown Code:_
 
     | Left Align | Center Align | Right Align |
     |:-----------|:------------:|------------:|
@@ -212,6 +241,8 @@ Your tables should be readable both in the original markdown and the final HTML.
     | Wednesday  |      22      |       Online|
     | Thursday   |      23      |       Office|
     | Friday     |      24      |      No work|
+
+#### _Result:_
 
 | Left Align | Center Align | Right Align |
 |:-----------|:------------:|------------:|
