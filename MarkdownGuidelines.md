@@ -1,16 +1,17 @@
 # Markdown Guidelines
 
-The title will also appear in the index, so make it descriptive while brief! Use only one h1!
-
 ## Table of Contents
-1. [First Section](#first-section)
+1. [General Structure](#general-structure)
 2. [Examples](#examples)
 3. [Lists](#lists)
+    - [Unordered Lists](#unordered-lists)
+    - [Ordered Lists](#ordered-lists)
+    - [Nested Lists](#nested-lists)
 4. [Hyperlinks](#hyperlinks)
 
-## First Section
+## General Structure
 
-You can use as many h2 as you want. They indicate a general section in your content.
+Use only one h1 to name the whole document, and then several h2 to refer to each section. If your markdown page is long enough include a Table of Contents.
 
 ## Examples
 
