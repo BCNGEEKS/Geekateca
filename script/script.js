@@ -1,3 +1,3 @@
-function holaMon{
+function holaMon(){
     console.log("Hola mundo");
 }
