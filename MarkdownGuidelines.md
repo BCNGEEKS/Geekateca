@@ -8,10 +8,11 @@
     - [Ordered Lists](#ordered-lists)
     - [Nested Lists](#nested-lists)
 4. [Hyperlinks](#hyperlinks)
+5. [Tables](#tables)
 
 ## General Structure
 
-Use only one h1 to name the whole document, and then several h2 to refer to each section. Please add a Table of Contents for easy navigation.
+Use only one h1 to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation.
 
 ## Examples
 
