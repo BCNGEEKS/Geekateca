@@ -80,3 +80,13 @@ If you do any reference to external concepts please use hyperlinks for easier na
     [This same page](./MarkdownGuidelines.html)
 
 [This same page](./MarkdownGuidelines.html)
+    
+## Tables
+
+| Tastiness | Cookie Type |
+|:----:|:-------------|
+| -5  | Raisin |
+| 8th  | Chocolate Chip |
+| 11th | 2 or lower |
+| 14th | 3 or lower |
+| 17th | 4 or lower |
