@@ -11,6 +11,9 @@ date: 20th June 2022
 
 1. [General Structure](#general-structure)
 2. [Examples](#examples)
+    - [Code Snippets](#code-snippets)
+    - [Blockqutoes](#blockquotes)
+    - [Mixing Examples](#mixing-examples)
 3. [Lists](#lists)
     - [Unordered Lists](#unordered-lists)
     - [Ordered Lists](#ordered-lists)
@@ -24,9 +27,11 @@ date: 20th June 2022
 
 Use only one h1 to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation. 
 
->Also take into consideration the *look* of your markdown document. It won't be shown in the final result, but both your markdown document and the resulting HTML should be easily readable.
+Also take into consideration the *look* of your markdown document. It won't be shown in the final result, but both your markdown document and the resulting HTML should be easily readable.
 
 ## Examples
+
+### Code Snippets
 
 Use code snippets for your examples! For that indent 4 spaces:
 
@@ -35,6 +40,34 @@ Use code snippets for your examples! For that indent 4 spaces:
 You can also do small code snippets using the ` character. 
 
 For example: The `<a>` tag should only be used for hyperlinks.
+
+### Blockquotes
+
+You can also use blockquotes by using the character `>` but do not use it for code. All text in a blockquote will be rendered as normal but contained in a box. Blockquotes should be reserved for highlighted paragraphs of normal text.
+
+    > Very important:
+    >
+    > Never use `<center>` again! It's obsolete!
+
+> Very important:
+>
+> Never use `<center>` again! It's obsolete!
+
+### Mixing Examples
+
+You can also mix both bloquotes and code snippets but we don't recommend such practice unless completely needed; the final style will not look great. Take into account that to mix these two you need to intend 5 spaces instead of 4.
+
+    > This is a much better alternative:
+    >
+    >     <h2 style="text-align: center">
+    >       CSS center property
+    >     </h2>>
+
+> This is a much better alternative:
+>
+>     <h2 style="text-align: center">
+>       CSS center property
+>     </h2>>
 
 ## Lists
 
