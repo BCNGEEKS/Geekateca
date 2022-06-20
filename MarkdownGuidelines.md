@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Markdown Guidelines
 author: Eduardo Vázquez Espín
 date: 20th June 2022
