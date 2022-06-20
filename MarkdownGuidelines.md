@@ -1,6 +1,7 @@
 # Markdown Guidelines
 
 ## Table of Contents
+
 1. [General Structure](#general-structure)
 2. [Examples](#examples)
 3. [Lists](#lists)
@@ -10,9 +11,13 @@
 4. [Hyperlinks](#hyperlinks)
 5. [Tables](#tables)
 
+<!-- end of the list -->
+
 ## General Structure
 
-Use only one h1 to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation.
+Use only one h1 to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation. 
+
+Also take into consideration the *look* of your markdown document. It won't be shown in the final result, but both your markdown document and the resulting HTML should be easily readable.
 
 ## Examples
 
