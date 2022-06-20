@@ -33,7 +33,7 @@ For example: The `<a>` tag should only be used for hyperlinks.
 
 There are two kind of lists: ordered or unordered. Please use them accordingly, sorting only a series of consecutive steps causally connected.
 
-Sometimes lists like to misbehave so adding a `<!-- end of the list -->` at the end of them prevents any problems.
+Sometimes lists misbehave so adding a `<!-- end of the list -->` at the end of them prevents any problems.
 
 ### Unordered Lists
 
