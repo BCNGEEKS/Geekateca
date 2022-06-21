@@ -223,10 +223,15 @@ If you do any reference to external concepts please use hyperlinks for easier na
 #### _Markdown Code:_
 
     [This same page](./MarkdownGuidelines.html)
+    
+    [List Section](./MarkdownGuidelines.md/#lists)
 
 #### _Result:_
 
 [This same page](./MarkdownGuidelines.html)
+
+[List Section](./MarkdownGuidelines.html/#lists)
+
 
 ## Tables
 
