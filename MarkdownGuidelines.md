@@ -224,13 +224,13 @@ If you do any reference to external concepts please use hyperlinks for easier na
 
     [This same page](./MarkdownGuidelines.html)
     
-    [List Section](./MarkdownGuidelines.md/#lists)
+    [List Section](./MarkdownGuidelines.md#lists)
 
 #### _Result:_
 
 [This same page](./MarkdownGuidelines.html)
 
-[List Section](./MarkdownGuidelines.html/#lists)
+[List Section](./MarkdownGuidelines.html#lists)
 
 
 ## Tables
