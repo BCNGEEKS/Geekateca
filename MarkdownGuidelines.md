@@ -224,7 +224,7 @@ If you do any reference to external concepts please use hyperlinks for easier na
 
     [This same page](./MarkdownGuidelines.html)
     
-    [List Section](./MarkdownGuidelines.md#lists)
+    [List Section](./MarkdownGuidelines.html#lists)
 
 #### _Result:_
 
