@@ -33,3 +33,5 @@
 5. Go to your Github project and you will find the button "Compare & Pull Request". Click it to request the changes to be pushed into the original project!
 
 ![Pull-Request](ComparePullRequest.png)
+
+![Open-Pull-Request](OpenPullRequest.png)
