@@ -9,21 +9,22 @@ date: 20th June 2022
 
 ## Table of Contents
 
-- [Markdown Guidelines](#markdown-guidelines)
-  - [Table of Contents](#table-of-contents)
-  - [General Structure](#general-structure)
-  - [Examples](#examples)
-    - [Code Snippets](#code-snippets)
-    - [Blockquotes](#blockquotes)
-    - [Mixing Examples](#mixing-examples)
-  - [Lists](#lists)
-    - [Unordered Lists](#unordered-lists)
-    - [Ordered Lists](#ordered-lists)
-    - [Nested Lists](#nested-lists)
-  - [Hyperlinks](#hyperlinks)
-  - [Tables](#tables)
+- [General Structure](#general-structure)
+- [Examples](#examples)
+  - [Code Snippets](#code-snippets)
+  - [Blockquotes](#blockquotes)
+  - [Mixing Examples](#mixing-examples)
+- [Lists](#lists)
+  - [Unordered Lists](#unordered-lists)
+  - [Ordered Lists](#ordered-lists)
+  - [Nested Lists](#nested-lists)
+- [Hyperlinks](#hyperlinks)
+- [Tables](#tables)
+- [Images](#images)
 
 <!-- end of the list -->
+
+The table of contents should never use numbers (since they won't be shown in the document).
 
 ## General Structure
 
@@ -38,7 +39,9 @@ Every markdown document should start with a commented section including layout, 
 
 Sometimes the title and the h1 may enter in conflict. If so erase the title from the commented section.
 
-One and only one h1 should be used to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation. 
+One and only one h1 should be used to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation.
+
+Documents should be written in impersonal form. That means they shouldn't refer to "you" or "me".
 
 The *look* of your markdown document should be taken into account. It won't be shown in the final result, but both the markdown document and the resulting HTML should be easily readable.
 
@@ -263,4 +266,12 @@ Your tables should be readable both in the original markdown and the final HTML.
 
 ## Images
 
-The use of images for easy visualization is strongly recommended
+The use of images for easy visualization is strongly recommended. For that the images should be grouped in an `img` folder.
+
+#### _Markdown Code:_
+
+    ![Example Image](./img/hello_world.png)
+
+#### _Result:_
+
+![Example Image](./img/hello_world.png)
