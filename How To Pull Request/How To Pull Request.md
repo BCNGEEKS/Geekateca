@@ -1,3 +1,10 @@
+---
+layout: default
+title: How To Pull Request
+author: BCNGeeks
+date: 22nd June 2022
+---
+
 # How To Pull Request
 
 1. Do a Fork of the original project.
@@ -6,7 +13,7 @@
 
     - **WHAT HAPPENS IF THE PROJECT IS NOT UP TO DATE?**
 
-![Fork Button](Fork.png)    
+![Fork Button](./img/Fork.png)    
 
 2. Clone the project in your machine. 
 
@@ -28,10 +35,10 @@
 
         git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 
-![Visual-Studio-Push](Push.png)
+![Visual-Studio-Push](./img/Push.png)
 
 5. Go to your Github project and you will find the button "Compare & Pull Request". Click it to request the changes to be pushed into the original project!
 
-![Pull-Request](ComparePullRequest.png)
+![Pull-Request](./img/ComparePullRequest.png)
 
-![Open-Pull-Request](OpenPullRequest.png)
+![Open-Request](./img/OpenPullRequest.png)
