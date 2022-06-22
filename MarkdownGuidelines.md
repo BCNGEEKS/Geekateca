@@ -9,17 +9,35 @@ date: 20th June 2022
 
 ## Table of Contents
 
-1. [General Structure](#general-structure)
-2. [Examples](#examples)
+- [Markdown Guidelines](#markdown-guidelines)
+  - [Table of Contents](#table-of-contents)
+  - [General Structure](#general-structure)
+  - [Examples](#examples)
     - [Code Snippets](#code-snippets)
-    - [Blockqutoes](#blockquotes)
+    - [Blockquotes](#blockquotes)
+      - [_Markdown Code:_](#markdown-code)
+      - [_Result:_](#result)
     - [Mixing Examples](#mixing-examples)
-3. [Lists](#lists)
+      - [_Markdown Code:_](#markdown-code-1)
+      - [_Result:_](#result-1)
+  - [Lists](#lists)
     - [Unordered Lists](#unordered-lists)
+      - [_Markdown Code:_](#markdown-code-2)
+      - [_Result:_](#result-2)
     - [Ordered Lists](#ordered-lists)
+      - [_Markdown Code:_](#markdown-code-3)
+      - [_Result:_](#result-3)
     - [Nested Lists](#nested-lists)
-4. [Hyperlinks](#hyperlinks)
-5. [Tables](#tables)
+      - [_Markdown Code:_](#markdown-code-4)
+      - [_Result:_](#result-4)
+      - [_Markdown Code:_](#markdown-code-5)
+      - [_Result:_](#result-5)
+  - [Hyperlinks](#hyperlinks)
+      - [_Markdown Code:_](#markdown-code-6)
+      - [_Result:_](#result-6)
+  - [Tables](#tables)
+      - [_Markdown Code:_](#markdown-code-7)
+      - [_Result:_](#result-7)
 
 <!-- end of the list -->
 
@@ -218,19 +236,19 @@ If you really need roman indeces (or any other kind) you will have to work with 
 
 ## Hyperlinks
 
-If you do any reference to external concepts please use hyperlinks for easier navigation. For that use a relative path to your same folder AND make the extension an .html since your markdowns will be converted to that.
+If you do any reference to external concepts please use hyperlinks for easier navigation. For that use a relative path to your same folder AND make the extension an .md since your markdowns will be converted to that.
 
 #### _Markdown Code:_
 
-    [This same page](./MarkdownGuidelines.html)
+    [This same page](./MarkdownGuidelines.md)
     
-    [List Section](./MarkdownGuidelines.html#lists)
+    [List Section](./MarkdownGuidelines.md#lists)
 
 #### _Result:_
 
-[This same page](./MarkdownGuidelines.html)
+[This same page](./MarkdownGuidelines.md)
 
-[List Section](./MarkdownGuidelines.html#lists)
+[List Section](./MarkdownGuidelines.md#lists)
 
 
 ## Tables
