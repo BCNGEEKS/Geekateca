@@ -1,3 +1,5 @@
+# How To Pull Request
+
 1. Do a Fork of the original project.
 
     This will create a copy of the project under your possession. It is your responsability to keep that project up to date.
