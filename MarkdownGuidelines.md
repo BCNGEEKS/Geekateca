@@ -15,29 +15,13 @@ date: 20th June 2022
   - [Examples](#examples)
     - [Code Snippets](#code-snippets)
     - [Blockquotes](#blockquotes)
-      - [_Markdown Code:_](#markdown-code)
-      - [_Result:_](#result)
     - [Mixing Examples](#mixing-examples)
-      - [_Markdown Code:_](#markdown-code-1)
-      - [_Result:_](#result-1)
   - [Lists](#lists)
     - [Unordered Lists](#unordered-lists)
-      - [_Markdown Code:_](#markdown-code-2)
-      - [_Result:_](#result-2)
     - [Ordered Lists](#ordered-lists)
-      - [_Markdown Code:_](#markdown-code-3)
-      - [_Result:_](#result-3)
     - [Nested Lists](#nested-lists)
-      - [_Markdown Code:_](#markdown-code-4)
-      - [_Result:_](#result-4)
-      - [_Markdown Code:_](#markdown-code-5)
-      - [_Result:_](#result-5)
   - [Hyperlinks](#hyperlinks)
-      - [_Markdown Code:_](#markdown-code-6)
-      - [_Result:_](#result-6)
   - [Tables](#tables)
-      - [_Markdown Code:_](#markdown-code-7)
-      - [_Result:_](#result-7)
 
 <!-- end of the list -->
 
@@ -52,9 +36,11 @@ Every markdown document should start with a commented section including layout, 
     date: 20th June 2022
     ---
 
-Use only one h1 to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation. 
+Sometimes the title and the h1 may enter in conflict. If so erase the title from the commented section.
 
-Also take into consideration the *look* of your markdown document. It won't be shown in the final result, but both your markdown document and the resulting HTML should be easily readable.
+One and only one h1 should be used to name the whole document, and then several h2 to refer to each section. h3, h4 should be used for nested subsections. Please add a Table of Contents for easy navigation. 
+
+The *look* of your markdown document should be taken into account. It won't be shown in the final result, but both the markdown document and the resulting HTML should be easily readable.
 
 ## Examples
 
@@ -240,15 +226,15 @@ If you do any reference to external concepts please use hyperlinks for easier na
 
 #### _Markdown Code:_
 
-    [This same page](./MarkdownGuidelines.md)
+    [This same page](./MarkdownGuidelines.html)
     
-    [List Section](./MarkdownGuidelines.md#lists)
+    [List Section](./MarkdownGuidelines.html#lists)
 
 #### _Result:_
 
-[This same page](./MarkdownGuidelines.md)
+[This same page](./MarkdownGuidelines.html)
 
-[List Section](./MarkdownGuidelines.md#lists)
+[List Section](./MarkdownGuidelines.html#lists)
 
 
 ## Tables
@@ -274,3 +260,7 @@ Your tables should be readable both in the original markdown and the final HTML.
 | Wednesday  |      22      |       Online|
 | Thursday   |      23      |       Office|
 | Friday     |      24      |      No work|
+
+## Images
+
+The use of images for easy visualization is strongly recommended
