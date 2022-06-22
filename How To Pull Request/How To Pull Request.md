@@ -11,7 +11,7 @@ date: 22nd June 2022
 
     This will create a copy of the project under your possession. It is your responsability to keep that project up to date.
 
-    - **WHAT HAPPENS IF THE PROJECT IS NOT UP TO DATE?**
+    [WHAT HAPPENS IF THE PROJECT IS NOT UP TO DATE?](./uptodate.md)
 
 ![Fork Button](./img/Fork.png)    
 
