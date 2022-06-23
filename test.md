@@ -13,5 +13,4 @@ This is a paragraph
 - Is
 
 - A
-
 - List
