@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How To Pull Request
+title: What happens if my github project is not up to date?
 author: BCNGeeks
 date: 22nd June 2022
 ---
