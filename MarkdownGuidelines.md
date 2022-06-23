@@ -274,4 +274,4 @@ The use of images for easy visualization is strongly recommended. For that the i
 
 #### _Result:_
 
-![Example Image](./img/hello_world.png)
+![Example Image](./img/adios_mundo.png)
