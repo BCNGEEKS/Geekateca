@@ -235,9 +235,9 @@ If you do any reference to external concepts please use hyperlinks for easier na
 
 #### _Result:_
 
-[This same page](./MarkdownGuidelines.html)
+[This same page](./MarkdownGuidelines.md)
 
-[List Section](./MarkdownGuidelines.html#lists)
+[List Section](./MarkdownGuidelines.md#lists)
 
 
 ## Tables
