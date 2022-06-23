@@ -42,3 +42,7 @@ date: 22nd June 2022
 ![Pull-Request](./img/ComparePullRequest.png)
 
 ![Open-Request](./img/OpenPullRequest.png)
+
+6. Finally when you are done with the Pull Request we will ask of you to fill in a Summary of Changes just like the one in the image:
+
+![Summary Of Changes](./img/Pull%20Request%20Summary.png)
