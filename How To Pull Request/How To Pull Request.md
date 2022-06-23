@@ -21,7 +21,7 @@ date: 22nd June 2022
 
 3. Create a new branch where you will do the changes.
 
-    **WHAT HAPPENS IF YOU DON'T CREATE A NEW BRANCH?**
+    **WHAT HAPPENS IF YOU DON'T CREATE A NEW BRANCH?** Nothing, it's just a bad practice.
 
         git checkout -b new_branch
     
