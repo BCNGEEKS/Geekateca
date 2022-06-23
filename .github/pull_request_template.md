@@ -5,7 +5,7 @@ _Provide overview._
 _Describe the changes you are about to commit._
 
 ### References
-[Example](www.google.com)
+[Example](https://www.google.com)
 
 ### Team Check
 _Select the team_
