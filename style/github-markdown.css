@@ -294,12 +294,10 @@
 }
 
 * hr::before {
-  display: table;
   content: "";
 }
 
 * hr::after {
-  display: table;
   clear: both;
   content: "";
 }
@@ -587,12 +585,10 @@
 }
 
 *::before {
-  display: table;
   content: "";
 }
 
 *::after {
-  display: table;
   clear: both;
   content: "";
 }
