@@ -15,9 +15,9 @@ date: 22nd June 2022
 
 ![Fork Button](./img/Fork.png)    
 
-2. Clone the project in your machine. 
+2. Clone the project to your machine. 
 
-        git clone `https://github.com/<YourUserName>/<ProjectName>`
+        git clone https://github.com/<YourUserName>/<ProjectName>
 
 3. Create a new branch where you will do the changes.
 
@@ -27,7 +27,7 @@ date: 22nd June 2022
     
 4. Do your changes in your local project. Then push it to your own project. You can do this using console or Visual Studio
 
-        git remote add origin `https://github.com/<YourUserName>/<ProjectName>`
+        git remote add origin https://github.com/<YourUserName>/<ProjectName>
 
         git add .
 
