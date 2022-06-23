@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Example
 author: BCNGeeks
 date: date
 ---
@@ -17,28 +16,41 @@ date: date
     - [EXAMPLES](#examples)
     - [BROWSER SUPPORT](#browser-support)
 
-
-
-
 ## INTRODUCTION
 
 Explanation about what we're going to talk in this article.
 
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World</title>
+</head>
+<body>
 
-**Example of The Article with the help of HTML**
+<p>Hello World!</p>
+
+</body>
+</html>
+```
+
+Example of The Article with the help of HTML
 
 ## PROPERTY
 
-Explanation of the specific property.
+Explanation of the `specific` property.
 
 ### PROPERTY VALUES
 
-| Value       | Description                         |
-|:-----------:|:------------------------------------|
-| Initial |  |
-| Inherit |  |
+| Value   | Description                                     |
+|:-------:|:------------------------------------------------|
+| Length  | Specifies a fixed top margin in px, pt, cm, etc. Default value is 0px. Negative values are allowed. |
+| %       | Specifies a top margin in percent of the width of the containing element. |
+| Auto    | The browser calculates a top margin.            |
+| Initial | Sets the property to its default value.         |
+| Inherit | Inherits this property from its parent element. |
 
-> Notes about an especific property if needed
+> Notes about any specific property if needed
 
 ### EXAMPLES
 
@@ -50,23 +62,38 @@ Explanation of the specific property.
 #example2 {
 
 }
-...
+
 
 ```
 
-blablabla
+This are some code example in css
+
+```HTML
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World</title>
+</head>
+<body>
+
+<p>Hello World!</p>
+
+</body>
+</html>
+```
+
+This is a code example in html
 
 ### BROWSER SUPPORT
+
 The numbers in the table specify the first browser version that fully supports the property.
 
 Numbers followed by -webkit- or -moz- specify the first version that worked with a prefix.
 
-| Browser  | Version            |
-|:---------|:-------------------|
-| Chrome   | 10.0, 4.0 -webkit- |
-| Explorer/Edge  | 8.0 |
-| Firefox  | 29.0, 2.0 -moz- |
-| Safary   | 5.1, 3.2-webkit- |
-| Opera    | 9.5 |
-
-
+| Browser       | Version            |
+|:--------------|:-------------------|
+| Chrome        | 10.0, 4.0 -webkit- |
+| Explorer/Edge | 8.0                |
+| Firefox       | 29.0, 2.0 -moz-    |
+| Safari        | 5.1, 3.2-webkit-   |
+| Opera         | 9.5                |
