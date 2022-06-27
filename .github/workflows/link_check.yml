@@ -1,21 +1,36 @@
 # This is a basic workflow to help you get started with Actions
 
-name: link-check
+name: checks
 
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
-  push:
-    branches: [ "main" ]
+  push: 
+    branches:
+      - "main"
   pull_request:
-    branches: [ "main" ]
+    branches:
+      - "main"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
+  check-formating:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v3
+        
+      - name: markdownlint-cli
+        uses: nosborn/github-action-markdown-cli@v3.0.1
+        with:
+          files: .
+          config_file: .markdownlint.yaml
+          ignore_files: examples/ignore/*
+          ignore_path: examples/.markdownlintignore
+          rules: examples/rules/custom.js
   check-links:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: checkout
