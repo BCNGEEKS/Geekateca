@@ -7,6 +7,6 @@ title: Index page
 
 Este va a ser el link a la pagina: [link pagina](./markdown.md)
 
-Otro link (Edu): [link pagina Edu](./MarkdownGuidelines.md)
+Otro link (Edu): [link pagina Edu](./Documentation/MarkdownGuidelines.md)
 
-Example Article: [link example](./ArticleExample.md)
+Example Article: [link example](./Documentation/ArticleExample.md)
