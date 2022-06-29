@@ -1,9 +1,12 @@
 :root{
     --ff-primary: "Gill Sans Extrabold", Helvetica, sans-serif;
     --ff-secondary: 'Courier New', Courier, monospace;
-    --clr-dark: #323334;
-    --clr-white: #ffffff;
-    --clr-grey: #999999;
+    --clr-dark: #131623;
+    --clr-light: #f8e4cb;
+    --clr-main: #791ca3;
+    --clr-cmp1: #aa20d9;
+    --clr-cmp2: #3b105d;
+
 }
 
 *{
@@ -15,6 +18,8 @@
 html{
     height: 100%;
     font-family: var(--ff-primary);
+    color: var(--clr-light);
+    background-color: var(--clr-dark);
     font-size: 16px;
 }
 .container{
@@ -37,16 +42,16 @@ html{
     width: 100%;
     outline: none;
     border: none;
-    background-color: var(--clr-dark);
+    background-color: var(--clr-light);
     padding: 0 15px 0 45px;
-    color: var(--clr-white);
+    color: var(--clr-dark);
     border-radius: 6px;
 }
   
 .search-box>i{
     position: absolute;
     z-index: 1;
-    color: var(--clr-grey);
+    color: var(--clr-cmp2);
     top: 50%;
     left: 15px;
     font-size: 20px;
@@ -54,39 +59,75 @@ html{
 }
 /*--HEADER--*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-size: 1rem;
+    margin:10px;
+    display:block;
+    color:var(--clr-light);
+}
+
 h1{
-    display: block;
     margin: 0 auto;
     font-size: 2rem;
-    color: var(--clr-dark);
+    text-align: center;
 }
 
 h2{
-    margin: 10px 0;
-    color:var(--clr-dark);
     font-size: 1.5rem;
 }
 
-h3{
-    margin: 10px 0;
-    color:var(--clr-dark);
-    font-size: 1rem;
-}
-
-h4{
-    color:var(--clr-dark);
-}
-
-h5{
-    color: var(--clr-dark);
-}
-
-h6{
-    color: var(--clr-dark);
-}
 /*--LIST--*/
 
 ul{
-    list-style: circle outside;
-    margin: auto;
+    list-style: circle inside;
+}
+
+li{
+    margin: 0 1rem;
+}
+
+li>a{
+    text-decoration: none;
+    color: var(--clr-light);
+}
+
+/*--TABLES--*/
+
+table,th,td{
+    
+    margin:0 5% 2rem;
+    padding: 0 1rem;
+}
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+}
+/*--P--*/
+
+p{
+    margin:1rem;
+    font-size: 1rem;
+}
+/*--CODE--*/
+
+pre{
+    display: block;
+    margin: 1rem;
+    background-color:var(--clr-main);
+    border-radius: 10px;
+    box-shadow: -0.5rem -0.5rem 0.5rem var(--clr-cmp2) inset, 0.5rem 0.5rem 0.5rem var(--clr-cmp1) inset;
+}
+pre>code{
+    display: block;
+    padding: 1rem;
+}
+p>code{
+    color: var(--clr-cmp1);
+    font-weight: bold;
 }
