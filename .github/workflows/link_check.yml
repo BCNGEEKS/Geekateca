@@ -19,11 +19,13 @@ jobs:
     steps:
       - name: checkout
         uses: actions/checkout@v3
-        
+
+
       - name: markdownlint-cli
         uses: nosborn/github-action-markdown-cli@v3.0.1
         with:
           files: .
+
   check-links:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
