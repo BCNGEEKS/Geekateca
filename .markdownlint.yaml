@@ -82,7 +82,7 @@ MD013:
   # Include headings
   headers: true
   # Strict length checking
-  strict: false
+  strict: true
   # Stern length checking
   stern: false
 
