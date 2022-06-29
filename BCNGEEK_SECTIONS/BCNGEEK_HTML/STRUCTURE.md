@@ -10,6 +10,7 @@ date: 21th June 2022
 
 - [STRUCTURE](#structure)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [HTML - !DOCTYPE](#html---doctype)
     - [BROWSER SUPPORT](#browser-support)
   - [BODY](#body)
@@ -26,7 +27,14 @@ date: 21th June 2022
     - [BASE](#base)
       - [EXAMPLE](#example-4)
 
+---
+
+## [INDEX](./INDEX.md)
+
+---
+
 ## HTML - !DOCTYPE
+
 All HTML documents must start with a `<!DOCTYPE>` declaration.
 The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.
 In HTML 5, the declaration is simple:

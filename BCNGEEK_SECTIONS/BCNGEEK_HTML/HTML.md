@@ -10,6 +10,7 @@ date: 21th June 2022
 
 - [HTML](#html)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
     - [ABOUT HTML](#about-html)
   - [HOW TO](#how-to)
@@ -26,6 +27,12 @@ date: 21th June 2022
     - [SEMANTIC ELEMENTS](#semantic-elements)
     - [NON-SEMANTIC ELEMENTS](#non-semantic-elements)
     - [EXAMPLES](#examples)
+
+---
+
+## [INDEX](./INDEX.md)
+
+---
 
 ## INTRODUCTION
 

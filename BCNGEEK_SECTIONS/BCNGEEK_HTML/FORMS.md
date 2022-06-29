@@ -10,6 +10,7 @@ date: 21th June 2022
 
 - [FORMS](#forms)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [FORM](#form)
     - [EXAMPLE](#example)
@@ -74,6 +75,10 @@ date: 21th June 2022
     - [EXAMPLE](#example-29)
   - [OUTPUT](#output)
     - [EXAMPLE](#example-30)
+
+---
+
+## [INDEX](./INDEX.md)
 
 ---
 

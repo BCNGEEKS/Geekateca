@@ -10,6 +10,7 @@ date: 23th June 2022
 
 - [LISTS](#lists)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [UNORDERED LIST](#unordered-list)
     - [EXAMPLE](#example)
@@ -19,6 +20,10 @@ date: 23th June 2022
     - [DL TAG](#dl-tag)
     - [DD TAG](#dd-tag)
     - [EXAMPLE](#example-2)
+
+---
+
+## [INDEX](./INDEX.md)
 
 ---
 

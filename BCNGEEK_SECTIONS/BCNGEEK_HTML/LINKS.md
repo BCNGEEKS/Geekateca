@@ -7,6 +7,7 @@ date: 23th June 2022
 # LINKS
 
 - [LINKS](#links)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [`<a>` Anchor tag](#a-anchor-tag)
     - [INTRODUCTION](#introduction-1)
@@ -25,6 +26,12 @@ date: 23th June 2022
       - [HTML IFRAME SYNTAX](#html-iframe-syntax)
       - [SYNTAX](#syntax)
       - [IFRAME - SET HEIGHT AND WIDTH](#iframe---set-height-and-width)
+
+---
+
+## [INDEX](./INDEX.md)
+
+---
 
 ## INTRODUCTION
 
