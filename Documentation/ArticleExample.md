@@ -44,8 +44,10 @@ Explanation of the `specific` property.
 
 | Value   | Description                                     |
 |:-------:|:------------------------------------------------|
-| Length  | Specifies a fixed top margin in px, pt, cm, etc. Default value is 0px. Negative values are allowed. |
-| %       | Specifies a top margin in percent of the width of the containing element. |
+| Length  | Specifies a fixed top margin in px, pt, cm, etc. Default value is \n
+0px. Negative values are allowed. |
+| %       | Specifies a top margin in percent of the width of the containing \n
+element. |
 | Auto    | The browser calculates a top margin.            |
 | Initial | Sets the property to its default value.         |
 | Inherit | Inherits this property from its parent element. |
@@ -86,9 +88,11 @@ This is a code example in html
 
 ### BROWSER SUPPORT
 
-The numbers in the table specify the first browser version that fully supports the property.
+The numbers in the table specify the first browser version that fully supports\n
+ the property.
 
-Numbers followed by -webkit- or -moz- specify the first version that worked with a prefix.
+Numbers followed by -webkit- or -moz- specify the first version that worked \n
+with a prefix.
 
 | Browser       | Version            |
 |:--------------|:-------------------|
