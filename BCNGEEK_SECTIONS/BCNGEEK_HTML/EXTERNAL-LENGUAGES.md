@@ -26,6 +26,7 @@ date: 21th June 2022
   - [JAVASCRIPT](#javascript)
     - [SCRIPT](#script)
     - [EXAMPLE](#example-4)
+  - [INDEX](./INDEX.md)
 
 ---
 
