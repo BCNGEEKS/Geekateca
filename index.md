@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Index page
+# title: Index page
 ---
 
 # Esta es la pagina de index
