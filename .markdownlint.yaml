@@ -204,8 +204,10 @@ MD042: true
 MD043:
   # List of headings
   headings: 
-  ["# head",
-  "*"]
+  [
+  "# head",
+  "*"
+  ]
   # List of headings
   headers: []
 
