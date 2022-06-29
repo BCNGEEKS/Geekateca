@@ -53,7 +53,7 @@ MD010:
   # Include code blocks
   code_blocks: true
   # Fenced code languages to ignore
-  ignore_code_languages: [html]
+  ignore_code_languages: []
   # Number of spaces for each hard tab
   spaces_per_tab: 1
 
@@ -161,9 +161,9 @@ MD031:
 MD032: true
 
 # MD033/no-inline-html - Inline HTML
-MD033:
-  # Allowed elements
-  allowed_elements: [ol, li]
+# MD033:
+#   # Allowed elements
+#   allowed_elements: [ol, li]
 
 # MD034/no-bare-urls - Bare URL used
 MD034: true
