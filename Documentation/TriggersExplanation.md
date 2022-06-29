@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Triggers explanation.
+# title: Triggers explanation.
 author: BCNGeeks
 date: 27nd June 2022
 ---

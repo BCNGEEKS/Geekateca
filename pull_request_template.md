@@ -1,17 +1,21 @@
-### Summary
+# Summary
+
 _Provide overview._
 
-### Details
+## Details
+
 _Describe the changes you are about to commit._
 
-### References
+## References
+
 [Example](https://www.google.com)
 
-### Team Check
-_Select the team_
+## Select the team
+
 - [ ] HTML
 - [ ] CSS
 - [ ] GitHub
 
-### Checks
+## Checks
+
 - [ ] Tested Changes
