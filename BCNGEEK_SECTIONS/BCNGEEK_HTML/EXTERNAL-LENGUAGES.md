@@ -1,11 +1,11 @@
 ---
 layout: default
-title: EXTERNAL-LANGUAGES
 author: BCNGeeks
 date: 21th June 2022
 ---
 
 # HTML EXTERNAL LANGUAGES
+
 ## TABLE OF CONTENT
 
 - [HTML EXTERNAL LANGUAGES](#html-external-languages)

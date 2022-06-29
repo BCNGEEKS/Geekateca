@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Tables
 author: BCNGeeks
 date: 21th June 2022
 ---
 
 # TABLES
+
 ## TABLE OF CONTENT
 
 - [TABLES](#tables)

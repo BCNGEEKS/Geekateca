@@ -1,13 +1,10 @@
 ---
 layout: default
-title: form
 author: BCNGeeks
 date: 21th June 2022
 ---
 
 # FORMS
-
----
 
 ## TABLE OF CONTENTS
 

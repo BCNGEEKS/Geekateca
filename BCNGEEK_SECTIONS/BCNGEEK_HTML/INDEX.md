@@ -3,20 +3,21 @@ layout: default
 author: BCNGeeks
 date: 21th June 2022
 ---
+
 # HTML
 
 - [HTML](#html)
-  - [INTRODUCTION](#introduction)
-  - [STRUCTURE](#structure)
-  - [LAYOUT](#layout)
-  - [FORMATTING PT1](#formatting-pt1)
-  - [FORMATTING PT2](#formatting-pt2)
-  - [TABLES](#tables)
-  - [LIST](#list)
-  - [LINKS](#links)
-  - [GRAPHICAL-ELEMENTS](#graphical-elements)
-  - [FORMS](#forms)
-  - [HTML EXTERNAL LANGUAGES](#html-external-languages)
+  - [## INTRODUCTION](#-introduction)
+  - [## STRUCTURE](#-structure)
+  - [## LAYOUT](#-layout)
+  - [## FORMATTING PT1](#-formatting-pt1)
+  - [## FORMATTING PT2](#-formatting-pt2)
+  - [## TABLES](#-tables)
+  - [## LIST](#-list)
+  - [## LINKS](#-links)
+  - [## GRAPHICAL-ELEMENTS](#-graphical-elements)
+  - [## FORMS](#-forms)
+  - [## HTML EXTERNAL LANGUAGES](#-html-external-languages)
 
 ## [INTRODUCTION](./HTML.md)
 ---

@@ -1,31 +1,30 @@
 ---
 layout: default
-title: Links
 author: BCNGeeks
 date: 23th June 2022
 ---
 
-# Links
+# LINKS
 
-- [Links](#links)
+- [LINKS](#links)
   - [INTRODUCTION](#introduction)
   - [`<a>` Anchor tag](#a-anchor-tag)
     - [INTRODUCTION](#introduction-1)
-    - [EXAMPLES](#examples-1)
+    - [EXAMPLES](#examples)
     - [HREF](#href)
-    - [Examples](#examples-2)
-      - [Linking to an absolute URL](#linking-to-an-absolute-url)
-      - [Linking to relative URLs](#linking-to-relative-urls)
-      - [Linking to an element on the same page](#linking-to-an-element-on-the-same-page)
-      - [Linking to an email address](#linking-to-an-email-address)
-      - [Linking to telephone numbers](#linking-to-telephone-numbers)
-      - [External links and linking to non-HTML resources](#external-links-and-linking-to-non-html-resources)
-    - [HTML Link Colors](#html-link-colors)
-    - [Iframe](#iframe)
-      - [Definition and Usage](#definition-and-usage)
-      - [HTML Iframe Syntax](#html-iframe-syntax)
-      - [Syntax](#syntax)
-      - [Iframe - Set Height and Width](#iframe---set-height-and-width)
+    - [EXAMPLES](#examples-1)
+      - [LINKING TO AN ABSOLUTE URL](#linking-to-an-absolute-url)
+      - [LINKING TO RELATIVE URLS](#linking-to-relative-urls)
+      - [LINKING TO AN ELEMENT ON THE SAME PAGE](#linking-to-an-element-on-the-same-page)
+      - [LINKING TO AN EMAIL ADDRESS](#linking-to-an-email-address)
+      - [LINKING TO TELEPHONE NUMBERS](#linking-to-telephone-numbers)
+      - [EXTERNAL LINKING TO NON-HTML RESOUCES](#external-linking-to-non-html-resouces)
+    - [HTML LINK COLORS](#html-link-colors)
+    - [IFRAME](#iframe)
+      - [DEFINITION AND USAGE](#definition-and-usage)
+      - [HTML IFRAME SYNTAX](#html-iframe-syntax)
+      - [SYNTAX](#syntax)
+      - [IFRAME - SET HEIGHT AND WIDTH](#iframe---set-height-and-width)
 
 ## INTRODUCTION
 

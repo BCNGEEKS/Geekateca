@@ -1,6 +1,5 @@
 ---
 layout: default
-title:  INTRODUCTION
 author: BCNGeeks
 date: 21th June 2022
 ---
@@ -14,9 +13,9 @@ date: 21th June 2022
   - [INTRODUCTION](#introduction)
     - [ABOUT HTML](#about-html)
   - [HOW TO](#how-to)
-    - [Getting started with HTML](#getting-started-with-html)
+    - [GETTING STARTED WITH HTML](#getting-started-with-html)
       - [THE ANATOMY OF AN ELEMENT](#the-anatomy-of-an-element)
-      - [AN EXEMPLE](#an-exemple)
+      - [AN EXAMPLE](#an-example)
       - [NESTING ELEMENTS](#nesting-elements)
       - [COMMENTS](#comments)
   - [HTML EDITORS](#html-editors)
@@ -25,7 +24,7 @@ date: 21th June 2022
   - [ELEMENTS TYPES](#elements-types)
     - [INTRODUCTION](#introduction-1)
     - [SEMANTIC ELEMENTS](#semantic-elements)
-    - [non-SEMANTIC ELEMENTS](#non-semantic-elements)
+    - [NON-SEMANTIC ELEMENTS](#non-semantic-elements)
     - [EXAMPLES](#examples)
 
 ## INTRODUCTION

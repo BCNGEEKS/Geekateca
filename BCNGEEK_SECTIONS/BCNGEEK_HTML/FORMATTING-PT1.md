@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Markdown Guidelines
 author: BCNGeeks
 date: 21th June 2022
 ---

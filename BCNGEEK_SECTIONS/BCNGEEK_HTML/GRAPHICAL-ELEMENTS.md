@@ -1,11 +1,11 @@
 ---
 layout: default
-title: HTML GRAPHICAL ELEMENTS
 author: BCNGeeks
 date: 21th June 2022
 ---
 
 # HTML GRAPHICAL ELEMENTS
+
 ## TABLE OF CONTENT
 
 - [HTML GRAPHICAL ELEMENTS](#html-graphical-elements)

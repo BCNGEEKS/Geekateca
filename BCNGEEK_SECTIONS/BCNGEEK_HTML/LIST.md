@@ -6,7 +6,6 @@ date: 23th June 2022
 
 # LISTS
 
-
 ## TABLE OF CONTENTS
 
 - [LISTS](#lists)

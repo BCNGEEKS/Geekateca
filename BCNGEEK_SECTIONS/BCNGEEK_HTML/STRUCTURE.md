@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Markdown Guidelines
 author: BCNGeeks
 date: 21th June 2022
 ---
@@ -8,6 +7,7 @@ date: 21th June 2022
 # STRUCTURE
 
 ## TABLE OF CONTENTS
+
 - [STRUCTURE](#structure)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [HTML - !DOCTYPE](#html---doctype)

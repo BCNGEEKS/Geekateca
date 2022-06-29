@@ -1,6 +1,5 @@
 ---
 layout: default
-title: Formatting pt2
 author: BCNGeeks
 date: 21th June 2022
 ---
