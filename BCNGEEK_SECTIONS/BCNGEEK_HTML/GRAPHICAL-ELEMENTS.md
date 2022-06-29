@@ -10,6 +10,7 @@ date: 21th June 2022
 
 - [HTML GRAPHICAL ELEMENTS](#html-graphical-elements)
   - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
     - [HR](#hr)
     - [EXAMPLES](#examples)
     - [IMG](#img)
@@ -24,7 +25,12 @@ date: 21th June 2022
 
 ---
 
+## [INDEX](./INDEX.md)
+
+---
+
 ### HR
+
 The `<hr>` tag defines a thematic break in an HTML page (e.g. a shift of topic).
 
 The `<hr>` element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.

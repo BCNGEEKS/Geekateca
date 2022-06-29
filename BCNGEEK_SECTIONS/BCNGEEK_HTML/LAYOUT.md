@@ -10,6 +10,7 @@ date: 20th June 2022
 
 - [LAYOUT](#layout)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
     - [INTRODUCTION](#introduction)
     - [HEADER](#header)
       - [EXAMPLE](#example)
@@ -28,6 +29,10 @@ date: 20th June 2022
     - [DETAILS](#details)
       - [SUMMARY](#summary)
       - [EXAMPLE](#example-7)
+
+---
+
+## [INDEX](./INDEX.md)
 
 ---
 

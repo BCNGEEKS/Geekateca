@@ -10,6 +10,7 @@ date: 21th June 2022
 
 - [TABLES](#tables)
   - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
   - [INTRODUCCION](#introduccion)
   - [BASIC STRUCTURE](#basic-structure)
     - [TABLE](#table)
@@ -38,6 +39,10 @@ date: 21th June 2022
     - [TFOOT](#tfoot)
       - [PROPERTY EXPLANATION](#property-explanation-9)
     - [TABLES PARTS EXAMPLE](#tables-parts-example)
+
+---
+
+## [INDEX](./INDEX.md)
 
 ---
 

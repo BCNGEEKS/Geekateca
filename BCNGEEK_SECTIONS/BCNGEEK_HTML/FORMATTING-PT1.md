@@ -10,6 +10,7 @@ date: 21th June 2022
 
 - [HTML FORMATTING](#html-formatting)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [FORMATTING INTRODUCTION](#formatting-introduction)
   - [HEADINGS](#headings)
     - [EXAMPLE](#example)
@@ -39,6 +40,10 @@ date: 21th June 2022
       - [EXAMPLE](#example-11)
     - [MARK TAG](#mark-tag)
       - [EXAMPLE](#example-12)
+
+---
+
+## [INDEX](./INDEX.md)
 
 ---
 
