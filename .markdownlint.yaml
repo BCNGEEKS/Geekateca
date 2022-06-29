@@ -68,7 +68,7 @@ MD012:
 # MD013/line-length - Line length
 MD013:
   # Number of characters
-  line_length: 150
+  line_length: 300
   # Number of characters for headings
   heading_line_length: 80
   # Number of characters for code blocks
@@ -116,7 +116,7 @@ MD024:
   # Only check sibling headings
   allow_different_nesting: false
   # Only check sibling headings
-  siblings_only: false
+  siblings_only: true
 
 # MD025/single-title/single-h1 - Multiple top-level headings in the same document
 MD025:
@@ -163,7 +163,7 @@ MD032: true
 # MD033/no-inline-html - Inline HTML
 MD033:
   # Allowed elements
-  allowed_elements: []
+  allowed_elements: [ol, li]
 
 # MD034/no-bare-urls - Bare URL used
 MD034: true

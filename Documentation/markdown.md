@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Página prueba
+# title: Página prueba
 ---
 
 # Bon dia
