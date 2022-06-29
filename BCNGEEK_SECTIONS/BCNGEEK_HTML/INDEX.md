@@ -18,6 +18,7 @@ date: 21th June 2022
   - [## GRAPHICAL-ELEMENTS](#-graphical-elements)
   - [## FORMS](#-forms)
   - [## HTML EXTERNAL LANGUAGES](#-html-external-languages)
+  - [## HOME](#-HOME)
 
 ## [INTRODUCTION](./HTML.md)
 ---
@@ -40,4 +41,6 @@ date: 21th June 2022
 ## [FORMS](./FORMS.md)
 ---
 ## [HTML EXTERNAL LANGUAGES](./EXTERNAL-LENGUAGES.md)
+---
+## [HOME](../.././index.md)
 ---
