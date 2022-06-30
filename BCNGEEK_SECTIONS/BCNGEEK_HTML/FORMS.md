@@ -233,6 +233,7 @@ In this example shows an input  type calor with the value calor red.
 The `<input>` elements of type="date" create an input field that allows the user to enter a date, which can be either a text box to validate the field or a special interface that allows the user to choose a date.
 
 #### EXAMPLE
+
     <form>
     <div class="nativeDatePicker">
         <label for="bday">Enter your birthday:</label>
@@ -278,6 +279,7 @@ In this example shows 2 sets of UI elements for choosing dates: a native `<input
 The HTML `<input type="datetime">` is a control for entering time and date (hour, minute, second and fraction of a second) based on the UTC timezone.
 
 #### EXAMPLE
+
     <form>
     <div class="nativeDateTimePicker">
         <label for="party">Choose a date and time for your party:</label>
@@ -337,6 +339,7 @@ In this example shows  two sets of UI elements for choosing datetimes — a nati
 The `<input>` elements of type email are used to allow the user to enter and edit an email address or, if the multiple attribute is specified, a list of email addresses.
 
 #### EXAMPLE
+
     <label for="gmail">Enter your gmail.com gmail:</label>
 
     <input type="gmail" id="gmail"
@@ -349,6 +352,7 @@ In this example shows a form the user enter a email with direction "gmail" and s
 The `<input>` elements with type="file" let the user choose one or more files from their device storage. Once chosen, the files can be uploaded to a server using form submission, or manipulated using JavaScript code and the File API.
 
 ### EXAMPLE
+
     <form method="post" enctype="multipart/form-data">
     <div>
     <label for="image_uploads">Choose images to upload (PNG, JPG)</label>
@@ -366,9 +370,10 @@ In this example will show present a slightly more advanced file chooser that tak
 
 ### INPUT TYPE HIDDEN
 
-The `<input>` elements of type hidden let web developers include data that cannot be seen or modified by users when a form is submitted. 
+The `<input>` elements of type hidden let web developers include data that cannot be seen or modified by users when a form is submitted.
 
 #### EXAMPLE
+
      <input type="hidden" id="custId" name="custId" value="3487">
 
 In this example shows a input type hidden with value 3487.
@@ -378,6 +383,7 @@ In this example shows a input type hidden with value 3487.
 The `<input>` elements of type image are used to create graphical submit buttons, i.e. submit buttons that take the form of an image rather than text.
 
 #### EXAMPLE
+
     <p>Sign in to your account:</p>
 
     <div>
@@ -395,6 +401,7 @@ In this example shows how to  user sign in his  account and required a  image.
 The `<input>` elements of type month create input fields that let the user enter a month and year allowing a month and year to be easily entered. The value is a string whose value is in the format "YYYY-MM", where YYYY is the four-digit year and MM is the month number.
 
 #### EXAMPLE
+
     <label for="start">Start month:</label>
 
     <input type="month" id="start" name="start"
@@ -407,6 +414,7 @@ In this example shows how to  user need introduce a month and it is necessary da
 The `<input>` elements of type number are used to let the user enter a number. They include built-in validation to reject non-numerical entries.
 
 #### EXAMPLE
+
     <label for="apples">Number of apples (10-100):</label>
 
     <input type="apples" id="apples" name="apples"
@@ -419,6 +427,7 @@ In this example shows how to user need introduce  a number of apples between 10 
 The `<input>` elements of type password provide a way for the user to securely enter a password.
 
 #### EXAMPLE
+
     <div>
         <label for="username">Username:</label>
         <input type="text" id="username" name="username">
@@ -439,6 +448,7 @@ In this example shows how to user need introduce a password with 8 characters mi
 The `<input>` elements of type radio are generally used in radio groups—collections of radio buttons describing a set of related options.
 
 #### EXAMPLE
+
     <fieldset>
         <legend>Select a maintenance drone:</legend>
 
@@ -466,6 +476,7 @@ In this example shows how to user only need  select with three options huey,dewe
 The `<input>` elements of type range let the user specify a numeric value which must be no less than a given value, and no more than another given value.
 
 #### EXAMPLE
+
     <p>Audio settings:</p>
 
     <div>
@@ -481,6 +492,7 @@ In this example shows how to user move a volum between 0 and 11.
 The `<input>` elements of type reset are rendered as buttons, with a default click event handler that resets all of the inputs in the form to their initial values.
 
 #### EXAMPLE
+
     <form>
         <div class="controls">
 
@@ -500,6 +512,7 @@ In this example shows how to user can reset the user ID.
 The `<input>` elements of type search are text fields designed for the user to enter search queries into. These are functionally identical to text inputs, but may be styled differently by the user agent.
 
 #### EXAMPLE
+
     <label for="site-search">Search the site:</label>
     <input type="search" id="site-search" name="q">
 
@@ -512,6 +525,7 @@ In this example shows a nav bar and how to user can search information.
 The `<input>` elements of type submit are rendered as buttons. When the click event occurs (typically because the user clicked the button), the user agent attempts to submit the form to the server.
 
 #### EXAMPLE
+
     <form>
     <div>
         <label for="example">Let's submit some text</label>
@@ -526,9 +540,12 @@ In this example shows a input type submit with this can send the form.
 
 ### INPUT TYPE TEL
 
-The `<input>` elements of type tel are used to let the user enter and edit a telephone number. Unlike `<input type="email">` and `<input type="url">` , the input value is not automatically validated to a particular format before the form can be submitted, because formats for telephone numbers vary so much around the world.
+The `<input>` elements of type tel are used to let the user enter and edit a telephone number.
+
+Unlike `<input type="email">` and `<input type="url">` , the input value is not automatically validated to a particular format before the form can be submitted, because formats for telephone numbers vary so much around the world.
 
 #### EXAMPLE
+
     <label for="phone">Enter your phone number:</label>
 
     <input type="tel" id="phone" name="phone"
@@ -544,6 +561,7 @@ In this example shows how to user can introduce a number phone with format(123-4
 The `<input>` elements of type text create basic single-line text fields.
 
 #### EXAMPLE
+
     <label for="name">Name (4 to 8 characters):</label>
 
     <input type="text" id="name" name="name" required
@@ -599,6 +617,7 @@ In this example shows how to user can select a week.
 The `<button>` element defines a clickable button:
 
 ### EXAMPLE
+
     <form action="../../form-result.php" target="_blank">
 
     <p>User: <input type="text" name="user"></p>
@@ -618,6 +637,7 @@ In this example shows a form with inputs user and password and a button to send 
 The fieldset element is used to group related data in a form, and the legend element defines a caption for the fieldset element.
 
 ### EXAMPLE
+
     <form action="/action_page.php">
     <fieldset>
         <legend>Form:</legend>
@@ -638,6 +658,7 @@ In this example shows a fieldset element this used to group a form with dates of
 The `<textarea>` element defines a multi-line input field (a text area):
 
 ### EXAMPLE
+
     <form action="/action_page.php">
     <textarea name="message" rows="10" cols="30">Hello World</textarea>
     <br><br>
@@ -653,6 +674,7 @@ In this example shows a text box with ten rows(attribute specifies the visible n
 The `<output>` HTML element is a container element into which a site or app can inject the results of a calculation or the outcome of a user action.
 
 ### EXAMPLE
+
     <form oninput="result.value=parseInt(a.value)+parseInt(b.value)">
     <input type="range" id="b" name="b" value="50" /> +
     <input type="number" id="a" name="a" value="10" /> =
