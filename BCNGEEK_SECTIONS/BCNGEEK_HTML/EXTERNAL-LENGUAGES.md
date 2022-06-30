@@ -30,7 +30,7 @@ date: 21th June 2022
 
 ---
 
-## [INDEX](./INDEX.md)
+## [INDEX](./index.md)
 
 ---
 
