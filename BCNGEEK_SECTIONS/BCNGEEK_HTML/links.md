@@ -13,7 +13,7 @@ date: 23th June 2022
     - [INTRODUCTION](#introduction-1)
     - [EXAMPLES](#examples)
     - [HREF](#href)
-    - [EXAMPLES](#examples-1)
+    - [EXAMPLE](#example)
       - [LINKING TO AN ABSOLUTE URL](#linking-to-an-absolute-url)
       - [LINKING TO RELATIVE URLS](#linking-to-relative-urls)
       - [LINKING TO AN ELEMENT ON THE SAME PAGE](#linking-to-an-element-on-the-same-page)
@@ -29,13 +29,14 @@ date: 23th June 2022
 
 ---
 
-## [INDEX](./INDEX.md)
+## [INDEX](./index.md)
 
 ---
 
 ## INTRODUCTION
 
-The `<link>` HTML element specifies relationships between the current document and an external resource. This element is most commonly used to link to stylesheets and scripts, but is also used to establish site icons (both “favicon” style icons and icons for the home screen and apps on mobile devices) among other things.
+The `<link>` HTML element specifies relationships between the current document and an external resource.
+This element is most commonly used to link to stylesheets and scripts, but is also used to establish site icons (both “favicon” style icons and icons for the home screen and apps on mobile devices) among other things.
 
 ---
 
@@ -60,7 +61,8 @@ The `<link>` HTML element specifies relationships between the current document a
         <link rel="preload" href="myFont.woff2" as="font"
         type="font/woff2" crossorigin="anonymous">
 
-A rel value of preload indicates that the browser should preload this resource (see Preloading content with *rel=“preload”* for more details), with the as attribute indicating the specific class of content being fetched. The crossorigin attribute indicates whether the resource should be fetched with a CORS request.
+A rel value of preload indicates that the browser should preload this resource (see Preloading content with *rel=“preload”* for more details), with the as attribute indicating the specific class of content being fetched.
+The crossorigin attribute indicates whether the resource should be fetched with a CORS request.
 
 ---
 
@@ -90,7 +92,7 @@ The URL that the hyperlink points to. Links are not restricted to HTTP-based URL
 - Email addresses with mailto: URLs
 - While web browsers may not support other URL schemes, web sites can with registerProtocolHandler().
 
-### EXAMPLES
+### EXAMPLE
 
 #### LINKING TO AN ABSOLUTE URL
 
