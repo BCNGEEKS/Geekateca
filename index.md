@@ -1,10 +1,18 @@
 ---
 layout: default
-title: Index page
+author: BCNGeek
+date: 29th June 2022
+
 ---
 
-# Esta es la pagina de index
+# GEEKATECA
+  
+Welcome to Geekateca!
+  
+This page is used to store the documentation of HTML and CSS.
 
-Este va a ser el link a la pagina: [link pagina](./markdown.md)
+Feel free to use it on your own.
 
-Otro link (Edu): [link pagina Edu](./MarkdownGuidelines.md)
+[HTML DOCUMENTATION](./BCNGEEK_SECTIONS/BCNGEEK_HTML/)
+
+[CSS DOCUMENTATION](./BCNGEEK_SECTIONS/)

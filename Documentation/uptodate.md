@@ -1,6 +1,6 @@
 ---
 layout: default
-title: How To Pull Request
+# title: What happens if my github project is not up to date?
 author: BCNGeeks
 date: 22nd June 2022
 ---
@@ -10,7 +10,6 @@ date: 22nd June 2022
 First of all, you can tell that your project is not up to date because the github project will warn you in the main page. If you click on `1 commit behind` you will be able to Pull Request your own project so that it is up to date.
 
 ![Not up to date!](./img/Warning.png)
-
 
 Otherwise, if you continue editing your local project (remember to use a different branch!) your commits will be added to your github project while still behind the original project:
 
