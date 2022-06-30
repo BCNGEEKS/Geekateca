@@ -119,7 +119,6 @@ The browser will automatically remove any extra spaces and lines when the page i
     </p>
 In this example, we are showing that even if you write everything inside the tag with spaces, the display is gonna be a simple paragraph without the added spaces.
 
-
 ---
 
 ## LINE BREAKS
@@ -136,7 +135,6 @@ This tag is empty, which means that it has no end tag.
 In this example we are showing how the tag `<br>` works and that the output is gonna be like this:
 
 This is <br> a sentence <br> with line breaks.
-
 
 ---
 
@@ -158,7 +156,7 @@ In this example is shown how the `<b>`tag works, the output should show somethin
 
 ### EMPHASIZED ELEMENTS
 
-The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic. 
+The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic.
 
 #### EXAMPLE
 
@@ -171,6 +169,7 @@ In this example we are showing how the tag works, it displays the text in italic
 ---
 
 ### ITALIC TEXT
+
 The HTML `<i>` element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
 
 **Tip:** The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
@@ -184,9 +183,11 @@ The HTML `<i>` element defines a part of text in an alternate voice or mood. The
 ---
 
 ### SMALL TEXT
+
 If you want to put your font size smaller than the rest of the text then put the content within `<small>`.........`</small>` tag. It reduces one font size than the previous one.
 
 #### EXAMPLE
+
     <small>Write the paragraph in smaller font.</small>
 
 In this example we can see how the tag is used. The output should be something like the text below:
@@ -196,6 +197,7 @@ In this example we can see how the tag is used. The output should be something l
 ---
 
 ### STRONG TAG
+
 The HTML `<strong>` tag is a logical tag, which displays the content in bold font and informs the browser about its logical importance. If you write anything between `<strong>`........ `</strong>`, is shown important text.
 
 #### EXAMPLE
