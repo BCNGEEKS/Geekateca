@@ -20,27 +20,27 @@ date: 21th June 2022
   - [## HTML EXTERNAL LANGUAGES](#-html-external-languages)
   - [## HOME](#-HOME)
 
-## [INTRODUCTION](./HTML.md)
+## [INTRODUCTION](./html.md)
 ---
-## [STRUCTURE](./STRUCTURE.md)
+## [STRUCTURE](./structure.md)
 ---
-## [LAYOUT](./LAYOUT.md)
+## [LAYOUT](./layout.md)
 ---
-## [FORMATTING PT1](./FORMATTING-PT1.md)
+## [FORMATTING PT1](./formatting-pt1.md)
 ---
-## [FORMATTING PT2](./FORMATTING-PT2.md)
+## [FORMATTING PT2](./formatting-pt2.md)
 ---
-## [TABLES](./TABLES.md)
+## [TABLES](./tables.md)
 ---
-## [LIST](./LIST.md)
+## [LIST](./lists.md)
 ---
-## [LINKS](./LINKS.md)
+## [LINKS](./links.md)
 ---
-## [GRAPHICAL-ELEMENTS](./GRAPHICAL-ELEMENTS.md)
+## [GRAPHICAL-ELEMENTS](./graphical-elements.md)
 ---
-## [FORMS](./FORMS.md)
+## [FORMS](./forms.md)
 ---
-## [HTML EXTERNAL LANGUAGES](./EXTERNAL-LENGUAGES.md)
+## [HTML EXTERNAL LANGUAGES](./external-lenguages.md)
 ---
 ## [HOME](../.././index.md)
 ---
