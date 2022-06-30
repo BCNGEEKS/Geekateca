@@ -51,7 +51,6 @@ date: 21th June 2022
 
 HTML Formatting is a process of formatting text for better look and feel. HTML provides us ability to format text without using CSS. There are many formatting tags in HTML. These tags are used to make text bold, italicized, or underlined.
 
-
 ---
 
 ## HEADINGS
