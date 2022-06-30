@@ -230,7 +230,6 @@ This example shows how the `<col>` tag is inside the `<colgroup>` tag and how it
 
 A table can be splited in three parts: head (thead), body (tbody), foot (tfoot).
 
-<html>
 <head>
 
 <style>
@@ -266,6 +265,7 @@ tfoot {color: red;}
     </tr>
   </tfoot>
 </table>
+</body>
 
 ---
 
@@ -319,17 +319,16 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
 
 ### TABLES PARTS EXAMPLE
 
-    <html>
     <head>
-    <style>
-    thead {color: green;}
-    tbody {color: blue;}
-    tfoot {color: red;}
+      <style>
+      thead {color: green;}
+      tbody {color: blue;}
+      tfoot {color: red;}
 
-    table, th, td {
-      border: 1px solid black;
-    }
-    </style>
+      table, th, td {
+        border: 1px solid black;
+      }
+      </style>
     </head>
     <body>
 
@@ -357,4 +356,5 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
         </tr>
       </tfoot>
     </table>
+    </body>
 This example shows how to apply the diferents parts of a table to output the visual example of this section.
