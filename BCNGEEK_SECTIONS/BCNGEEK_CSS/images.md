@@ -8,8 +8,6 @@ date: 27th June 2022
 
 ## TABLE OF CONTENTS
 
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INDEX](#index)
 - [IMAGES](#images)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)

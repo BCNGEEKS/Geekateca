@@ -8,12 +8,25 @@ date: 27th June 2022
 
 ## TABLE OF CONTENT
 
-- [TABLE OF CONTENT](#table-of-content)
-- [INDEX](#index)
-- [FONT](#introduction)
-- [FONT-SIZE](#font-size)
-- [FONT-STYLE](#font-style)
-- [FONT-WEIGHT](#font-weight)
+- [FONT](#font)
+  - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
+  - [INTRODUCTION](#introduction)
+    - [PROPERTY VALUES](#property-values)
+    - [EXAMPLE](#example)
+    - [BROWSER SUPPORT](#browser-support)
+  - [FONT-SIZE](#font-size)
+    - [PROPERTY VALUES (FONT-SIZE)](#property-values-font-size)
+    - [EXAMPLE (FONT-SIZE)](#example-font-size)
+    - [BROWSER SUPPORT (FONT-SIZE)](#browser-support-font-size)
+  - [FONT-STYLE](#font-style)
+    - [PROPERTY VALUES (FONT-STYLE)](#property-values-font-style)
+    - [EXAMPLE (FONT-STYLE)](#example-font-style)
+    - [BROWSER SUPPORT (FONT-STYLE)](#browser-support-font-style)
+  - [FONT-WEIGHT](#font-weight)
+    - [PROPERTY VALUES (FONT-WEIGHT)](#property-values-font-weight)
+    - [EXAMPLE (FONT-WEIGHT)](#example-font-weight)
+    - [BROWSER SUPPORT (FONT-WEIGHT)](#browser-support-font-weight)
 
 ---
 

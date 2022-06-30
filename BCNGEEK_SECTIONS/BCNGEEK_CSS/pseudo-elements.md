@@ -8,18 +8,19 @@ date: 23th June 2022
 
 ## TABLE OF CONTENTS
 
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INDEX](#index)
-- [INTRODUCTION](#introduction)
+- [PSEUDO-ELEMENTS](#pseudo-elements)
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
+  - [INTRODUCTION](#introduction)
   - [CSS SYNTAX FOR PSEUDO-ELEMENTS](#css-syntax-for-pseudo-elements)
-- [PSEUDO-ELEMENTS IN CSS](#pseudo-elements-in-css)
-  - [::FIRST-LINE PSEUDO-ELEMENT](#first-line-pseudo-element)
-  - [::FIRST-LETTER PSEUDO-ELEMENT](#first-letter-pseudo-element)
-  - [::BEFORE PSEUDO-ELEMENT](#before-pseudo-element)
-  - [::AFTER PSEUDO-ELEMENT](#after-pseudo-element)
-  - [::MARKER PSEUDO-ELEMENT](#marker-pseudo-element)
-  - [::SELECTION PSEUDO-ELEMENT](#selection-pseudo-element)
-- [BROWSER SUPPORT FOR PSEUDO-ELEMENTS](#browser-support-for-pseudo-elements)
+  - [PSEUDO-ELEMENTS IN CSS](#pseudo-elements-in-css)
+    - [::FIRST-LINE PSEUDO-ELEMENT](#first-line-pseudo-element)
+    - [::FIRST-LETTER PSEUDO-ELEMENT](#first-letter-pseudo-element)
+    - [::BEFORE PSEUDO-ELEMENT](#before-pseudo-element)
+    - [::AFTER PSEUDO-ELEMENT](#after-pseudo-element)
+    - [::MARKER PSEUDO-ELEMENT](#marker-pseudo-element)
+    - [::SELECTION PSEUDO-ELEMENT](#selection-pseudo-element)
+  - [BROWSER SUPPORT FOR PSEUDO-ELEMENTS](#browser-support-for-pseudo-elements)
 
 ---
 

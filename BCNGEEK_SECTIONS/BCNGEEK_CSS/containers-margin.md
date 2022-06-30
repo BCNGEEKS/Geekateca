@@ -10,6 +10,7 @@ date: 21th June 2022
 
 - [CONTAINERS-MARGIN](#containers-margin)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [MARGIN-TOP](#margin-top)
     - [PROPERTY VALUES](#property-values)

@@ -9,9 +9,24 @@ date: date
 ## TABLE OF CONTENTS
 
 - [CONTAINERS BASIC](#containers-basic)
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
+  - [INTRODUCTION](#introduction)
   - [BOX-SHADOW](#box-shadow)
+    - [PROPERTY VALUES](#property-values)
+    - [CSS SYNTAX](#css-syntax)
+    - [EXAMPLE](#example)
+    - [BROWSER SUPPORT](#browser-support)
   - [BOX-SIZING](#box-sizing)
+    - [PROPERTY VALUES](#property-values-1)
+    - [CSS SYNTAX](#css-syntax-1)
+    - [EXAMPLE](#example-1)
+    - [BROWSER SUPPORT](#browser-support-1)
   - [VISIBILITY](#visibility)
+    - [PROPERTY VALUES](#property-values-2)
+    - [CSS SYNTAX](#css-syntax-2)
+    - [EXAMPLE](#example-2)
+    - [BROWSER SUPPORT](#browser-support-2)
 
 ---
 
