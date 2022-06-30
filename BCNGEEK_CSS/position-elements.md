@@ -10,6 +10,7 @@ date: 21 June 2022
 
 - [POSITION ELEMENTS](#position-elements)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [PROPERTY POSITION](#property-position)
     - [POSITION VALUES](#position-values)
@@ -43,7 +44,7 @@ date: 21 June 2022
     - [PROPERTY VALUES](#property-values-3)
     - [EXAMPLE](#example-6)
     - [BROWSER SUPOORT](#browser-supoort-1)
-    
+
 ---
 
 ## [INDEX](./index.md)
@@ -60,13 +61,13 @@ The property position is used for define the positioning at the elements in the 
 
 ### POSITION VALUES
 
-|   Value      | Description |
-|:------------:|:------------|
-| **static**   |The static value is the default value for positioning the elements in the HTML, the element will be positioning respecting the flow of the HTML |
-| **relative** |With this value could can to position an element respect to the flow of the HTML |
-| **absolute** |if is use this value the elment don't be inside at the flow HTML and will take how a reference the browser window or another element that have the position property, except when the element is defined how static   |
-| **fixed**    |This value also don't be inside at the flow at the HTML, but don't there confuse with absolute value, because if do scrolling the element will stay in fixed |
-| **sticky**   |This value would be considrered how a hibrid between fixed and relative, because when it reaches the displacement threshold it becomes fixed     |
+|    Value     | Description                                                                                                                                                                                                         |
+| :----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|  **static**  | The static value is the default value for positioning the elements in the HTML, the element will be positioning respecting the flow of the HTML                                                                     |
+| **relative** | With this value could can to position an element respect to the flow of the HTML                                                                                                                                    |
+| **absolute** | if is use this value the elment don't be inside at the flow HTML and will take how a reference the browser window or another element that have the position property, except when the element is defined how static |
+|  **fixed**   | This value also don't be inside at the flow at the HTML, but don't there confuse with absolute value, because if do scrolling the element will stay in fixed                                                        |
+|  **sticky**  | This value would be considrered how a hibrid between fixed and relative, because when it reaches the displacement threshold it becomes fixed                                                                        |
 
 ### EXAMPLES
 
@@ -265,12 +266,12 @@ When this value is used the element acts as if it were positioned relative until
 ### BROWSER SUPPORT
 
 | Browser | Version |
-|:-------:|:--------|
-| Chrome  |  1.0    |
-| Edge    |  7.0    |
-| Firefox |  1.0    |
-| Safari  |  1.0    |
-| Opera   |  4.0    |
+| :-----: | :------ |
+| Chrome  | 1.0     |
+|  Edge   | 7.0     |
+| Firefox | 1.0     |
+| Safari  | 1.0     |
+|  Opera  | 4.0     |
 
 ## POSITIONING PROPERTIES
 
@@ -278,13 +279,13 @@ The positioning properties **top,** **bottom,** **left** and **right** are used 
 
 ### PROPERTY VALUES
 
-| Value   | Description |
-|:-------:|:-------------|
-| auto    | The browser calculate the position. This is the default |
+|  Value  | Description                                                                 |
+| :-----: | :-------------------------------------------------------------------------- |
+|  auto   | The browser calculate the position. This is the default                     |
 | length  | Specifies the position in  px, pt, cm, etc, the negative values are allowed |
-| %       | Specifies the position in % of containing element  |
-| initial | Set the property to its default value |
-| inherit | Inherits the property  from its parent element |
+|    %    | Specifies the position in % of containing element                           |
+| initial | Set the property to its default value                                       |
+| inherit | Inherits the property  from its parent element                              |
 
 ## TOP PROPERTY
 
@@ -355,12 +356,12 @@ div {
 ### BROWSER SUPPORT
 
 | Browser | Version |
-|:--------|:--------|
-| Chrome  |  1.0    |
-| Edge    |  5.0    |
-| Firefox |  1.0    |
-| Safari  |  1.0    |
-| Opera   |  6.0    |
+| :------ | :------ |
+| Chrome  | 1.0     |
+| Edge    | 5.0     |
+| Firefox | 1.0     |
+| Safari  | 1.0     |
+| Opera   | 6.0     |
 
 ## PROPERTY Z-INDEX
 
@@ -368,12 +369,12 @@ The **z-index** property is for indicate the order of a element, when a element 
 
 ### PROPERTY VALUES
 
-| Value   | Descriptin |
-|:-------:|:-----------|
-| auto    | Specifies the order equal to its parents  |
-| number  | Specifies the order of a element |
-| initial | Set the property to its deafault value |
-| inherit | Inherits the property  from its parent element  |
+|  Value  | Descriptin                                     |
+| :-----: | :--------------------------------------------- |
+|  auto   | Specifies the order equal to its parents       |
+| number  | Specifies the order of a element               |
+| initial | Set the property to its deafault value         |
+| inherit | Inherits the property  from its parent element |
 
 ### EXAMPLE
 
@@ -389,12 +390,12 @@ img {
 ### BROWSER SUPOORT
 
 | Browser | Version |
-|:-------:|:--------|
-| Chrome  |  1.0    |
-| Edge    |  4.0    |
-| Firefox |  3.0    |
-| Safari  |  1.0    |
-| Opera   |  4.0    |
+| :-----: | :------ |
+| Chrome  | 1.0     |
+|  Edge   | 4.0     |
+| Firefox | 3.0     |
+| Safari  | 1.0     |
+|  Opera  | 4.0     |
 
 ## PROPERTY OBJECT-POSITION
 
@@ -402,11 +403,11 @@ The property **object-position** is used together with the property **object-fit
 
 ### PROPERTY VALUES
 
-| Value    | Description |
-|:--------:|:------------|
+|  Value   | Description                                                                                                                                                                                                                                              |
+| :------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | position | Specifies the position of the image or video inside a box, the first value is for define the x-axis and the second value is for define the y-axis, This value can be a String (left, center or right), or number for example using units sizes(px or %). |
-| initial  | Set the property to its default value. |
-| inherit  | Inhertis the property from its parent element |
+| initial  | Set the property to its default value.                                                                                                                                                                                                                   |
+| inherit  | Inhertis the property from its parent element                                                                                                                                                                                                            |
 
 ### EXAMPLE
 
@@ -423,12 +424,12 @@ img {
 ### BROWSER SUPPOORT
 
 | Browser | Version |
-|:-------:|:--------|
+| :-----: | :------ |
 | Chrome  | 31.0    |
-| Edge    | 16.0    |
+|  Edge   | 16.0    |
 | Firefox | 36.0    |
 | Safari  | 10.0    |
-| Opera   | 19.0    |
+|  Opera  | 19.0    |
 
 ## PROPERTY ORDER
 
@@ -436,11 +437,11 @@ This property is used when a element is defined how flexible, si if the element 
 
 ### PROPERTY VALUES
 
-| VALUE   | Description |
-|:-------:|:------------|
+|  VALUE  | Description                                                 |
+| :-----: | :---------------------------------------------------------- |
 | number  | Specifies the order for the flexible item, for default is 0 |
-| initial  | Set the property to its default value. |
-| inherit  | Inhertis the property from its parent element |
+| initial | Set the property to its default value.                      |
+| inherit | Inhertis the property from its parent element               |
 
 ### EXAMPLE
 
@@ -487,10 +488,10 @@ For use this property first  need to define the elements as flexible, and then p
 
 ### BROWSER SUPOORT
 
-| Browser  | Description |
-|:--------:|:------------|
-| Chrome   | 29.0        |
-| Edge     | 11.0        |
-| Firefox  | 28.0        |
-| Safari   | 9.0         |
-| Opera    | 17.0        |
+| Browser | Description |
+| :-----: | :---------- |
+| Chrome  | 29.0        |
+|  Edge   | 11.0        |
+| Firefox | 28.0        |
+| Safari  | 9.0         |
+|  Opera  | 17.0        |

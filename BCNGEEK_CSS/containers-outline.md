@@ -6,10 +6,11 @@ date: 27 June 2022
 
 # OUTLINE
 
-## TABLE OF CONTENT 
+## TABLE OF CONTENT
 
 - [OUTLINE](#outline)
   - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [OUTLINE PROPERTY](#outline-property)
     - [PROPERTY VALUES](#property-values)

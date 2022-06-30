@@ -10,20 +10,24 @@ date: date
 
 - [TABLES](#tables)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [TABLE-LAYOUT](#table-layout)
     - [PROPERTY VALUES](#property-values)
+    - [CSS SYNTAX](#css-syntax)
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [EMPTY-CELLS](#empty-cells)
     - [PROPERTY VALUES](#property-values-1)
+    - [CSS SYNTAX](#css-syntax-1)
     - [EXAMPLE](#example-1)
     - [BROWSER SUPPORT](#browser-support-1)
   - [BORDER-COLLAPSE](#border-collapse)
     - [PROPERTY VALUES](#property-values-2)
+    - [CSS SYNTAX](#css-syntax-2)
     - [EXAMPLE](#example-2)
     - [BROWSER SUPPORT](#browser-support-2)
-    
+  
 ---
 
 ## [INDEX](./index.md)
@@ -47,7 +51,8 @@ The `table-layout` property defines the algorithm used to lay out table cells, r
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > table-layout: auto | fixed | initial | inherit;
 
 ### EXAMPLE
@@ -90,12 +95,13 @@ The `empty-cells` property sets whether or not to display borders on empty cells
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
-|    show     | Display borders on empty cells. This is default	| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_empty-cells&preval=show) |
+|    show     | Display borders on empty cells. This is default| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_empty-cells&preval=show) |
 |   hide    | Hide borders on empty cells | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_empty-cells&preval=hide) |
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > empty-cells: show | hide | initial | inherit;
 
 ### EXAMPLE
@@ -137,7 +143,8 @@ The `border-collapse` property sets whether table borders should collapse into a
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > border-collapse: separate | collapse | initial | inherit;
 
 ### EXAMPLE

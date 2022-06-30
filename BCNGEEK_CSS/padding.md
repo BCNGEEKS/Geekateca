@@ -8,6 +8,8 @@ date: 22th June 2022
 
 ## TABLE OF CONTENT
 
+- [TABLE OF CONTENT](#table-of-content)
+- [INDEX](#index)
 - [PADDING](#introduction)
 - [PADDING-BOTTOM](#padding-bottom)
 - [PADDING-LEFT](#padding-left)
@@ -16,7 +18,7 @@ date: 22th June 2022
 
 ---
 
-## [INDEX](./INDEX.md)
+## [INDEX](./index.md)
 
 ---
 

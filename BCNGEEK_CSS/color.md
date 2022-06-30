@@ -9,6 +9,7 @@ date: 20th June 2022
 ## TABLE OF CONTENTS
 
 - [TABLE OF CONTENTS](#table-of-contents)
+- [INDEX](#index)
 - [COLOR PROPERTY](#color-property)
   - [COLOR VALUES](#color-values)
   - [CSS SYNTAX FOR COLOR](#css-syntax-for-color)
@@ -26,7 +27,7 @@ date: 20th June 2022
 
 ---
 
-## [INDEX](./INDEX.md)
+## [INDEX](./index.md)
 
 ---
 
@@ -170,7 +171,7 @@ input[type=radio]
 
 ### BROWSER SUPPORT FOR ACCENT-COLOR
 
-| Property | Opacity |
+| Browser | Version |
 |:----:|:-------------|
 | Chrome  | 93.0 |
 | Explorer  | 93.0 |

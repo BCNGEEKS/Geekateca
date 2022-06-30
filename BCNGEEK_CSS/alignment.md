@@ -9,6 +9,7 @@ date: 22th June 2022
 ## TABLE OF CONTENTS
 
 - [ALIGNMENT](#alignment)
+- [INTRODUCTION](#introduction)
   - [ALIGN CONTENT](#align-content)
   - [ALIGN ITEMS](#align-items)
   - [ALIGN SELF](#align-self)
@@ -19,7 +20,7 @@ date: 22th June 2022
   
 ---
 
-## [INDEX](./INDEX.md)
+## [INDEX](./index.md)
 
 ---
 
@@ -31,7 +32,7 @@ The CSS `alignment` properties are used to align items or text itself.
 
 The `align-content` property modifies the behavior of the flex-wrap property. It is similar to align-items, but instead of aligning flex items, it aligns flex lines.
 
-### ALIGN-CONTENT PROPERTY VALUES
+### PROPERTY VALUES
 
 |    Value     |                      Description                                                        | Demo |
 |:-----------: |                      :-----------                                                       | :---: |
@@ -45,11 +46,11 @@ The `align-content` property modifies the behavior of the flex-wrap property. It
 | initial      | Sets this property to its default value.                                                |
 | inherit      | Inherits this property from its parent element.                                         |
 
-### CSS SYNTAX FOR ALIGN-CONTENT
+### CSS SYNTAX
 
-align-content: stretch | center | flex-start | flex-end | space-between | space-around | initial | inherit;
+> align-content: stretch | center | flex-start | flex-end | space-between | space-around | initial | inherit;
 
-### ALIGN-CONTENT EXAMPLE
+### EXAMPLE
 
 Pack lines toward the center of the flex container
 
@@ -66,7 +67,7 @@ div {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_align-content)
 
-### BROWSER SUPPORT FOR ALIGN-CONTENT
+### BROWSER SUPPORT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -86,7 +87,7 @@ Numbers followed by -webkit- specify the first version that worked with a prefix
 
 The `align-items` property specifies the default alignment for items inside the flexible container.
 
-### ALIGN-ITEMS PROPERTY VALUES
+### PROPERTY VALUES
 
 |    Value     |                      Description                                                        |                                               Demo                                                    |
 |:-----------: |                      :-----------                                                       |                                     :---------------------:                                           |
@@ -98,11 +99,11 @@ The `align-items` property specifies the default alignment for items inside the 
 | initial      | Sets this property to its default value.                                                |
 | inherit      | Inherits this property from its parent element.                                         |
 
-### CSS SYNTAX FOR ALIGN-ITEMS
+### CSS SYNTAX
 
-align-items: stretch | center | flex-start | flex-end | baseline | initial | inherit;
+> align-items: stretch | center | flex-start | flex-end | baseline | initial | inherit;
 
-### ALIGN-ITEMS EXAMPLE
+### EXAMPLE
 
 Center the alignments for all the items of the flexible **div** element
 
@@ -128,7 +129,7 @@ div {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_align-items2)
 
-### BROWSER SUPPORT FOR ALIGN-ITEMS
+### BROWSER SUPPORT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -148,7 +149,7 @@ Numbers followed by -webkit- specify the first version that worked with a prefix
 
 The `align-self` property specifies the alignment for the selected item inside the flexible container.
 
-### ALIGN-SELF PROPERTY VALUES
+### PROPERTY VALUES
 
 |    Value     |                      Description                                   | Demo |
 |:-----------: |                      :-----------                                  | :---: |
@@ -161,11 +162,11 @@ The `align-self` property specifies the alignment for the selected item inside t
 | initial      | Sets this property to its default value.                           |
 | inherit      | Inherits this property from its parent element.                    |
 
-### CSS SYNTAX FOR ALIGN-SELF
+### CSS SYNTAX
 
-align-self: auto |stretch | center | flex-start | flex-end | baseline | initial | inherit;
+> align-self: auto |stretch | center | flex-start | flex-end | baseline | initial | inherit;
 
-### ALIGN-SELF EXAMPLE
+### EXAMPLE
 
 Center the alignments for one of the items inside a flexible element
 
@@ -177,7 +178,7 @@ Center the alignments for one of the items inside a flexible element
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_align-self)
 
-### BROWSER SUPPORT FOR ALIGN-SELF
+### BROWSER SUPPORT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -197,7 +198,7 @@ Numbers followed by -webkit- specify the first version that worked with a prefix
 
 The `justify-content` property aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally).
 
-### JUSTIFY-CONTENT PROPERTY VALUES
+### PROPERTY VALUES
 
 |    Value      |                      Description                                       | Demo |
 |:-----------:  |                      :-----------                                      | :----: |
@@ -210,11 +211,11 @@ The `justify-content` property aligns the flexible container's items when the it
 | initial       | Sets this property to its default value.                               |
 | inherit       | Inherits this property from its parent element.                        |
 
-### CSS SYNTAX FOR JUSTIFY-CONTENT
+### CSS SYNTAX
 
-justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | initial | inherit;
+> justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | initial | inherit;
 
-### JUSTIFY-CONTENT EXAMPLE
+### EXAMPLE
 
 Align the flex items at the center of the container
 
@@ -240,7 +241,7 @@ div {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_justify-content3)
 
-### BROWSER SUPPORT FOR JUSTIFY-CONTENT
+### BROWSER SUPPORT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -260,7 +261,7 @@ Numbers followed by -webkit- or -moz- specify the first version that worked with
 
 The `text-align` property specifies the horizontal alignment of text in an element.
 
-### TEXT-ALIGN PROPERTY VALUES
+### PROPERTY VALUES
 
 |    Value      |                      Description                          |                                               Demo                                               |
 |:-----------:  |                      :-----------                         |                               :--------------------------------------:                           |
@@ -271,11 +272,11 @@ The `text-align` property specifies the horizontal alignment of text in an eleme
 | initial       | Sets this property to its default value.                  |
 | inherit       | Inherits this property from its parent element.           |
 
-### CSS SYNTAX FOR TEXT-ALIGN
+### CSS SYNTAX
 
-text-align: left | right | center | justify | initial | inherit;
+> text-align: left | right | center | justify | initial | inherit;
 
-### TEXT-ALIGN EXAMPLE
+### EXAMPLE
 
 Set the text alignment for different **div** elements:
 
@@ -299,7 +300,7 @@ div.c {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text-align)
 
-### BROWSER SUPPORT FOR TEXT-ALIGN
+### BROWSER SUPPORT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -319,7 +320,7 @@ The `text-align-last` property specifies how to align the last line of a text.
 
 Notice that the text-align-last property sets the alignment for all last lines within the selected element. So, if you have a **div** with three paragraphs in it, text-align-last will apply to the last line of each of the paragraphs.
 
-### TEXT-ALIGN-LAST PROPERTY VALUES
+### PROPERTY VALUES
 
 |    Value      |                      Description                          |                                               Demo                                                    |
 |:-----------:  |                      :-----------                         |                               :--------------------------------------:                                |
@@ -333,11 +334,11 @@ Notice that the text-align-last property sets the alignment for all last lines w
 | initial       | Sets this property to its default value.                  |
 | inherit       | Inherits this property from its parent element.           |
 
-### CSS SYNTAX FOR TEXT-ALIGN-LAST
+### CSS SYNTAX
 
-text-align-last: auto | left | right | center | justify | start | end | initial | inherit;
+> text-align-last: auto | left | right | center | justify | start | end | initial | inherit;
 
-### TEXT-ALIGN-LAST EXAMPLE
+### EXAMPLE
 
 Align the last line of text in three **div** elements
 
@@ -360,7 +361,7 @@ div.c {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_text-align-last)
 
-### BROWSER SUPPORT FOR TEXT-ALIGN-LAST
+### BROWSER SUPPORT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -380,28 +381,28 @@ Numbers followed by -moz- specify the first version that worked with a prefix.
 
 The `vertical-align` property sets the vertical alignment of an element.
 
-### VERTICAL-ALIGN PROPERTY VALUES
+### PROPERTY VALUES
 
 |    Value      |                      Description                                                                     |    Demo   |
 |:-----------:  |                      :-----------                                                                    |:--------------------------------------:                                 |
-| baseline      | The element is aligned with the baseline of the parent. This is default	                             | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=baseline)    |
+| baseline      | The element is aligned with the baseline of the parent. This is default                             | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=baseline)    |
 | length        | Raises or lower an element by the specified length. Negative values are allowed.                     | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=25px)    |
 | %             | Raises or lower an element by a percent of the "line-height" property. Negative values are allowed   | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=50%25)   |
-| sub           | The element is aligned with the subscript baseline of the parent	                                   | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=sub)  |
-| super         | The element is aligned with the superscript baseline of the parent                                 	 | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=super)|
+| sub           | The element is aligned with the subscript baseline of the parent                                | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=sub)  |
+| super         | The element is aligned with the superscript baseline of the parent                                  | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=super)|
 | top           | The element is aligned with the top of the tallest element on the line                               | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=top)   |
-| text-top      | The element is aligned with the top of the parent element's font	                                   | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=text-top)     |
-| middle        | The element is placed in the middle of the parent element	                                           | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=middle) |
-| bottom        | The element is aligned with the lowest element on the line	                                         | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=bottom)     |
-| text-bottom   | The element is aligned with the bottom of the parent element's font	                                 | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=text-bottom)     |
+| text-top      | The element is aligned with the top of the parent element's font                                 | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=text-top)     |
+| middle        | The element is placed in the middle of the parent element                                        | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=middle) |
+| bottom        | The element is aligned with the lowest element on the line                                        | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=bottom)     |
+| text-bottom   | The element is aligned with the bottom of the parent element's font                              | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_vertical-align&preval=text-bottom)     |
 | initial       | Sets this property to its default value                                                              |
 | inherit       | Inherits this property from its parent element.                                                      |
 
-### CSS SYNTAX FOR VERTICAL-ALIGN
+### CSS SYNTAX
 
-vertical-align: baseline | length | sub | super | top | text-top | middle | bottom |text-bottom | initial | inherit;
+> vertical-align: baseline | length | sub | super | top | text-top | middle | bottom |text-bottom | initial | inherit;
 
-### VERTICAL-ALIGN EXAMPLE
+### EXAMPLE
 
 Vertical align an image
 
@@ -429,7 +430,7 @@ img.e {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_vertical-align)
 
-### BROWSER SUPPORT FOR VERTICAL-ALIGN
+### BROWSER SUPPORT
 
 The numbers in the table specify the first browser version that fully supports the property.
 

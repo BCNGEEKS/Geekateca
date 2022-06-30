@@ -1,7 +1,7 @@
 ---
 layout: default
 author: BCN Geek
-date: 20th June 2022
+date: 21th June 2022
 ---
 
 # SELECTORS
@@ -9,6 +9,7 @@ date: 20th June 2022
 ## TABLE OF CONTENTS
 
 - [TABLE OF CONTENTS](#table-of-contents)
+- [INDEX](#index)
 - [INTRODUCTION](#introduction)
 - [SELECTOR](#selector)
 - [SPECIFICITY](#specificity)
@@ -34,7 +35,7 @@ date: 20th June 2022
 
 ---
 
-## [INDEX](./INDEX.md)
+## [INDEX](./index.md)
 
 ---
 

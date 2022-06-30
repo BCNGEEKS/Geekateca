@@ -10,18 +10,19 @@ date: 27 June 2022
 
 - [GRID PROPERTIES](#grid-properties)
   - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [GRID PROPERTY](#grid-property)
-    - [PROPERTY VALUES](#property-values)
+    - [GRID PROPERTY VALUES](#grid-property-values)
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [GRID-GAP PROPERTY](#grid-gap-property)
-    - [PROPERTY VALUES](#property-values-1)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [GRID-GAP PROPERTY VALUES](#grid-gap-property-values)
+    - [GRID-GAP EXAMPLE](#grid-gap-example)
+    - [BROWSER SUPPORT FOR GRID-GAP](#browser-support-for-grid-gap)
   - [GRID-AREA PROPERTY](#grid-area-property)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-2)
+    - [GRID-AREA EXAMPLE](#grid-area-example)
+    - [BROWSER SUPPORT FOR GRID-AREA](#browser-support-for-grid-area)
 
 ---
 
@@ -45,7 +46,7 @@ The grid property is a shorthand for the follow properties
 
 Also used with the `display` property, this property sets the inner and outer display types of an element
 
-### PROPERTY VALUES
+### GRID PROPERTY VALUES
 
 |                         Value                         | Description                                                                      |
 | :---------------------------------------------------: | :------------------------------------------------------------------------------- |
@@ -59,7 +60,7 @@ Also used with the `display` property, this property sets the inner and outer di
 |                        Initial                        | Sets the property to its default value.                                          |
 |                        Inherit                        | Inherits this property from its parent element.                                  |
 
-### EXAMPLE
+### GRID EXAMPLE
 
 This is an example where can see the property `display`  and `grid`
 
@@ -86,19 +87,19 @@ In the follow example, the property will be display a grid, and then its used th
 
 ## GRID-GAP PROPERTY
 
-This property define the space between the columns and rows in the grid layout, when its used this property the space created is uniform, but if don't want to define a uniform space can be used the folling values.
+This property define the space between the columns and rows in the grid layout, when its used this property the space created is uniform, but if don't want to define a uniform space can be used the following values.
 
 - grid-row-gap
 - grid-column-gap
 
-### PROPERTY VALUES
+### GRID-GAP PROPERTY VALUES
 
 |      Value      | Description                                                                              |
 | :-------------: | :--------------------------------------------------------------------------------------- |
 |  grid-row-gap   | Specifies the size of space between the rows in a grid layout, the default value is 0    |
 | grid-column-gap | Specifies the size of space between the columns in a grid layout, the default value is 0 |
 
-### EXAMPLE
+### GRID-GAP EXAMPLE
 
 In this example can be see that the property `grid-gap` have two values, the first values is for define the space between rows, and the second is for the columns.
 
@@ -108,16 +109,15 @@ In this example can be see that the property `grid-gap` have two values, the fir
 }
 ```
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR GRID-GAP
 
 |  Value  | Description |
 | :-----: | :---------- |
-| Chorme  | 57          |
+| Chrome  | 57          |
 |  Edge   | 16          |
 | Firefox | 52          |
 | Safari  | 10          |
 |  Opera  | 44          |
-
 
 ## GRID-AREA PROPERTY
 
@@ -125,16 +125,16 @@ This property is for specifies a grid's item's size and location in a grid layou
 
 Also the property `grid-area` can be used to assing a name to a grid item, this is possible when make a reference using the property `grid-template-areas` in the main container.
 
-### EXAMPLE
+### GRID-AREA EXAMPLE
 
 In the following example, it is defined in the grid container how the elements will be positioned on the page, in this case the header will go first, the menu will be located on the right, main on the left and the footer at the end.
 
 ```CSS
 .grid {
-	  display: grid;
-	  grid-template-areas: "head head"
-	                       "menu main"
-	                       "foot foot";
+  display: grid;
+  grid-template-areas: "head head"
+                       "menu main"
+                       "foot foot";
 }
 
 .a { grid-area: head; background: #1297FF }
@@ -146,15 +146,15 @@ In the following example, it is defined in the grid container how the elements w
 ```HTML
 <!-- container -->
 <section class="grid-template">
-		<!-- ítems grid -->
-	  <article class="a">Item 1</article>
-	  <article class="b">Item 2</article>
-	  <article class="c">Item 3</article>
-	  <article class="d">Item 4</article>
+   <!-- items grid -->
+  <article class="a">Item 1</article>
+  <article class="b">Item 2</article>
+  <article class="c">Item 3</article>
+  <article class="d">Item 4</article>
 </section>
 ```
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR GRID-AREA
 
 | Browser | Version |
 | :-----: | :------ |

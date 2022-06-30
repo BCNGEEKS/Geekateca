@@ -4,39 +4,38 @@ author: BCNGeeks
 date: date
 ---
 
-## FLEXBOX
+# FLEXBOX
 
 ## TABLE OF CONTENTS
 
 - [FLEXBOX](#flexbox)
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INTRODUCTION](#introduction)
-- [FLEX-BASIS](#flex-basis)
-  - [PROPERTY VALUES](#property-values)
-  - [EXAMPLE](#example)
-  - [BROWSER SUPPORT](#browser-support)
-- [FLEX-DIRECTION](#flex-direction)
-  - [PROPERTY VALUES](#property-values-1)
-  - [EXAMPLE](#example-1)
-  - [BROWSER SUPPORT](#browser-support-1)
-- [FLEX-GROW](#flex-grow)
-  - [PROPERTY VALUES](#property-values-2)
-  - [EXAMPLE](#example-2)
-  - [BROWSER SUPPORT](#browser-support-2)
-- [FLEX-SHRINK](#flex-shrink)
-  - [PROPERTY VALUES](#property-values-3)
-  - [EXAMPLE](#example-3)
-  - [BROWSER SUPPORT](#browser-support-3)
-- [FLEX-WRAP](#flex-wrap)
-  - [PROPERTY VALUES](#property-values-4)
-  - [EXAMPLE](#example-4)
-  - [BROWSER SUPPORT](#browser-support-4)
-  
----
-
-## [INDEX](./index.md)
-
----
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [INTRODUCTION](#introduction)
+  - [FLEX-BASIS](#flex-basis)
+    - [PROPERTY VALUES](#property-values)
+    - [CSS SYNTAX](#css-syntax)
+    - [EXAMPLE](#example)
+    - [BROWSER SUPPORT](#browser-support)
+  - [FLEX-DIRECTION](#flex-direction)
+    - [PROPERTY VALUES](#property-values-1)
+    - [CSS SYNTAX](#css-syntax-1)
+    - [EXAMPLE](#example-1)
+    - [BROWSER SUPPORT](#browser-support-1)
+  - [FLEX-GROW](#flex-grow)
+    - [PROPERTY VALUES](#property-values-2)
+    - [CSS SYNTAX](#css-syntax-2)
+    - [EXAMPLE](#example-2)
+    - [BROWSER SUPPORT](#browser-support-2)
+  - [FLEX-SHRINK](#flex-shrink)
+    - [PROPERTY VALUES](#property-values-3)
+    - [CSS SYNTAX](#css-syntax-3)
+    - [EXAMPLE](#example-3)
+    - [BROWSER SUPPORT](#browser-support-3)
+  - [FLEX-WRAP](#flex-wrap)
+    - [PROPERTY VALUES](#property-values-4)
+    - [CSS SYNTAX](#css-syntax-4)
+    - [EXAMPLE](#example-4)
+    - [BROWSER SUPPORT](#browser-support-4)
 
 ## INTRODUCTION
 
@@ -55,7 +54,8 @@ The `flex-basis` property specifies the initial length of a flexible item.
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > flex-basis: number | auto | initial | inherit;
 
 ### EXAMPLE
@@ -96,12 +96,13 @@ The `flex-direction` property specifies the direction of the flexible items.
 |:-----------:|                      :-----------                    | :--: |
 |    row     | Default value. The flexible items are displayed horizontally, as a row | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_flex-direction&preval=row) |
 |   row-reverse    | Same as row, but in reverse order | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_flex-direction&preval=row-reverse) |
-|   column   | The flexible items are displayed vertically, as a column	| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_flex-direction&preval=column) |
-|   column-reverse   | Same as column, but in reverse order	| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_flex-direction&preval=column-reverse) |
+|   column   | The flexible items are displayed vertically, as a column| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_flex-direction&preval=column) |
+|   column-reverse   | Same as column, but in reverse order| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_flex-direction&preval=column-reverse) |
 |   initial   | Sets this property to its default value. |
 |   inherit   | Inherits this property from its parent element. |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > flex-direction: row | row-reverse | column | column-reverse | initial | inherit;
 
 ### EXAMPLE
@@ -145,7 +146,8 @@ The `flex-grow` property specifies how much the item will grow relative to the r
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > flex-grow: number | initial | inherit;
 
 ### EXAMPLE
@@ -188,7 +190,8 @@ The `flex-shrink` property specifies how the item will shrink relative to the re
 |   initial   | Sets this property to its default value.             | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_flex-shrink&preval=initial) |
 |   inherit   | Inherits this property from its parent element. |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > flex-shrink: number | initial | inherit;
 
 ### EXAMPLE
@@ -233,7 +236,8 @@ The `flex-wrap` property specifies whether the flexible items should wrap or not
 |   initial   | Sets this property to its default value. |
 |   inherit   | Inherits this property from its parent element. |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > flex-wrap: nowrap | wrap | wrap-reverse | initial | inherit;
 
 ### EXAMPLE

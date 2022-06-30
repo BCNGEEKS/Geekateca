@@ -10,36 +10,44 @@ date: date
 
 - [BACKGROUND](#background)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [BACKGROUND-COLOR](#background-color)
     - [PROPERTY VALUES](#property-values)
+    - [CSS SYNTAX](#css-syntax)
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [BACKGROUND-IMAGE](#background-image)
     - [PROPERTY VALUES](#property-values-1)
+    - [CSS SYNTAX](#css-syntax-1)
     - [EXAMPLE](#example-1)
     - [BROWSER SUPPORT](#browser-support-1)
   - [BACKGROUND-POSITION](#background-position)
     - [PROPERTY VALUES](#property-values-2)
+    - [CSS SYNTAX](#css-syntax-2)
     - [EXAMPLE](#example-2)
     - [BROWSER SUPPORT](#browser-support-2)
   - [BACKGROUND-SIZE](#background-size)
     - [PROPERTY VALUES](#property-values-3)
+    - [CSS SYNTAX](#css-syntax-3)
     - [EXAMPLE](#example-3)
     - [BROWSER SUPPORT](#browser-support-3)
   - [BACKGROUND-REPEAT](#background-repeat)
     - [PROPERTY VALUES](#property-values-4)
+    - [CSS SYNTAX](#css-syntax-4)
     - [EXAMPLE](#example-4)
     - [BROWSER SUPPORT](#browser-support-4)
   - [BACKGROUND-ORIGIN](#background-origin)
     - [PROPERTY VALUES](#property-values-5)
+    - [CSS SYNTAX](#css-syntax-5)
     - [EXAMPLE](#example-5)
     - [BROWSER SUPPORT](#browser-support-5)
   - [BACKGROUND-ATTACHMENT](#background-attachment)
     - [PROPERTY VALUES](#property-values-6)
+    - [CSS SYNTAX](#css-syntax-6)
     - [EXAMPLE](#example-6)
     - [BROWSER SUPPORT](#browser-support-6)
-    
+
 ---
 
 ## [INDEX](./index.md)
@@ -65,7 +73,8 @@ The background of an element is the total size of the element, including padding
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > background-color: color | transparent | initial | inherit;
 
 ### EXAMPLE
@@ -116,8 +125,8 @@ By default, a background-image is placed at the top-left corner of an element, a
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
 |    url('URL')     | The URL to the image. To specify more than one image, separate the URLs with a comma | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=url(%27paper.gif%27)) |
-|   none    | No background image will be displayed. This is default | 
-|   conic-gradient()   | Sets a conic gradient as the background image. Define at least two colors	| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=conic-gradient(red,%20yellow,%20green)) |
+|   none    | No background image will be displayed. This is default |
+|   conic-gradient()   | Sets a conic gradient as the background image. Define at least two colors| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=conic-gradient(red,%20yellow,%20green)) |
 |   linear-gradient()   | Sets a linear gradient as the background image. Define at least two colors (top to bottom) | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=repeating-conic-gradient(red%2010%25,%20yellow%2020%25)) |
 |   radial-gradient()   | Sets a radial gradient as the background image. Define at least two colors (center to edges) | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=radial-gradient(red,%20green,%20blue)) |
 |   repeating-conic-gradient()   | Repeats a conic gradient | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_background-image&preval=repeating-conic-gradient(red%2010%25,%20yellow%2020%25)) |
@@ -126,7 +135,8 @@ By default, a background-image is placed at the top-left corner of an element, a
 |   initial   | Sets this property to its default value. |
 |   inherit   | Inherits this property from its parent element. |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > background-image: url | none | initial | inherit;
 
 ### EXAMPLE
@@ -181,7 +191,8 @@ The `background-position` property sets the starting position of a background im
 |   initial   | Sets this property to its default value.      |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > background-position: value;
 
 ### EXAMPLE
@@ -229,7 +240,8 @@ The `background-size` property specifies the size of the background images.
 |   initial   | Sets this property to its default value.  |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > background-size: auto | length | cover | contain | initial | inherit;
 
 ### EXAMPLE
@@ -287,7 +299,8 @@ By default, a background-image is repeated both vertically and horizontally.
 |   initial   | Inherits this property from its parent element.      |
 |   inherit   | Inherits this property from its parent element.      |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > background-repeat: repeat | repeat-x | repeat-y | no-repeat | initial | inherit;
 
 ### EXAMPLE
@@ -342,7 +355,8 @@ The `background-origin` property specifies the origin position (the background p
 |   initial   | Sets this property to its default value      |
 |   inherit   | Inherits this property from its parent element. |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > background-origin: padding-box | border-box | content-box | initial | inherit;
 
 ### EXAMPLE
@@ -389,7 +403,8 @@ The `background-attachment` property sets whether a background image scrolls wit
 |   initial   | Sets this property to its default value.                        |
 |   inherit   | Inherits this property from its parent element.                 |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > background-attachment: scroll | fixed | local | initial | inherit;
 
 ### EXAMPLE
@@ -429,4 +444,3 @@ The numbers in the table specify the first browser version that fully supports t
 |   Firefox     |     1.0               |
 |   Safari      |     1.0               |
 |   Opera       |     3.5               |
-

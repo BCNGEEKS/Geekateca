@@ -10,11 +10,16 @@ date: 20 June 2022
 
 - [ABOUT CSS](#about-css)
   - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [EXAMPLES IN EACH SECTION](#examples-in-each-section)
     - [Example CSS](#example-css)
 
-[INDEX](./index.md)
+---
+
+## [INDEX](./index.md)
+
+---
 
 ## INTRODUCTION
 
@@ -22,7 +27,7 @@ CSS is the language that is use to give style an HTML document, also describe ho
 
 ## EXAMPLES IN EACH SECTION
 
-In this documentation will be put some examples for show how to works the properties of CSS, and their explication 
+In this documentation will be put some examples for show how to works the properties of CSS, and their explication
 
 ### Example CSS
 

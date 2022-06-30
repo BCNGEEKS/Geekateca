@@ -85,6 +85,7 @@ Set the grid-auto-columns with the `length` value
     grid-auto-columns: 50px;
 }
 ```
+
 RESULT
 
 ![Example grid-auto-column with the lenght value](./images/example-auto-columns-length.png)
@@ -126,7 +127,7 @@ This property sets a size for the rows in a grid container.
 | min-content | Specifies the size of each row depending of the largest item in the columns                        |
 |   lenght    | Specifies the size of the rows using a lenght value as px, em, etc                                 |
 
-### EXAMPLE 
+### EXAMPLE
 
 Set the grid-auto-rows with the value `auto`.
 
@@ -151,7 +152,6 @@ Set the grid-auto-rows with the value `max-content`
 RESULT
 
 ![Example grid-auto-rows with the value max-content](./images/example-auto-rows-max-content.png)
-
 
 Set the grid-auto-rows with a `lenght` value
 
@@ -189,7 +189,7 @@ RESULT
 
 ## GRID-AUTO-FLOW PROPERTY
 
-This property specifies how the elements would be inserted the elements in the grid, filled the 
+This property specifies how the elements would be inserted the elements in the grid.
 
 ### PROPERTY VALUES
 
@@ -201,7 +201,7 @@ This property specifies how the elements would be inserted the elements in the g
 |  row dense   | Places the element by filling each row, and fill any holes in the grid |
 | column dense | Places the element by filling each column, and fill any holes in the grid |
 
-### EXAMPLE 
+### EXAMPLE
 
 Set the grid-auto-flow with the value `row`
 

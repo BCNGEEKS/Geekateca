@@ -8,6 +8,8 @@ date: 28th June 2022
 
 ## TABLE OF CONTENT
 
+- [TABLE OF CONTENT](#table-of-content)
+- [INDEX](#index)
 - [GRID-ROW](#grid-row)
 - [GRID-ROW-START](#grid-row-start)
 - [GRID-ROW-END](#grid-row-end)

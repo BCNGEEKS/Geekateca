@@ -10,12 +10,14 @@ date: date
 
 - [MEDIA QUERIES](#media-queries)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [@MEDIA](#media)
     - [PROPERTY VALUES](#property-values)
+    - [CSS SYNTAX](#css-syntax)
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
-
+  
 ---
 
 ## [INDEX](./index.md)
@@ -50,7 +52,8 @@ You can also use media queries to specify that certain styles are only for print
 |screen | Used for computer screens, tablets, smart-phones etc.  |
 |speech | Used for screenreaders that "reads" the page out loud  |
 
-> ### CSS SYNTAX
+### CSS SYNTAX
+
 > @media not | only mediatype and (mediafeature and | or | not mediafeature) {
   CSS-Code;
 }

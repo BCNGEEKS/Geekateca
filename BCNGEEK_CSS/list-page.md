@@ -10,6 +10,7 @@ date: 27th June 2022
 
 - [LISTS - PROPERTIES](#lists---properties)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [LIST-STYLE PROPERTY](#list-style-property)
     - [PROPERTY VALUES](#property-values)
@@ -34,7 +35,6 @@ date: 27th June 2022
 
 ---
 
-  
 ## INTRODUCTION
 
 The lists properties are used for give styling at the lists on the HTMl.
@@ -108,6 +108,7 @@ This property is used for changue the mark at the lists, this property have the 
 |         none         | The marker is not displayed                                 |
 |       initial        | Set the property to its default value                       |
 |       inherit        | Inherits the property  from its parent element              |
+
 ### EXAMPLE
 
 ```CSS
@@ -190,7 +191,6 @@ This property replaces the list-item  marker for a image
 | initial | Set the property to its default value                               |
 | inherit | Inherits the property  from its parent element                      |
 
-
 ### EXAMPLE
 
 With url value
@@ -200,6 +200,7 @@ ul {
   list-style-image: url('sqpurple.gif');
 }
 ```
+
 With none value
 
 ```CSS
