@@ -13,6 +13,6 @@ This page is used to store the documentation of HTML and CSS.
 
 Feel free to use it on your own.
 
-[HTML DOCUMENTATION](./BCNGEEK_SECTIONS/BCNGEEK_HTML/)
+[HTML DOCUMENTATION](./sections/html)
 
-[CSS DOCUMENTATION](./BCNGEEK_SECTIONS/)
+[CSS DOCUMENTATION](./sections/css)
