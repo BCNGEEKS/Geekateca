@@ -32,7 +32,6 @@ date: 21th June 2022
       - [PROPERTY EXPLANATION](#property-explanation-6)
     - [COLGOROUP EXAMPLE](#colgoroup-example)
   - [TABLES PARTS](#tables-parts)
-  - [</body>](#body)
     - [THEAD](#thead)
       - [PROPERTY EXPLANATION](#property-explanation-7)
     - [TBODY](#tbody)
@@ -267,6 +266,7 @@ tfoot {color: red;}
   </tfoot>
 </table>
 </body>
+
 ---
 
 ### THEAD
