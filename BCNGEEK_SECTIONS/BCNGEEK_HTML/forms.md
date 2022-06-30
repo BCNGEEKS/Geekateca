@@ -332,7 +332,7 @@ The HTML `<input type="datetime">` is a control for entering time and date (hour
     </div>
     </form>
 
-In this example shows  two sets of UI elements for choosing datetimes — a native `<input type="datetime-local">` picker, and a set of five `<select>` elements for choosing dates and times in older browsers that don't support the native input.
+In this example shows  two sets of UI elements for choosing date times — a native `<input type="datetime-local">` picker, and a set of five `<select>` elements for choosing dates and times in older browsers that don't support the native input.
 
 ### INPUT TYPE EMAIL
 
@@ -485,7 +485,7 @@ The `<input>` elements of type range let the user specify a numeric value which 
     <label for="volume">Volume</label>
     </div>
 
-In this example shows how to user move a volum between 0 and 11.
+In this example shows how to user move a volume between 0 and 11.
 
 ### INPUT TYPE RESET
 
