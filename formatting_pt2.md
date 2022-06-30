@@ -66,7 +66,7 @@ The `<abbr>` element is used along with a title attribute to associate a full-te
 
     The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
 
-In this example it is shown how the abbr tag works. You define the title inside the tag and then in the display result it appears underlined so that you know where the abbreviation is. 
+In this example it is shown how the abbr tag works. You define the title inside the tag and then in the display result it appears underlined so that you know where the abbreviation is.
 
 The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
 
