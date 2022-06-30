@@ -14,14 +14,14 @@ date: 21th June 2022
     - [HR](#hr)
     - [EXAMPLES](#examples)
     - [IMG](#img)
-    - [EXAMPLE](#example)
+      - [EXAMPLE](#example)
     - [AUDIO](#audio)
-    - [EXAMPLE](#example-1)
+      - [EXAMPLE](#example-1)
     - [VIDEO](#video)
-    - [EXAMPLE](#example-2)
+      - [EXAMPLE](#example-2)
     - [BROWSER SUPPORT](#browser-support)
     - [OBJECT](#object)
-    - [EXAMPLE](#example-3)
+      - [EXAMPLE](#example-3)
 
 ---
 
@@ -36,30 +36,36 @@ The `<hr>` tag defines a thematic break in an HTML page (e.g. a shift of topic).
 The `<hr>` element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.
 
 ### EXAMPLES
+
     <h1>The Main Languages of the Web</h1>
 
-    <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements. HTML elements tell the browser how to display the content.</p>
+    <p>HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page, and consists of a series of elements.
+    HTML elements tell the browser how to display the content.</p>
 
     <hr>
 
-    <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
+    <p>CSS is a language that describes how HTML elements are to be displayed on screen, paper, or in other media. 
+    CSS saves a lot of work, because it can control the layout of multiple web pages all at once.</p>
 
     <hr>
 
-    <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values. JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
+    <p>JavaScript is the programming language of HTML and the Web. JavaScript can change HTML content and attribute values.
+    JavaScript can change CSS. JavaScript can hide and show HTML elements, and more.</p>
 ---
+
 ### IMG
 
-The <img> tag is used to embed an image in an HTML page.
+The ``<img>`` tag is used to embed an image in an HTML page.
 
-Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+Images are not technically inserted into a web page; images are linked to web pages. The ``<img>`` tag creates a holding space for the referenced image.
 
-The <img> tag has two required attributes:
+The ``<img>`` tag has two required attributes:
 
 src - Specifies the path to the image
 alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed
 
-###  EXAMPLE
+#### EXAMPLE
+
     <!DOCTYPE html>
     <html>
     
@@ -77,17 +83,21 @@ alt - Specifies an alternate text for the image, if the image for some reason ca
     <body style="text-align: center;">
         <img src=
     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
-            width="500" height="300" 
+            width="500" height="300"
             alt="Geeksforgeeks.org">
-    </body>    
+    </body>
 </html>
 
 ---
+
 ### AUDIO
+
 The `<audio>` is one of the HTML5 elements added to allow embedding audio files to a web page. Since not all browsers support all audio formats, the audio file is encoded using special codecs.
 
 The `<source>` tag or the src attribute is used to indicate the variations of the same audio file. The path to an audio file can contain an absolute or relative URLs
-### EXAMPLE
+
+#### EXAMPLE
+
     <!DOCTYPE html>
     <html>
     
@@ -116,18 +126,22 @@ The `<source>` tag or the src attribute is used to indicate the variations of th
             <source src="test.mp3" type="audio/mp3">
             <source src="test.ogg" type="audio/ogg">
         </audio>
-        <!-- audio tag ends here -->    
-    </body>   
+        <!-- audio tag ends here -->
+    </body>
 </html>
 
 ---
+
 ### VIDEO
+
 The `<video>` tag is used to embed video content in a document, such as a movie clip or other video streams.
 
 The `<video>` tag contains one or more `<source>` tags with different video sources. The browser will choose the first source it supports.
 
 The text between the `<video>` and `</video>` tags will only be displayed in browsers that do not support the `<video>` element.
-### EXAMPLE
+
+#### EXAMPLE
+
     <!DOCTYPE html>
     <html>
     <body>  
@@ -142,7 +156,6 @@ The text between the `<video>` and `</video>` tags will only be displayed in bro
         </video>
     </body>
     </html>
-
 
 <!DOCTYPE html>
 <html>
@@ -173,8 +186,11 @@ This example illustrates the use of the autoplay attribute in the HTML `<video>`
 ---
 
 ### OBJECT
-The `<object>` tag is an HTML tag and used to display multimedia like audios, videos, images, PDFs, and Flash in web pages. It can also be used for displaying another webpage inside the HTML page. 
-### EXAMPLE
+
+The `<object>` tag is an HTML tag and used to display multimedia like audios, videos, images, PDFs, and Flash in web pages. It can also be used for displaying another webpage inside the HTML page.
+
+#### EXAMPLE
+
     <!DOCTYPE html>
     
     <html>
@@ -192,7 +208,6 @@ The `<object>` tag is an HTML tag and used to display multimedia like audios, vi
     </html>
 
 <!DOCTYPE html>
-    
 <html>
     <body>
         <!--HTML object tag starts here-->
@@ -202,5 +217,4 @@ The `<object>` tag is an HTML tag and used to display multimedia like audios, vi
         <!--HTML object tag ends here-->
         </object>
         </body>
-    
 </html>
