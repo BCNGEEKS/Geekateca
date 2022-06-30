@@ -265,6 +265,7 @@ tfoot {color: red;}
     </tr>
   </tfoot>
 </table>
+</body>
 
 ---
 
@@ -355,4 +356,5 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
         </tr>
       </tfoot>
     </table>
+    </body>
 This example shows how to apply the diferents parts of a table to output the visual example of this section.
