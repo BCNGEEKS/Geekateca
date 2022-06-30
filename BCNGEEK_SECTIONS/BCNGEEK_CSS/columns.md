@@ -8,15 +8,17 @@ date: 27th June 2022
 
 ## TABLE OF CONTENTS
 
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INDEX](#index)
-- [COLUMNS](#columns)
-- [PROPERTIES](#columns-properties)
-  - [COLUMN-GAP](#column-gap)
-  - [COLUMN-COUNT](#column-count)
-  - [COLUMN-RULE-WIDTH](#column-rule-width)
-  - [COLUMN-RULE-COLOR](#column-rule-color)
-  - [COLUMN-RULE-STYLE](#column-rule-style)
+- [COLUMN PROPERTIES](#column-properties)
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
+  - [COLUMNS](#columns)
+  - [PROPERTIES](#properties)
+    - [COLUMN-GAP](#column-gap)
+    - [COLUMN-COUNT](#column-count)
+    - [COLUMN-RULE-WIDTH](#column-rule-width)
+    - [COLUMN-RULE-COLOR](#column-rule-color)
+    - [COLUMN-RULE-STYLE](#column-rule-style)
+  - [BROWSER SUPPORT](#browser-support)
 
 ---
 

@@ -6,11 +6,24 @@ date: 23th June 2022
 
 # CONTAINERS BORDER
 
-## TABLE OF CONTENTS
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INDEX](#index)
-- [BORDER STYLE](#border-style)
-  - [EXAMPLES](#example)
+## TABLE OF CONTENTS 
+
+- [CONTAINERS BORDER](#containers-border)
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [BORDER STYLE](#border-style)
+    - [EXAMPLE](#example)
+  - [BORDER-COLOR](#border-color)
+    - [EXAMPLE](#example-1)
+    - [BROWSER SUPPORT](#browser-support)
+  - [BORDER-RADIUS](#border-radius)
+    - [EXAMPLE](#example-2)
+    - [BROWSER SUPPORT](#browser-support-1)
+  - [BORDER-WIDTH](#border-width)
+    - [EXAMPLES](#examples)
+    - [BROWSER SUPPORT](#browser-support-2)
+  - [BORDER-POSITIONS](#border-positions)
+    - [BROWSER SUPPORT](#browser-support-3)
+
 
 The CSS border property allows to change the style, width , and color of an elements's border.
 

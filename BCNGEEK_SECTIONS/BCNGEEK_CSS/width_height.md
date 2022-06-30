@@ -4,15 +4,34 @@ author: BCNGeeks
 date: 20th June 2022
 --- 
 
-# Width & Height
+# WIDTH & HEIGHT
 
 ## TABLE OF CONTENTS
 
 - [WIDTH & HEIGHT](#width--height)
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
+  - [INTRODUCTION](#introduction)
   - [HEIGHT](#height)
-  - [MAX HEIGHT](#max-height)
+    - [HEIGHT PROPERTY VALUES](#height-property-values)
+    - [CSS SYNTAX FOR HEIGHT](#css-syntax-for-height)
+    - [HEIGHT EXAMPLE](#height-example)
+    - [BROWSER SUPPORT FOR HEIGHT](#browser-support-for-height)
+  - [MAX-HEIGHT](#max-height)
+    - [MAX-HEIGHT PROPERTY VALUES](#max-height-property-values)
+    - [CSS SYNTAX FOR MAX-HEIGHT](#css-syntax-for-max-height)
+    - [MAX-HEIGHT EXAMPLE](#max-height-example)
+    - [BROWSER SUPPORT FOR MAX-HEIGHT](#browser-support-for-max-height)
   - [WIDTH](#width)
-  - [MAX WIDTH](#max-width)
+    - [WIDTH PROPERTY VALUES](#width-property-values)
+    - [CSS SYNTAX FOR WIDTH](#css-syntax-for-width)
+    - [WIDTH EXAMPLE](#width-example)
+    - [BROWSER SUPPORT FOR WIDTH](#browser-support-for-width)
+  - [MAX-WIDTH](#max-width)
+    - [MAX-WIDTH PROPERTY VALUES](#max-width-property-values)
+    - [CSS SYNTAX MAX-WIDTH](#css-syntax-max-width)
+    - [MAX-WIDTH EXAMPLE](#max-width-example)
+    - [BROWSER SUPPORT FOR MAX-WIDTH](#browser-support-for-max-width)
 
 ---
 
