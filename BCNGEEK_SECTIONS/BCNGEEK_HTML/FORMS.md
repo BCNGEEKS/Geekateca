@@ -93,6 +93,7 @@ Web forms are one of the main points of interaction between a user and a website
 The HTML `<form>` element is used to create an HTML form for user input:
 
 ### EXAMPLE
+
     <form>
     
     form elements
@@ -107,6 +108,7 @@ In this example shows "form" structure
 The `<select>` element defines a drop-down list:
 
 ### EXAMPLE
+
     <label for="countries">Choose a country:</label>
     <select id="countries" name="countries">
     <option value="spain">Spain</option>
@@ -126,6 +128,7 @@ By default, the first item in the drop-down list is selected.
 To define a pre-selected option, add the selected attribute to the option:
 
 ### EXAMPLE
+
     <option value="finland" selected>Finland</option>
 
 In this example  shows an option selected with value Finland.
@@ -135,6 +138,7 @@ In this example  shows an option selected with value Finland.
 Use the size attribute to specify the number of visible values:
 
 #### EXAMPLE
+
     <label for="countries">Choose a country:</label>
     <select id="countries" name="countries" size="3">
     <option value="spain">Spain</option>
@@ -150,6 +154,7 @@ In this example  shows a selection table with different options that are countri
 Use the multiple attribute to allow the user to select more than one value:
 
 #### EXAMPLE
+
     <label for="countries">Choose a country:</label>
     <select id="countries" name="countries" size="3" multiple>
     <option value="spain">Spain</option>
@@ -196,6 +201,7 @@ Here are the different input types you can use in HTML:
 The HTML `<input type="button">` element is a specific version of the `<input>` element, which is used to create a clickable button without any default value, i.e. it does not have a default behavior like for example `<input type="reset">` . In HTML5 it has been replaced by the `<button>` element.
 
 #### EXAMPLE
+
     <input type="button" value="Click me">
 
 In this example shows a one button  with value  "click me"
@@ -205,6 +211,7 @@ In this example shows a one button  with value  "click me"
 The HTML `<input type="checkbox">` element is an input element that allows you to insert a vector or array of values. The value attribute is used to define the value sent by the checkbox.
 
 #### EXAMPLE
+
     <label><input type="checkbox" id="cbox1" value="first_checkbox">This is my first checkbox</label><br>
 
     <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">This is my second checkbox</label>
@@ -216,6 +223,7 @@ In this example two checkboxes are created with the first called first_checkbox 
 Input elements of type "color" provide a user interface element that allows users to specify a color, either through a visual selection interface, or through a text box where they can enter a hexadecimal value in the format "#rrggbb."
 
 #### EXAMPLE
+
     <input type="color" value="#ff0000">
 
 In this example shows an input  type calor with the value calor red.
