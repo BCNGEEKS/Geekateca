@@ -217,3 +217,5 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 - important words `<strong>`
 - short quotes `<q>`
 - Strong `<strong>`
+  
+---

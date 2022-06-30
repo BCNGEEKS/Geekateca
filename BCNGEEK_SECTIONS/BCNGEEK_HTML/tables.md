@@ -65,18 +65,25 @@ HTML tables allow web developers to arrange data into rows and columns.
 The basic structure of a table contains cells, rows, and headers.
 
 ---
+
 ### TABLE
+
 #### PROPERTY EXPLANATION
 
 To create a table in HTML we must use the tag `<table> <\table>`
 
 ---
+
 ### TABLE CELLS
+
 #### PROPERTY EXPLANATION
+
 Each table cell is defined by a `<td>` and a `</td>` tag (td means table data).Everithing between this two tags are the content of the table cell.
 
 ---
+
 ### TABLE ROWS
+
 #### PROPERTY EXPLANATION
 
 Each table row starts with a `<tr>` and end with a `</tr>` tag (tr means table row).
@@ -84,11 +91,13 @@ Each table row starts with a `<tr>` and end with a `</tr>` tag (tr means table r
 ---
 
 ### TABLE HEADERS
+
 #### PROPERTY EXPLANATION
 
 Sometimes you want your cells to be headers, in those cases use the `<th>` tag instead of the `<td>` tag.
 
 ---
+
 ### BASIC STRUCTURE EXAMPLE
 
 This is an example of a basic table structure.
@@ -114,8 +123,10 @@ This is an example of a basic table structure.
 This example shows an example of a simple table.
 
 ---
+
 ## CAPTION
-The caption tag is used to add a caption around the table.The position can be modified with the use of css. 
+
+The caption tag is used to add a caption around the table.The position can be modified with the use of css.
 
 <table>
   <caption>Monthly savings</caption>
@@ -130,11 +141,13 @@ The caption tag is used to add a caption around the table.The position can be mo
 </table>
 
 ### PROPERTY EXPLANATION
+
 The `<caption>` tag defines a table caption.
 
 The `<caption>` tag must be inserted immediately after the `<table>` tag.
 
 ### EXAMPLE
+
     <table>
       <caption>Monthly savings</caption>
       <tr>
@@ -150,6 +163,7 @@ The `<caption>` tag must be inserted immediately after the `<table>` tag.
 This example shows the HTML code used to create the table of the first example úsing the `<caption>` tag.
 
 ---
+
 ## COLGROUP
 
 colgroup is a property that allows us to apply css atributes using the style tag to a group of columns.
@@ -171,6 +185,7 @@ colgroup is a property that allows us to apply css atributes using the style tag
 </table>
 
 ### COLGROUP
+
 #### PROPERTY EXPLANATION
 
 The `<colgroup>` tag specifies a group of one or more columns in a table for formatting.
@@ -207,15 +222,14 @@ The `<col>` tag is useful for applying styles to entire columns, instead of repe
         <td>$53</td>
       </tr>
     </table>
-This example shows how the `<col>` tag is inside the `<colgroup>` tag and how it apply a style in a group of columns. 
-
+This example shows how the `<col>` tag is inside the `<colgroup>` tag and how it apply a style in a group of columns.
 
 ---
+
 ## TABLES PARTS
 
 A table can be splited in three parts: head (thead), body (tbody), foot (tfoot).
 
-<html>
 <head>
 
 <style>
@@ -255,7 +269,9 @@ tfoot {color: red;}
 ---
 
 ### THEAD
+
 #### PROPERTY EXPLANATION
+
 The `<thead>` tag is used to group header content in an HTML table.
 
 The `<thead>` element is used in conjunction with the `<tbody>` and `<tfoot>` elements to specify each part of a table (header, body, footer).
@@ -266,12 +282,12 @@ The `<thead>` element must have one or more `<tr>` tags inside.
 
 The `<thead>` tag must be used in the following context: As a child of a `<table>` element, after any `<caption>` and `<colgroup>` elements, and before any `<tbody>`, `<tfoot>`, and `<tr>` elements.
 
-
 ---
 
 ### TBODY
 
 #### PROPERTY EXPLANATION
+
 The `<tbody>` tag is used to group the body content in an HTML table.
 
 The `<tbody>` element is used in conjunction with the `<thead>` and `<tfoot>`elements to specify each part of a table (body, header, footer).
@@ -285,7 +301,6 @@ The `<tbody>` tag must be used in the following context: As a child of a `<table
 ---
 
 ### TFOOT
-
 
 #### PROPERTY EXPLANATION
 
@@ -303,17 +318,16 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
 
 ### TABLES PARTS EXAMPLE
 
-    <html>
     <head>
-    <style>
-    thead {color: green;}
-    tbody {color: blue;}
-    tfoot {color: red;}
+      <style>
+      thead {color: green;}
+      tbody {color: blue;}
+      tfoot {color: red;}
 
-    table, th, td {
-      border: 1px solid black;
-    }
-    </style>
+      table, th, td {
+        border: 1px solid black;
+      }
+      </style>
     </head>
     <body>
 
@@ -342,4 +356,3 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
       </tfoot>
     </table>
 This example shows how to apply the diferents parts of a table to output the visual example of this section.
-

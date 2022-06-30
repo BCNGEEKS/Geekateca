@@ -15,6 +15,7 @@
 }
 
 html{
+    scroll-padding-top: 11rem;
     height: 100%;
     background-color: var(--clr-dark);
     font-size: 16px;
