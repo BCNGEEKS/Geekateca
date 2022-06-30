@@ -230,25 +230,14 @@ This example shows how the `<col>` tag is inside the `<colgroup>` tag and how it
 
 A table can be splited in three parts: head (thead), body (tbody), foot (tfoot).
 
-<head>
-
-<style>
-thead {color: green;}
-tbody {color: yellow;}
-tfoot {color: red;}
-</style>
-
-</head>
-<body>
-
 <table>
-  <thead>
+  <thead style="color: green;">
     <tr>
       <th>Month</th>
       <th>Savings</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody style="color: yellow;">
     <tr>
       <td>January</td>
       <td>100€</td>
@@ -258,14 +247,13 @@ tfoot {color: red;}
       <td>80€</td>
     </tr>
   </tbody>
-  <tfoot>
+  <tfoot style="color: red;">
     <tr>
       <td>Sum</td>
       <td>180€</td>
     </tr>
   </tfoot>
 </table>
-</body>
 
 ---
 
@@ -319,20 +307,10 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
 
 ### TABLES PARTS EXAMPLE
 
-    <head>
-      <style>
-      thead {color: green;}
-      tbody {color: blue;}
-      tfoot {color: red;}
-
-      table, th, td {
-        border: 1px solid black;
-      }
-      </style>
-    </head>
-    <body>
-
-    <table>
+    <table style="
+    thead {color: green;}
+    tbody {color: yellow;}
+    tfoot {color: red;}">
       <thead>
         <tr>
           <th>Month</th>
@@ -356,5 +334,4 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
         </tr>
       </tfoot>
     </table>
-    </body>
 This example shows how to apply the diferents parts of a table to output the visual example of this section.
