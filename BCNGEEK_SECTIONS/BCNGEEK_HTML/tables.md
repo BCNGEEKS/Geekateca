@@ -32,6 +32,7 @@ date: 21th June 2022
       - [PROPERTY EXPLANATION](#property-explanation-6)
     - [COLGOROUP EXAMPLE](#colgoroup-example)
   - [TABLES PARTS](#tables-parts)
+  - [</body>](#body)
     - [THEAD](#thead)
       - [PROPERTY EXPLANATION](#property-explanation-7)
     - [TBODY](#tbody)
@@ -265,7 +266,7 @@ tfoot {color: red;}
     </tr>
   </tfoot>
 </table>
-
+</body>
 ---
 
 ### THEAD
@@ -355,4 +356,5 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
         </tr>
       </tfoot>
     </table>
+    </body>
 This example shows how to apply the diferents parts of a table to output the visual example of this section.
