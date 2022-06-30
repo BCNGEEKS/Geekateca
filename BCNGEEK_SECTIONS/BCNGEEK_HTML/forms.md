@@ -567,7 +567,7 @@ The `<input>` elements of type text create basic single-line text fields.
     <input type="text" id="name" name="name" required
         minlength="4" maxlength="8" size="10">
 
-In this example shows how to user can introduce a text with characters betweeen four and eight.
+In this example shows how to user can introduce a text with characters between four and eight.
 
 ### INPUT TYPE TIME
 
@@ -582,7 +582,7 @@ The `<input>` elements of type time create input fields designed to let the user
 
     <small>Office hours are 9am to 6pm</small>
 
-In this example shows how to user can introduce hours betwwen 09:00 to 18:00.
+In this example shows how to user can introduce hours between 09:00 to 18:00.
 
 ### INPUT TYPE URL
 
