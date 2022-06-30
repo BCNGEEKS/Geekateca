@@ -32,19 +32,10 @@ date: 21th June 2022
 
 ---
 
-<<<<<<< HEAD:BCNGEEK_SECTIONS/BCNGEEK_HTML/FORMATTING-PT2.md
-=======
-<<<<<<< HEAD:BCNGEEK_SECTIONS/BCNGEEK_HTML/formatting-pt2.md
->>>>>>> c224db7b4e56772f9c730a4b4f83aafa500de76a:BCNGEEK_SECTIONS/BCNGEEK_HTML/formatting-pt2.md
 ## [INDEX](./index.md)
 
 ---
 
-<<<<<<< HEAD:BCNGEEK_SECTIONS/BCNGEEK_HTML/FORMATTING-PT2.md
-=======
-=======
->>>>>>> 0a162d02dcb50d5f25bf0063b0eb05ca849a2a9b:BCNGEEK_SECTIONS/BCNGEEK_HTML/FORMATTING-PT2.md
->>>>>>> c224db7b4e56772f9c730a4b4f83aafa500de76a:BCNGEEK_SECTIONS/BCNGEEK_HTML/formatting-pt2.md
 ## CITE TAG
 
 The `<cite>` tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
