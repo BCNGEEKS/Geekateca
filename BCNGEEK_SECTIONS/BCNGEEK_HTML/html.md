@@ -61,7 +61,7 @@ This is a standard page of html
     </body>
     </html>
 
-**Also, you can check mozilla dev documentation**
+Also, you can check mozilla dev documentation
 
 [Mozilla DOCS](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML).
 
