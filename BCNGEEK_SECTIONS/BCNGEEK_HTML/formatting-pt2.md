@@ -10,6 +10,7 @@ date: 21th June 2022
 
 - [HTML FORMATTING PT2](#html-formatting-pt2)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [CITE TAG](#cite-tag)
     - [EXAMPLE](#example)
   - [CODE TAG](#code-tag)
@@ -31,13 +32,10 @@ date: 21th June 2022
 
 ---
 
-<<<<<<< HEAD:BCNGEEK_SECTIONS/BCNGEEK_HTML/formatting-pt2.md
 ## [INDEX](./index.md)
 
 ---
 
-=======
->>>>>>> 0a162d02dcb50d5f25bf0063b0eb05ca849a2a9b:BCNGEEK_SECTIONS/BCNGEEK_HTML/FORMATTING-PT2.md
 ## CITE TAG
 
 The `<cite>` tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).
