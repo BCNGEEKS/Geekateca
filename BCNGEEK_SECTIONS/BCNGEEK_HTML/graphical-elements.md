@@ -55,11 +55,11 @@ The `<hr>` element is most often displayed as a horizontal rule that is used to 
 
 ### IMG
 
-The <img> tag is used to embed an image in an HTML page.
+The ``<img>`` tag is used to embed an image in an HTML page.
 
-Images are not technically inserted into a web page; images are linked to web pages. The <img> tag creates a holding space for the referenced image.
+Images are not technically inserted into a web page; images are linked to web pages. The ``<img>`` tag creates a holding space for the referenced image.
 
-The <img> tag has two required attributes:
+The ``<img>`` tag has two required attributes:
 
 src - Specifies the path to the image
 alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed
