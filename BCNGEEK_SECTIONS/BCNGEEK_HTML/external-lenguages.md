@@ -14,20 +14,20 @@ date: 21th June 2022
   - [CSS](#css)
     - [INTRODUCTION](#introduction)
     - [ID](#id)
-    - [EXAMPLES](#examples)
+      - [EXAMPLES](#examples)
     - [CLASS](#class)
-    - [EXAMPLE](#example)
+      - [EXAMPLE](#example)
     - [USING CSS](#using-css)
       - [INLINE CSS](#inline-css)
-      - [EXAMPLE](#example-1)
+        - [EXAMPLE](#example-1)
       - [INTERNAL CSS](#internal-css)
-      - [EXAMPLE](#example-2)
+        - [EXAMPLE](#example-2)
       - [EXTERNAL CSS](#external-css)
       - [EXAMPLE](#example-3)
   - [JAVASCRIPT](#javascript)
     - [SCRIPT](#script)
-    - [EXAMPLE](#example-4)
-    
+      - [EXAMPLE](#example-4)
+
 ---
 
 ## [INDEX](./index.md)
@@ -42,16 +42,14 @@ Cascading Style Sheets (CSS) is used to format the layout of a webpage.
 
 With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
 
-<br>
-
 ---
 
 ### ID
 
 HTML id Attribute: The id attribute is a unique identifier which is used to specify the document. It is used by CSS and [JavaScript](#JAVASCRIPT) to perform a certain task for a unique element. In CSS, the id attribute is written using `#` symbol followed by id.
 
-### EXAMPLES
- 
+#### EXAMPLES
+
     <!DOCTYPE html>
     <html>
     
@@ -79,15 +77,14 @@ HTML id Attribute: The id attribute is a unique identifier which is used to spec
     
     </html> 
 
-<br>
-
 ---
 
 ### CLASS
 
-HTML class Attribute: The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and [JavaScript](#JAVASCRIPT) to perform certain tasks for elements with the specified class name. The class name in CSS stylesheet using “.” symbol.
+HTML class Attribute: The class attribute is used to specify one or more class names for an HTML element. The class attribute can be used on any HTML element. The class name can be used by CSS and [JavaScript](#JAVASCRIPT) to perform certain tasks for elements with the specified class name.
+The class name in CSS stylesheet using “.” symbol.
 
-### EXAMPLE
+#### EXAMPLE
 
     <!DOCTYPE html>
     <html>
@@ -111,8 +108,7 @@ HTML class Attribute: The class attribute is used to specify one or more class n
     
     </body>
     
-    </html> 
-<br>
+    </html>
 
 ---
 
@@ -132,7 +128,7 @@ An inline CSS is used to apply a unique style to a single HTML element.
 
 An inline CSS uses the style attribute of an HTML element.
 
-#### EXAMPLE
+##### EXAMPLE
 
     <h1 style="color:blue;">A Blue Heading</h1>
 
@@ -146,7 +142,7 @@ An internal CSS is used to define a style for a single HTML page.
 
 An internal CSS is defined in the ``<head>`` section of an HTML page, within a ``<style>`` element.
 
-#### EXAMPLE
+##### EXAMPLE
 
     <!DOCTYPE html>
     <html>
@@ -202,13 +198,11 @@ Here is what the "styles.css" file looks like:
 
 ## JAVASCRIPT
 
-<br>
-
 ### SCRIPT
 
 The `<script>` tag in HTML is used to define the client-side script. The `<script>` tag contains the scripting statements, or it points to an external script file. The JavaScript is mainly used in form validation, dynamic changes of content, image manipulation, etc.
 
-### EXAMPLE
+#### EXAMPLE
 
     <!DOCTYPE html>
         <html>
