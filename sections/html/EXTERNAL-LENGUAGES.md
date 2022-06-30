@@ -27,7 +27,7 @@ date: 21th June 2022
   - [JAVASCRIPT](#javascript)
     - [SCRIPT](#script)
     - [EXAMPLE](#example-4)
-    
+
 ---
 
 ## [INDEX](./INDEX.md)
@@ -42,7 +42,6 @@ Cascading Style Sheets (CSS) is used to format the layout of a webpage.
 
 With CSS, you can control the color, font, the size of text, the spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!
 
-<br>
 
 ---
 
@@ -79,7 +78,6 @@ HTML id Attribute: The id attribute is a unique identifier which is used to spec
     
     </html> 
 
-<br>
 
 ---
 
@@ -112,7 +110,6 @@ HTML class Attribute: The class attribute is used to specify one or more class n
     </body>
     
     </html> 
-<br>
 
 ---
 
@@ -201,8 +198,6 @@ Here is what the "styles.css" file looks like:
 ---
 
 ## JAVASCRIPT
-
-<br>
 
 ### SCRIPT
 
