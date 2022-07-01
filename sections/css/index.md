@@ -50,7 +50,7 @@ date: 29th June 2022
   - [Specificity](./selectors.md/#specificity)
   - [!important](./selectors.md/#important)
   - [Combinators](./selectors.md/#combination-selectors)
-- [Units & Math Functions](./units_math.md)
+- [Units & Math Functions](./units-math.md)
 - [Pseudo-Elements](./pseudo-elements.md)
 
 ## **Color**
