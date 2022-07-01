@@ -20,7 +20,7 @@ date: 21th June 2022
       - [NESTING ELEMENTS](#nesting-elements)
       - [COMMENTS](#comments)
   - [HTML EDITORS](#html-editors)
-    - [HTML USING NOTEPAD OR TEXEDIT](#html-using-notepad-or-texedit)
+    - [HTML USING NOTEPAD OR TEXT EDIT](#html-using-notepad-or-text-edit)
     - [TOP HTML IDES](#top-html-ides)
   - [ELEMENTS TYPES](#elements-types)
     - [INTRODUCTION](#introduction-1)
@@ -38,7 +38,7 @@ date: 21th June 2022
 
 - HTML *(HyperText Markup Language)* is the standard markup language for Web pages.
 
-- You can create your own Website. This markup language is used to give an estructure to a web page and tells web browsers how to structure the web pages you visit, is like the skeleton, and the css it's the make up.
+- You can create your own Website. This markup language is used to give an structure to a web page and tells web browsers how to structure the web pages you visit, is like the skeleton, and the css it's the make up.
 
 - HTML uses “markup” to annotate text, images, and other content for display in a Web browser. HTML markup includes special “elements”.
 
@@ -71,13 +71,13 @@ Also, you can check mozilla dev documentation
 
 ### GETTING STARTED WITH HTML
 
-Every element on HMTL has open content and closing structure.
+Every element on HTML has open content and closing structure.
 
 #### THE ANATOMY OF AN ELEMENT
 
-- The opening tag: This consists of the name of the element (in this example, p for paragraph), wrapped in opening and closing angle brackets. This opening tag marks where the element begins or starts to take effect. In this example, it precedes the start of the paragraph text.
-- The content: This is the content of the element. In this example, it is the paragraph text.
-- The closing tag: This is the same as the opening tag, except that it includes a forward slash before the element name. This marks where the element ends. Failing to include a closing tag is a common beginner error that can produce peculiar results.
+- The opening tag: it consists of the name of the element (in this example p for paragraph) enclosed in opening and closing angle brackets. This opening tag marks where the element begins or takes effect. In this example, it precedes the beginning of the paragraph text.
+- The content: This is the content of the element. In this example, it is the text of the paragraph.
+- The closing tag: this is the same as the opening tag, except that it contains a slash before the element name. This marks the end of the element. The absence of a closing tag is a common beginner's mistake that can lead to strange results.
 
 <!-- end of the list -->
 
@@ -96,7 +96,7 @@ Every element on HMTL has open content and closing structure.
     </body>
     </html>
 
-What's mean's the tags?
+What do mean the tags?
 
 - The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document.
 - The `<html>` element is the root element of an HTML page.
@@ -143,7 +143,7 @@ EXAMPLE:
 
 Only a simple text editor is needed to write an HTML document.
 
-### HTML USING NOTEPAD OR TEXEDIT
+### HTML USING NOTEPAD OR TEXT EDIT
 
 Web pages can be created and modified by using professional HTML editors. However, for learning HTML you can use a simple text editor like Notepad (PC) or TextEdit (Mac). Using a simple text editor is also good way to learn HTML.
 
@@ -173,7 +173,7 @@ Web pages can be created and modified by using professional HTML editors. Howeve
 
 ### INTRODUCTION
 
-In HTML there are two diferent types, Block Level or Semantic and Inline Level or non-Semantic elements.
+In HTML there are two different types, Block Level or Semantic and Inline Level or non-Semantic elements.
 
 ---
 
@@ -213,7 +213,7 @@ Inline elements are meant to differentiate part of a text, to give it a particul
 - input `<input>`
 - label `<label>`
 - textarea `<textarea>`
-- emphasised words `<em>`
+- emphasized words `<em>`
 - important words `<strong>`
 - short quotes `<q>`
 - Strong `<strong>`
