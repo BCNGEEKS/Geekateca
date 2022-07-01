@@ -16,21 +16,21 @@ date: 27th June 2022
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [TEXT-DECORATION-LINE](#text-decoration-line)
-    - [PROPERTY VALUES (TEXT-DECORATION-LINE)](#property-values-text-decoration-line)
-    - [EXAMPLE (TEXT-DECORATION-LINE)](#example-text-decoration-line)
-    - [BROWSER SUPPORT (TEXT-DECORATION-LINE)](#browser-support-text-decoration-line)
+    - [PROPERTY VALUES FOR TEXT-DECORATION-LINE](#property-values-for-text-decoration-line)
+    - [EXAMPLE FOR TEXT-DECORATION-LINE](#example-for-text-decoration-line)
+    - [BROWSER SUPPORT FOR TEXT-DECORATION-LINE](#browser-support-for-text-decoration-line)
   - [TEXT-DECORATION-STYLE](#text-decoration-style)
-    - [PROPERTY VALUES (TEXT-DECORATION-STYLE)](#property-values-text-decoration-style)
-    - [EXAMPLE (TEXT-DECORATION-STYLE)](#example-text-decoration-style)
-    - [BROWSER SUPPORT (TEXT-DECORATION-STYLE)](#browser-support-text-decoration-style)
+    - [PROPERTY VALUES FOR TEXT-DECORATION-STYLE](#property-values-for-text-decoration-style)
+    - [EXAMPLE FOR TEXT-DECORATION-STYLE](#example-for-text-decoration-style)
+    - [BROWSER SUPPORT FOR TEXT-DECORATION-STYLE](#browser-support-for-text-decoration-style)
   - [TEXT-DECORATION-COLOR](#text-decoration-color)
-    - [PROPERTY VALUES (TEXT-DECORATION-COLOR)](#property-values-text-decoration-color)
-    - [EXAMPLE (TEXT-DECORATION-COLOR)](#example-text-decoration-color)
-    - [BROWSER SUPPORT (TEXT-DECORATION-COLOR)](#browser-support-text-decoration-color)
+    - [PROPERTY VALUES FOR TEXT-DECORATION-COLOR](#property-values-for-text-decoration-color)
+    - [EXAMPLE FOR TEXT-DECORATION-COLOR](#example-for-text-decoration-color)
+    - [BROWSER SUPPORT FOR TEXT-DECORATION-COLOR](#browser-support-for-text-decoration-color)
   - [TEXT-DECORATION-THICKNESS](#text-decoration-thickness)
-    - [PROPERTY VALUES (TEXT-DECORATION-THICKNESS)](#property-values-text-decoration-thickness)
-    - [EXAMPLE (TEXT-DECORATION-THICKNESS)](#example-text-decoration-thickness)
-    - [BROWSER SUPPORT (TEXT-DECORATION-THICKNESS)](#browser-support-text-decoration-thickness)
+    - [PROPERTY VALUES FOR TEXT-DECORATION-THICKNESS](#property-values-for-text-decoration-thickness)
+    - [EXAMPLE FOR TEXT-DECORATION-THICKNESS](#example-for-text-decoration-thickness)
+    - [BROWSER SUPPORT FOR TEXT-DECORATION-THICKNESS](#browser-support-for-text-decoration-thickness)
 
 ---
 
@@ -99,7 +99,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The text-decoration-line property sets the kind of text decoration to use (like underline, overline, line-through).
 
-### PROPERTY VALUES (TEXT-DECORATION-LINE)
+### PROPERTY VALUES FOR TEXT-DECORATION-LINE
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -110,11 +110,11 @@ The text-decoration-line property sets the kind of text decoration to use (like 
 |   initial   |   Sets this property to its default value. Read about initial |   |
 |   inherit   |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (TEXT-DECORATION-LINE)
+> ### CSS SYNTAX FOR TEXT-DECORATION-LINE
 >
 >text-decoration-line: none|underline|overline|line-through|initial|inherit;
 
-### EXAMPLE (TEXT-DECORATION-LINE)
+### EXAMPLE FOR TEXT-DECORATION-LINE
 
 Set different types of text-decoration lines:
 
@@ -136,7 +136,7 @@ div.d {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-DECORATION-LINE)
+### BROWSER SUPPORT FOR TEXT-DECORATION-LINE
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -154,7 +154,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The text-decoration-style property sets the style of the text decoration (like solid, wavy, dotted, dashed, double).
 
-### PROPERTY VALUES (TEXT-DECORATION-STYLE)
+### PROPERTY VALUES FOR TEXT-DECORATION-STYLE
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -166,11 +166,11 @@ The text-decoration-style property sets the style of the text decoration (like s
 |   initial   |   Sets this property to its default value. Read about initial   |    |
 |   inherit   |   Inherits this property from its parent element. Read about inherit       |    |
 
-> ### CSS SYNTAX (TEXT-DECORATION-STYLE)
+> ### CSS SYNTAX FOR TEXT-DECORATION-STYLE
 >
 >text-decoration-style: solid|double|dotted|dashed|wavy|initial|inherit;
 
-### EXAMPLE (TEXT-DECORATION-STYLE)
+### EXAMPLE FOR TEXT-DECORATION-STYLE
 
 Set different types of text-decoration styles:
 
@@ -196,7 +196,7 @@ div.d {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-DECORATION-STYLE)
+### BROWSER SUPPORT FOR TEXT-DECORATION-STYLE
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -214,7 +214,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The text-decoration-color property specifies the color of the text-decoration (underlines, overlines, linethroughs).
 
-### PROPERTY VALUES (TEXT-DECORATION-COLOR)
+### PROPERTY VALUES FOR TEXT-DECORATION-COLOR
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -222,11 +222,11 @@ The text-decoration-color property specifies the color of the text-decoration (u
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit| |
 
-> ### CSS SYNTAX (TEXT-DECORATION-COLOR)
+> ### CSS SYNTAX FOR TEXT-DECORATION-COLOR
 >
 >text-decoration-color: color|initial|inherit;
 
-### EXAMPLE (TEXT-DECORATION-COLOR)
+### EXAMPLE FOR TEXT-DECORATION-COLOR
 
 Set the color of the text-decoration to red:
 
@@ -237,7 +237,7 @@ p {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-DECORATION-COLOR)
+### BROWSER SUPPORT FOR TEXT-DECORATION-COLOR
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -255,7 +255,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The text-decoration-thickness property specifies the thickness of the decoration line.
 
-### PROPERTY VALUES (TEXT-DECORATION-THICKNESS)
+### PROPERTY VALUES FOR TEXT-DECORATION-THICKNESS
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -265,11 +265,11 @@ The text-decoration-thickness property specifies the thickness of the decoration
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (TEXT-DECORATION-THICKNESS)
+> ### CSS SYNTAX FOR TEXT-DECORATION-THICKNESS
 >
 >text-decoration-thickness: auto|from-font|length/percentage|initial|inherit;
 
-### EXAMPLE (TEXT-DECORATION-THICKNESS)
+### EXAMPLE FOR TEXT-DECORATION-THICKNESS
 
 Set different thickness of the decoration line for `<h1>`, `<h2>`, and `<h3>` elements:
 
@@ -290,7 +290,7 @@ h3 {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-DECORATION-THICKNESS)
+### BROWSER SUPPORT FOR TEXT-DECORATION-THICKNESS
 
 The numbers in the table specify the first browser version that fully supports the property.
 

@@ -11,19 +11,19 @@ date: 29 June 2022
 - [GRID-AUTO PROPERTIES](#grid-auto-properties)
   - [TABLE OF CONTENT](#table-of-content)
   - [INDEX](#index)
-  - [INTRODUCCTION](#introducction)
+  - [INTRODUCTION](#introduction)
   - [GRID-AUTO-COLUMNS PROPERTY](#grid-auto-columns-property)
-    - [PROPERTY VALUES](#property-values)
-    - [EXAMPLE](#example)
-    - [BROWSER SUPPORT](#browser-support)
+    - [PROPERTY VALUES FOR GRID-AUTO-COLUMNS PROPERTY](#property-values-for-grid-auto-columns-property)
+    - [EXAMPLE FOR GRID-AUTO-COLUMNS PROPERTY](#example-for-grid-auto-columns-property)
+    - [BROWSER SUPPORT FOR GRID-AUTO-COLUMNS PROPERTY](#browser-support-for-grid-auto-columns-property)
   - [GRID-AUTO-ROWS PROPERTY](#grid-auto-rows-property)
-    - [PROPERTY VALUES](#property-values-1)
-    - [EXAMPLE](#example-1)
-    - [BORWSER SUPPORT](#borwser-support)
+    - [PROPERTY VALUES FOR GRID-AUTO-ROWS PROPERTY](#property-values-for-grid-auto-rows-property)
+    - [EXAMPLE FOR GRID-AUTO-ROWS PROPERTY](#example-for-grid-auto-rows-property)
+    - [BROWSER SUPPORT FOR GRID-AUTO-ROWS PROPERTY](#browser-support-for-grid-auto-rows-property)
   - [GRID-AUTO-FLOW PROPERTY](#grid-auto-flow-property)
-    - [PROPERTY VALUES](#property-values-2)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [PROPERTY VALUES FOR GRID-AUTO-FLOW PROPERTY](#property-values-for-grid-auto-flow-property)
+    - [EXAMPLE FOR GRID-AUTO-FLOW PROPERTY](#example-for-grid-auto-flow-property)
+    - [BROWSER SUPPORT FOR GRID-AUTO-FLOW PROPERTY](#browser-support-for-grid-auto-flow-property)
 
 ---
 
@@ -31,7 +31,7 @@ date: 29 June 2022
 
 ---
 
-## INTRODUCCTION
+## INTRODUCTION
 
 The grid-auto can be considered another shorthand, this property is for specify a size for the elements, and once put the size that can be in px, percent, em, etc, the elements will be take the same size.
 
@@ -41,7 +41,7 @@ This property sets a size for the columns in a grid container.
 
 > This property affects only columns with size not set.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR GRID-AUTO-COLUMNS PROPERTY
 
 |      Value       | Description                                                                                       |
 | :--------------: | :------------------------------------------------------------------------------------------------ |
@@ -49,10 +49,10 @@ This property sets a size for the columns in a grid container.
 |   max-content    | Specifies the size of each column depending of the largest item in the column                     |
 |   min-content    | Specifies the size of each column depending of the smallest item in the columns                   |
 | minmax(min, max) | Sets a size range greater than or equal to min and less than or equal to max                      |
-|      lenght      | Specifies the size of the columns using a lenght value as px, em, etc                             |
+|      length      | Specifies the size of the columns using a length value as px, em, etc                             |
 |        %         | Specifies the size using a percent value                                                          |
 
-### EXAMPLE
+### EXAMPLE FOR GRID-AUTO-COLUMNS PROPERTY
 
 Set the grid-auto-columns with the value `auto`
 
@@ -88,7 +88,7 @@ Set the grid-auto-columns with the `length` value
 
 RESULT
 
-![Example grid-auto-column with the lenght value](./images/example-auto-columns-length.png)
+![Example grid-auto-column with the length value](./images/example-auto-columns-length.png)
 
 Set the grid-auto-columns with `percent` value
 
@@ -102,7 +102,7 @@ RESULT
 
 ![Example grid-auto-columns with percent value](./images/example-auto-columns-percent.png)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR GRID-AUTO-COLUMNS PROPERTY
 
 | Browser | Version |
 | :-----: | :------ |
@@ -118,16 +118,16 @@ This property sets a size for the rows in a grid container.
 
 > This property affects only rows with size not set.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR GRID-AUTO-ROWS PROPERTY
 
 |    Value    | Description                                                                                        |
 | :---------: | :------------------------------------------------------------------------------------------------- |
 |    auto     | Is the value for default, and the size of the rows will be determined by the size of the container |
 | max-content | Specifies the size of each row depending of the largest item in the column                         |
 | min-content | Specifies the size of each row depending of the largest item in the columns                        |
-|   lenght    | Specifies the size of the rows using a lenght value as px, em, etc                                 |
+|   length    | Specifies the size of the rows using a length value as px, em, etc                                 |
 
-### EXAMPLE
+### EXAMPLE FOR GRID-AUTO-ROWS PROPERTY
 
 Set the grid-auto-rows with the value `auto`.
 
@@ -153,7 +153,7 @@ RESULT
 
 ![Example grid-auto-rows with the value max-content](./images/example-auto-rows-max-content.png)
 
-Set the grid-auto-rows with a `lenght` value
+Set the grid-auto-rows with a `length` value
 
 ```CSS
 .grid-container{
@@ -177,7 +177,7 @@ RESULT
 
 ![Example grid-auto-rows with percent value](./images/example-auto-columns-percent.png)
 
-### BORWSER SUPPORT
+### BROWSER SUPPORT FOR GRID-AUTO-ROWS PROPERTY
 
 | Browser | Version |
 | :-----: | :------ |
@@ -191,7 +191,7 @@ RESULT
 
 This property specifies how the elements would be inserted the elements in the grid.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR GRID-AUTO-FLOW PROPERTY
 
 |    Value     | Description                                                            |
 | :----------: | :--------------------------------------------------------------------- |
@@ -201,7 +201,7 @@ This property specifies how the elements would be inserted the elements in the g
 |  row dense   | Places the element by filling each row, and fill any holes in the grid |
 | column dense | Places the element by filling each column, and fill any holes in the grid |
 
-### EXAMPLE
+### EXAMPLE FOR GRID-AUTO-FLOW PROPERTY
 
 Set the grid-auto-flow with the value `row`
 
@@ -251,7 +251,7 @@ RESULT
 
 ![Example grid-auto-flow with the value dense](./images/example-auto-flow-rowdense.png)
 
-Set the grid-auto-flow with the value `columnd dense`
+Set the grid-auto-flow with the value `column dense`
 
 ```CSS
 .grid-container{
@@ -263,7 +263,7 @@ RESULT
 
 ![Example grid-auto-flow with the value dense](./images/example-auto-flow-columndense.png)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR GRID-AUTO-FLOW PROPERTY
 
 | Browser | Version |
 | :-----: | :------ |
