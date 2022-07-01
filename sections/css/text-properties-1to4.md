@@ -10,23 +10,28 @@ date: date
 
 - [TEXT PROPERTIES](#text-properties)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [DIRECTION](#direction)
     - [PROPERTY VALUES](#property-values)
+    - [CSS SYNTAX](#css-syntax)
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [LETTER-SPACING](#letter-spacing)
-    - [PROPERTY VALUES](#property-values-1)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [PROPERTY VALUES FOR LETTER-SPACING](#property-values-for-letter-spacing)
+    - [CSS SYNTAX FOR LETTER-SPACING](#css-syntax-for-letter-spacing)
+    - [EXAMPLE FOR LETTER-SPACING](#example-for-letter-spacing)
+    - [BROWSER SUPPORT FOR LETTER-SPACING](#browser-support-for-letter-spacing)
   - [LINE-HEIGHT](#line-height)
-    - [PROPERTY VALUES](#property-values-2)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-2)
+    - [PROPERTY VALUES FOR LINE-HEIGHT](#property-values-for-line-height)
+    - [CSS SYNTAX FOR LINE-HEIGHT](#css-syntax-for-line-height)
+    - [EXAMPLE FOR LINE-HEIGHT](#example-for-line-height)
+    - [BROWSER SUPPORT FOR LINE-HEIGHT](#browser-support-for-line-height)
   - [TEXT-JUSTIFY](#text-justify)
-    - [PROPERTY VALUES](#property-values-3)
-    - [EXAMPLE](#example-3)
-    - [BROWSER SUPPORT](#browser-support-3)
+    - [PROPERTY VALUES FOR TEXT-JUSTIFY](#property-values-for-text-justify)
+    - [CSS SYNTAX FOR TEXT-JUSTIFY](#css-syntax-for-text-justify)
+    - [EXAMPLE FOR TEXT-JUSTIFY](#example-for-text-justify)
+    - [BROWSER SUPPORT FOR TEXT-JUSTIFY](#browser-support-for-text-justify)
 
 ---
 
@@ -44,13 +49,13 @@ The `direction` property specifies the text direction/writing direction within a
 
 | Value       | Description                                             | Demo |
 |:-----------:|:------------------------------------                    | :---: |
-| ltr         | Text direction goes from left-to-right. This is default | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_direction) |
-| rtl         | Text direction goes from right-to-left                  | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_direction&preval=rtl) |
+| ltr         | Text direction goes from left-to-right. This is default| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_direction) |
+| rtl         | Text direction goes from right-to-left                | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_direction&preval=rtl) |
 | initial     | Sets this property to its default value.                |  
 | inherit     | Inherits this property from its parent element.         |  
 
-> ### CSS SYNTAX
->
+### CSS SYNTAX
+
 > direction: ltr | rtl | initial | inherit;
 
 ### EXAMPLE
@@ -83,7 +88,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `letter-spacing` property increases or decreases the space between characters in a text.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR LETTER-SPACING
 
 | Value       | Description                                             | Demo |
 |:-----------:|:------------------------------------                    | :---: |
@@ -92,11 +97,11 @@ The `letter-spacing` property increases or decreases the space between character
 | initial     | Sets this property to its default value.                |  
 | inherit     | Inherits this property from its parent element.         |  
 
-> ### CSS SYNTAX
->
+### CSS SYNTAX FOR LETTER-SPACING
+
 > letter-spacing: normal | length | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR LETTER-SPACING
 
 Set the letter spacing for **h1**, **h2**, and **h3** elements
 
@@ -116,7 +121,7 @@ h3 {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_letter-spacing)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR LETTER-SPACING
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -134,22 +139,22 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `line-height` property specifies the height of a line.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR LINE-HEIGHT
 
 | Value       | Description                                             | Demo |
 |:-----------:|:------------------------------------                    | :---: |
-| normal      | Text direction goes from left-to-right. This is default | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height) |
-| number      | Text direction goes from right-to-left                  | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height&preval=2)   |
+| normal      | Text direction goes from left-to-right. This is default| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height) |
+| number      | Text direction goes from right-to-left                | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height&preval=2)   |
 | length      | Sets this property to its default value.                |  [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height&preval=25px) |
 | %           | Inherits this property from its parent element.         |  [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height&preval=150%25) |
 | initial     | Inherits this property from its parent element.         |  
 | inherit     | Inherits this property from its parent element.         |  
 
-> ### CSS SYNTAX
->
+### CSS SYNTAX FOR LINE-HEIGHT
+
 > line-height: normal | number | length | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR LINE-HEIGHT
 
 Set the line height for different **div** elements:
 
@@ -173,7 +178,7 @@ div.d {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_line-height)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR LINE-HEIGHT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -191,22 +196,22 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `text-justify` property specifies the justification method of text when text-align is set to "justify".
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR TEXT-JUSTIFY
 
 | Value           |         Description                                             | Demo |
 |:-----------:    |:------------------------------------                    | :---: |
-| auto            | The browser determines the justification algorithm  | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify) |
-| inter-word      | Increases/Decreases the space between words         | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=inter-word)
+| auto            | The browser determines the justification algorithm| [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify) |
+| inter-word      | Increases/Decreases the space between words       | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=inter-word)
 | inter-character | Increases/Decreases the space between characters    | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=inter-character) |
-| none            | Disables justification methods                      | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=none) |
-| initial         | Sets this property to its default value.            | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=initial) |  
+| none            | Disables justification methods                    | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=none) |
+| initial         | Sets this property to its default value.            | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=initial) |
 | inherit         | Inherits this property from its parent element.     |  
 
-> ### CSS SYNTAX
->
+### CSS SYNTAX FOR TEXT-JUSTIFY
+
 > text-justify: auto | inter-word | inter-character | none | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR TEXT-JUSTIFY
 
 Set the justification method to "inter-word" when text-align is set to "justify"
 
@@ -219,7 +224,7 @@ div {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_text-justify)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR TEXT-JUSTIFY
 
 The numbers in the table specify the first browser version that fully supports the property.
 

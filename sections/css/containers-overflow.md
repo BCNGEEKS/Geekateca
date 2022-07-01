@@ -18,10 +18,10 @@ date: 23th June 2022
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [OVERFLOW-WRAP](#overflow-wrap)
-    - [PROPERTY VALUES](#property-values-1)
-    - [CSS SYNTAX](#css-syntax-1)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [PROPERTY VALUES FOR OVERFLOW-WRAP](#property-values-for-overflow-wrap)
+    - [CSS SYNTAX FOR OVERFLOW-WRAP](#css-syntax-for-overflow-wrap)
+    - [EXAMPLE FOR OVERFLOW-WRAP](#example-for-overflow-wrap)
+    - [BROWSER SUPPORT FOR OVERFLOW-WRAP](#browser-support-for-overflow-wrap)
   
 ---
 
@@ -102,7 +102,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `overflow-wrap` property specifies whether or not the browser can break lines with long words, if they overflow the container.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR OVERFLOW-WRAP
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :---: |
@@ -112,11 +112,11 @@ The `overflow-wrap` property specifies whether or not the browser can break line
 |   initial   | Sets this property to its default value.              |
 |   inherit   | Inherits this property from its parent element.       |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR OVERFLOW-WRAP
 
 > overflow-wrap: normal | anywhere | break-word | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR OVERFLOW-WRAP
 
 Let the browser be allowed to break lines with long words, if they overflow the container
 
@@ -128,7 +128,7 @@ div {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_overflow-wrap)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR OVERFLOW-WRAP
 
 The numbers in the table specify the first browser version that fully supports the property.
 

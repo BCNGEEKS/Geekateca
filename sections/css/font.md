@@ -16,17 +16,17 @@ date: 27th June 2022
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [FONT-SIZE](#font-size)
-    - [PROPERTY VALUES (FONT-SIZE)](#property-values-font-size)
-    - [EXAMPLE (FONT-SIZE)](#example-font-size)
-    - [BROWSER SUPPORT (FONT-SIZE)](#browser-support-font-size)
+    - [PROPERTY VALUES FOR FONT-SIZE](#property-values-for-font-size)
+    - [EXAMPLE FOR FONT-SIZE](#example-for-font-size)
+    - [BROWSER SUPPORT FOR FONT-SIZE](#browser-support-for-font-size)
   - [FONT-STYLE](#font-style)
-    - [PROPERTY VALUES (FONT-STYLE)](#property-values-font-style)
-    - [EXAMPLE (FONT-STYLE)](#example-font-style)
-    - [BROWSER SUPPORT (FONT-STYLE)](#browser-support-font-style)
+    - [PROPERTY VALUES FOR FONT-STYLE](#property-values-for-font-style)
+    - [EXAMPLE FOR FONT-STYLE](#example-for-font-style)
+    - [BROWSER SUPPORT FOR FONT-STYLE](#browser-support-for-font-style)
   - [FONT-WEIGHT](#font-weight)
-    - [PROPERTY VALUES (FONT-WEIGHT)](#property-values-font-weight)
-    - [EXAMPLE (FONT-WEIGHT)](#example-font-weight)
-    - [BROWSER SUPPORT (FONT-WEIGHT)](#browser-support-font-weight)
+    - [PROPERTY VALUES FOR FONT-WEIGHT](#property-values-for-font-weight)
+    - [EXAMPLE FOR FONT-WEIGHT](#example-for-font-weight)
+    - [BROWSER SUPPORT FOR FONT-WEIGHT](#browser-support-for-font-weight)
 
 ---
 
@@ -88,7 +88,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The font-size property sets the size of a font.
 
-### PROPERTY VALUES (FONT-SIZE)
+### PROPERTY VALUES FOR FONT-SIZE
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -106,11 +106,11 @@ The font-size property sets the size of a font.
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (FONT-SIZE)
+> ### CSS SYNTAX FOR FONT-SIZE
 >
 >font-size:medium|xx-small|x-small|small|large|x-large|xx-large|smaller|larger|length|initial|inherit;
 
-### EXAMPLE (FONT-SIZE)
+### EXAMPLE FOR FONT-SIZE
 
 Set the font size for different elements:
 
@@ -128,7 +128,7 @@ div.c {
 }
 ```
 
-### BROWSER SUPPORT (FONT-SIZE)
+### BROWSER SUPPORT FOR FONT-SIZE
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -146,7 +146,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The font-style property specifies the font style for a text.
 
-### PROPERTY VALUES (FONT-STYLE)
+### PROPERTY VALUES FOR FONT-STYLE
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -156,11 +156,11 @@ The font-style property specifies the font style for a text.
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (FONT-STYLE)
+> ### CSS SYNTAX FOR FONT-STYLE
 >
 >font-style: normal|italic|oblique|initial|inherit;
 
-### EXAMPLE (FONT-STYLE)
+### EXAMPLE FOR FONT-STYLE
 
 Set different font styles for three paragraphs:
 
@@ -178,7 +178,7 @@ p.c {
 }
 ```
 
-### BROWSER SUPPORT (FONT-STYLE)
+### BROWSER SUPPORT FOR FONT-STYLE
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -196,7 +196,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The font-weight property sets how thick or thin characters in text should be displayed.
 
-### PROPERTY VALUES (FONT-WEIGHT)
+### PROPERTY VALUES FOR FONT-WEIGHT
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -208,11 +208,11 @@ The font-weight property sets how thick or thin characters in text should be dis
 |   initial    |   Sets this property to its default value. Read about initial  |   |
 |   inherit    |   Inherits this property from its parent element. Read about inherit   |   |
 
-> ### CSS SYNTAX (FONT-WEIGHT)
+> ### CSS SYNTAX FOR FONT-WEIGHT
 >
 >font-weight: normal|bold|bolder|lighter|number|initial|inherit;
 
-### EXAMPLE (FONT-WEIGHT)
+### EXAMPLE FOR FONT-WEIGHT
 
 Set different font weight for three paragraphs:
 
@@ -230,7 +230,7 @@ p.thicker {
 }
 ```
 
-### BROWSER SUPPORT (FONT-WEIGHT)
+### BROWSER SUPPORT FOR FONT-WEIGHT
 
 The numbers in the table specify the first browser version that fully supports the property.
 

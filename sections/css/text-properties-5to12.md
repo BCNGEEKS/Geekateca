@@ -12,33 +12,33 @@ date: 28th June 2022
   - [TABLE OF CONTENT](#table-of-content)
   - [INDEX](#index)
   - [TEXT-TRANSFORMS](#text-transforms)
-    - [PROPERTY VALUES (TEXT-TRANSFORMS)](#property-values-text-transforms)
-    - [EXAMPLE (TEXT-TRANSFORMS)](#example-text-transforms)
-    - [BROWSER SUPPORT (TEXT-TRANSFORMS)](#browser-support-text-transforms)
+    - [PROPERTY VALUES FOR TEXT-TRANSFORMS](#property-values-for-text-transforms)
+    - [EXAMPLE FOR TEXT-TRANSFORMS](#example-for-text-transforms)
+    - [BROWSER SUPPORT FOR TEXT-TRANSFORMS](#browser-support-for-text-transforms)
   - [TEXT-INDENT](#text-indent)
-    - [PROPERTY VALUES (TEXT-INDENT)](#property-values-text-indent)
-    - [EXAMPLE (TEXT-INDENT)](#example-text-indent)
-    - [BROWSER SUPPORT (TEXT-INDENT)](#browser-support-text-indent)
+    - [PROPERTY VALUES FOR TEXT-INDENT](#property-values-for-text-indent)
+    - [EXAMPLE FOR TEXT-INDENT](#example-for-text-indent)
+    - [BROWSER SUPPORT FOR TEXT-INDENT](#browser-support-for-text-indent)
   - [TEXT-EMPHASIS](#text-emphasis)
-    - [PROPERTY VALUES (TEXT-EMPHASIS)](#property-values-text-emphasis)
-    - [EXAMPLE (TEXT-EMPHASIS)](#example-text-emphasis)
-    - [BROWSER SUPPORT (TEXT-EMPHASIS)](#browser-support-text-emphasis)
+    - [PROPERTY VALUES FOR TEXT-EMPHASIS](#property-values-for-text-emphasis)
+    - [EXAMPLE FOR TEXT-EMPHASIS](#example-for-text-emphasis)
+    - [BROWSER SUPPORT FOR TEXT-EMPHASIS](#browser-support-for-text-emphasis)
   - [TEXT-SHADOW](#text-shadow)
-    - [PROPERTY VALUES (TEXT-SHADOW)](#property-values-text-shadow)
-    - [EXAMPLE (TEXT-SHADOW)](#example-text-shadow)
-    - [BROWSER SUPPORT (TEXT-SHADOW)](#browser-support-text-shadow)
+    - [PROPERTY VALUES FOR TEXT-SHADOW](#property-values-for-text-shadow)
+    - [EXAMPLE FOR TEXT-SHADOW](#example-for-text-shadow)
+    - [BROWSER SUPPORT FOR TEXT-SHADOW](#browser-support-for-text-shadow)
   - [TEXT-OVERFLOW](#text-overflow)
-    - [PROPERTY VALUES (TEXT-OVERFLOW)](#property-values-text-overflow)
-    - [EXAMPLE (TEXT-OVERFLOW)](#example-text-overflow)
-    - [BROWSER SUPPORT (TEXT-OVERFLOW)](#browser-support-text-overflow)
+    - [PROPERTY VALUES FOR TEXT-OVERFLOW](#property-values-for-text-overflow)
+    - [EXAMPLE FOR TEXT-OVERFLOW](#example-for-text-overflow)
+    - [BROWSER SUPPORT FOR TEXT-OVERFLOW](#browser-support-for-text-overflow)
   - [QUOTE](#quote)
-    - [PROPERTY VALUES (QUOTE)](#property-values-quote)
-    - [EXAMPLE (QUOTE)](#example-quote)
-    - [BROWSER SUPPORT (QUOTE)](#browser-support-quote)
+    - [PROPERTY VALUES FOR QUOTE](#property-values-for-quote)
+    - [EXAMPLE FOR QUOTE](#example-for-quote)
+    - [BROWSER SUPPORT FOR QUOTE](#browser-support-for-quote)
   - [HYPHENS](#hyphens)
-    - [PROPERTY VALUES (HYPHENS)](#property-values-hyphens)
-    - [EXAMPLE (HYPHENS)](#example-hyphens)
-    - [BROWSER SUPPORT (HYPHENS)](#browser-support-hyphens)
+    - [PROPERTY VALUES FOR HYPHENS](#property-values-for-hyphens)
+    - [EXAMPLE FOR HYPHENS](#example-for-hyphens)
+    - [BROWSER SUPPORT FOR HYPHENS](#browser-support-for-hyphens)
 
 ---
 
@@ -50,7 +50,7 @@ date: 28th June 2022
 
 The text-transform property controls the capitalization of text.
 
-### PROPERTY VALUES (TEXT-TRANSFORMS)
+### PROPERTY VALUES FOR TEXT-TRANSFORMS
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -61,11 +61,11 @@ The text-transform property controls the capitalization of text.
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (TEXT-TRANSFORMS)
+> ### CSS SYNTAX FOR TEXT-TRANSFORMS
 >
 > text-transform: none|capitalize|uppercase|lowercase|initial|inherit;
 
-### EXAMPLE (TEXT-TRANSFORMS)
+### EXAMPLE FOR TEXT-TRANSFORMS
 
 Transform text in different `<div>` elements:
 
@@ -83,7 +83,7 @@ div.c {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-TRANSFORMS)
+### BROWSER SUPPORT FOR TEXT-TRANSFORMS
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -101,7 +101,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The text-indent property specifies the indentation of the first line in a text-block.
 
-### PROPERTY VALUES (TEXT-INDENT)
+### PROPERTY VALUES FOR TEXT-INDENT
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -110,11 +110,11 @@ The text-indent property specifies the indentation of the first line in a text-b
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (TEXT-INDENT)
+> ### CSS SYNTAX FOR TEXT-INDENT
 >
 >text-indent: length|initial|inherit;
 
-### EXAMPLE (TEXT-INDENT)
+### EXAMPLE FOR TEXT-INDENT
 
 Indent the first line of text with different values:
 
@@ -132,7 +132,7 @@ div.c {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-INDENT)
+### BROWSER SUPPORT FOR TEXT-INDENT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -152,7 +152,7 @@ The text-emphasis property is used to apply emphasis marks to text.
 
 The `text-emphasis` property is a shorthand for setting `text-emphasis-style` and `text-emphasis-color` in one declaration.
 
-### PROPERTY VALUES (TEXT-EMPHASIS)
+### PROPERTY VALUES FOR TEXT-EMPHASIS
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -167,11 +167,11 @@ The `text-emphasis` property is a shorthand for setting `text-emphasis-style` an
 |   string  |   The emphasis marks are the given string (one character) |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_text-emphasis&preval=%27*%27)    |
 |   color   |   Sets the color of the emphasis marks    |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_text-emphasis&preval=triangle%20green)    |
 
-> ### CSS SYNTAX (TEXT-EMPHASIS)
+> ### CSS SYNTAX FOR TEXT-EMPHASIS
 >
 > text-emphasis: none|filled|open|dot|circle|double-circle|triangle|sesame|string|color;
 
-### EXAMPLE (TEXT-EMPHASIS)
+### EXAMPLE FOR TEXT-EMPHASIS
 
 Use of the text-emphasis property:
 
@@ -193,7 +193,7 @@ p.ex4 {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-EMPHASIS)
+### BROWSER SUPPORT FOR TEXT-EMPHASIS
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -213,7 +213,7 @@ The text-shadow property adds shadow to text.
 
 This property accepts a comma-separated list of shadows to be applied to the text.
 
-### PROPERTY VALUES (TEXT-SHADOW)
+### PROPERTY VALUES FOR TEXT-SHADOW
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -225,11 +225,11 @@ This property accepts a comma-separated list of shadows to be applied to the tex
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (TEXT-SHADOW)
+> ### CSS SYNTAX FOR TEXT-SHADOW
 >
 > text-shadow: h-shadow v-shadow blur-radius color|none|initial|inherit;
 
-### EXAMPLE (TEXT-SHADOW)
+### EXAMPLE FOR TEXT-SHADOW
 
 Basic text-shadow:
 
@@ -239,7 +239,7 @@ h1 {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-SHADOW)
+### BROWSER SUPPORT FOR TEXT-SHADOW
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -263,7 +263,7 @@ Both of the following properties are required for `text-overflow`:
 
 `overflow: hidden;`
 
-### PROPERTY VALUES (TEXT-OVERFLOW)
+### PROPERTY VALUES FOR TEXT-OVERFLOW
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -273,11 +273,11 @@ Both of the following properties are required for `text-overflow`:
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (TEXT-OVERFLOW)
+> ### CSS SYNTAX FOR TEXT-OVERFLOW
 >
 > text-overflow: clip|ellipsis|string|initial|inherit;
 
-### EXAMPLE (TEXT-OVERFLOW)
+### EXAMPLE FOR TEXT-OVERFLOW
 
 Use of the text-overflow property:
 
@@ -289,7 +289,7 @@ div {
 }
 ```
 
-### BROWSER SUPPORT (TEXT-OVERFLOW)
+### BROWSER SUPPORT FOR TEXT-OVERFLOW
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -307,7 +307,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The quotes property sets the type of quotation marks for quotations.
 
-### PROPERTY VALUES (QUOTE)
+### PROPERTY VALUES FOR QUOTE
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -316,11 +316,11 @@ The quotes property sets the type of quotation marks for quotations.
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (QUOTE)
+> ### CSS SYNTAX FOR QUOTE
 >
 > quotes: none|string|initial|inherit;
 
-### EXAMPLE (QUOTE)
+### EXAMPLE FOR QUOTE
 
 Specify quotation marks for quotations:
 
@@ -330,7 +330,7 @@ Specify quotation marks for quotations:
 }
 ```
 
-### BROWSER SUPPORT (QUOTE)
+### BROWSER SUPPORT FOR QUOTE
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -348,7 +348,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The hyphens property defines whether hyphenation is allowed to create more soft wrap opportunities within a line of text.
 
-### PROPERTY VALUES (HYPHENS)
+### PROPERTY VALUES FOR HYPHENS
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -358,11 +358,11 @@ The hyphens property defines whether hyphenation is allowed to create more soft 
 |   initial |   Sets this property to its default value. Read about initial |   |
 |   inherit |   Inherits this property from its parent element. Read about inherit  |   |
 
-> ### CSS SYNTAX (HYPHENS)
+> ### CSS SYNTAX FOR HYPHENS
 >
 > hyphens: none|manual|auto|initial|inherit;
 
-### EXAMPLE (HYPHENS)
+### EXAMPLE FOR HYPHENS
 
 Set different hyphenations:
 
@@ -386,7 +386,7 @@ div.c {
 }
 ```
 
-### BROWSER SUPPORT (HYPHENS)
+### BROWSER SUPPORT FOR HYPHENS
 
 The numbers in the table specify the first browser version that fully supports the property.
 
