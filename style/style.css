@@ -15,11 +15,14 @@
     box-sizing: border-box;
     padding: 0;
     scroll-padding-top: 15rem;
-    background-color: var(--clr-dark);
+    background-color: inherit;
     font-size: 16px;
     font-family: var(--ff-primary);
     word-break: break-word;
     color: var(--clr-light);
+}
+html{
+    background-color: var(--clr-dark);
 }
 
 * a{
@@ -44,7 +47,6 @@
 }
 
 * code{
-    background-color: inherit;
     overflow: scroll;
 }
 
@@ -96,7 +98,6 @@ p>code{
 
 * p{
     margin:1rem;
-    background-color: inherit;
     font-size: 1rem;
 }
 
