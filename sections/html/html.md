@@ -20,7 +20,7 @@ date: 21th June 2022
       - [NESTING ELEMENTS](#nesting-elements)
       - [COMMENTS](#comments)
   - [HTML EDITORS](#html-editors)
-    - [HTML USING NOTEPAD OR TEXEDIT](#html-using-notepad-or-texedit)
+    - [HTML USING NOTEPAD OR TEXT EDIT](#html-using-notepad-or-text edit)
     - [TOP HTML IDES](#top-html-ides)
   - [ELEMENTS TYPES](#elements-types)
     - [INTRODUCTION](#introduction-1)
