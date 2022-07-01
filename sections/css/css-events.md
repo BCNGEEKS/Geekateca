@@ -47,7 +47,7 @@ A `Pseudo-class` is used to define a special state of an element.
 
 This means that you can change the CSS style after a certain event, normally a `hover`.
 
-### SYNTAX FOR PSEUDO-CLASSES 
+### SYNTAX FOR PSEUDO-CLASSES
 
 ```CSS
     selector:pseudo-class {
