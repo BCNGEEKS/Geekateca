@@ -66,27 +66,20 @@ alt - Specifies an alternate text for the image, if the image for some reason ca
 
 #### EXAMPLE
 
-    <!DOCTYPE html>
     <html>
-    
-    <body style="text-align: center;">
-        <h3>GeeksforGeeks logo</h3>
-        <img src=
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+        <body style="text-align: center;">
+            <h3>GeeksforGeeks logo</h3>
+            <img src=
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
             width="500" height="300" 
-            alt="Geeksforgeeks.org">
-    </body>
-    
+            alt="html logo">
+        </body>
     </html>
- <!DOCTYPE html>
-<html>
-    <body>
-        <img src=
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
-            width="500" height="300"
-            alt="Geeksforgeeks.org">
-    </body>
-</html>
+
+<img src=
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+width="500" height="300"
+alt="html logo">
 
 ---
 
@@ -98,37 +91,20 @@ The `<source>` tag or the src attribute is used to indicate the variations of th
 
 #### EXAMPLE
 
-    <!DOCTYPE html>
-    <html>
-    
-    <body>
-    
-        
-    <p>Audio Sample</p>
-    
-    
-        <!-- audio tag starts here -->
-        <audio controls>
-            <source src="test.mp3" type="audio/mp3">
-            <source src="test.ogg" type="audio/ogg">
-        </audio>
-        <!-- audio tag ends here -->
-    
-    </body>
-    
+    <html>  
+        <body>     
+            <p>Audio Sample</p> 
+            <!-- audio tag starts here -->
+            <audio controls>
+                <source src="media/audio_ascensor.mp3" type="audio/mp3">
+            </audio>
+            <!-- audio tag ends here -->  
+        </body>
     </html>
 
-<!DOCTYPE html>
-<html>  
-    <body>
-        <!-- audio tag starts here -->
-        <audio controls>
-            <source src="test.mp3" type="audio/mp3">
-            <source src="test.ogg" type="audio/ogg">
-        </audio>
-        <!-- audio tag ends here -->
-    </body>
-</html>
+<audio controls>
+    <source src="media/audio_ascensor.mp3" type="audio/mp3">
+</audio>
 
 ---
 
@@ -142,34 +118,17 @@ The text between the `<video>` and `</video>` tags will only be displayed in bro
 
 #### EXAMPLE
 
-    <!DOCTYPE html>
     <html>
-    <body>  
-    <p>Adding Video on my webpage </p>
-        <video width="400"
-            height="350"
-            controls>
-            <source src="myvid.mp4"
-                    type="video/mp4">
-            <source src="myvid.ogg"
-                    type="video/ogg">
-        </video>
-    </body>
-    </html>
-
-<!DOCTYPE html>
-<html>
-    <body>  
-    <video width="400"
-            height="350"
-            controls>
-            <source src="myvid.mp4"
-                    type="video/mp4">
-        <source src="myvid.ogg"
-                    type="video/ogg">
-    </video>
-    </body>
-</html>
+        <body>  
+            <p>Adding Video on my webpage </p>
+            <video width="400" height="350" controls>
+                <source src="media/video_prueba.mp4" type="video/mp4">
+            </video>
+        </body>
+    </html> 
+<video width="400" height="350" controls>
+    <source src="media/video_prueba.mp4" type="video/mp4">
+</video>
 
 This example illustrates the use of the autoplay attribute in the HTML `<video>` tag.
 
@@ -191,30 +150,19 @@ The `<object>` tag is an HTML tag and used to display multimedia like audios, vi
 
 #### EXAMPLE
 
-    <!DOCTYPE html>
-    
     <html>
-    
         <body>
             <h1>HTML Object Tag</h1>
             <!--HTML object tag starts here-->
             <object data=
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
-    width="550px" height="150px">GeeksforGeeks
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+            width="550px" height="150px">GeeksforGeeks
             <!--HTML object tag ends here-->
             </object>
         </body>
-    
     </html>
 
-<!DOCTYPE html>
-<html>
-    <body>
-        <!--HTML object tag starts here-->
-        <object data=
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
-    width="400px" height="300px">GeeksforGeeks
-        <!--HTML object tag ends here-->
-        </object>
-        </body>
-</html>
+<object data=
+"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
+width="400px" height="300px">GeeksforGeeks
+</object>
