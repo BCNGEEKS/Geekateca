@@ -14,10 +14,11 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
-    scroll-padding-top: 11rem;
+    scroll-padding-top: 15rem;
     background-color: var(--clr-dark);
     font-size: 16px;
     font-family: var(--ff-primary);
+    word-break: break-word;
     color: var(--clr-light);
 }
 
@@ -27,9 +28,10 @@
     color: var(--clr-light);
 }
 * a:hover{
+    outline-width: 0;
+    cursor: pointer;
     font-weight: bold;
     color:var(--clr-cmp1);
-    outline-width: 0;
 }
 
 * blockquote{
@@ -43,6 +45,7 @@
 
 * code{
     background-color: inherit;
+    overflow: scroll;
 }
 
 pre>code{
