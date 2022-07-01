@@ -9,8 +9,19 @@ date: 23th June 2022
 ## TABLE OF CONTENTS
 
 - [CONTAINERS OVERFLOW](#containers-overflow)
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
+  - [INTRODUCTION](#introduction)
   - [OVERFLOW](#overflow)
+    - [PROPERTY VALUES](#property-values)
+    - [CSS SYNTAX](#css-syntax)
+    - [EXAMPLE](#example)
+    - [BROWSER SUPPORT](#browser-support)
   - [OVERFLOW-WRAP](#overflow-wrap)
+    - [PROPERTY VALUES](#property-values-1)
+    - [CSS SYNTAX](#css-syntax-1)
+    - [EXAMPLE](#example-1)
+    - [BROWSER SUPPORT](#browser-support-1)
   
 ---
 
