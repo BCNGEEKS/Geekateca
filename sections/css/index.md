@@ -8,39 +8,41 @@ date: 29th June 2022
 
 ## TABLE OF CONTENT
 
-- [INTRODUCTION](#introduction)
-- [COLOR](#color)
-- [WIDTH & HEIGHT](#width--height)
-- [ALIGNMENT](#alignment)
-- [POSITION ELEMENTS](#position-elements)
-- [CONTAINERS](#containers)
-  - [CONTAINERS MARGIN](#containers-margin)
-  - [CONTAINERS PADDING](#containers-padding)
-  - [CONTAINERS BORDER](#containers-border)
-  - [CONTAINERS OUTLINE](#containers-outline)
-  - [CONTAINERS OVERFLOW](#containers-overflow)
-- [TEXT](#text)
-  - [FONTS](#fonts)
-  - [DECORATION](#decoration)
-- [BACKGROUND](#background)
-- [IMAGES](#images)
-- [LIST](#list)
-- [TABLE](#tables)
-- [PAGE STYLE](#page-style)
-- [FLEXBOX](#flexbox)
-- [GRID](#grid)
-  - [GRID GENERAL](#grid-general)
-  - [ESTRUCTURACION](#estructuracion)
-  - [GRID-ROWS](#grid-rows)
-  - [GRID COLUMNS](#grid-columns)
-  - [GRID AUTO](#grid-auto)
-- [CURSOR](#cursor)
-- [CSS EVENTS](#css-events)
-- [MEDIA QUERYS](#media-querys)
+- [INDEX CSS](#index-css)
+  - [TABLE OF CONTENT](#table-of-content)
+  - [INTRODUCTION](#introduction)
+  - [COLOR](#color)
+  - [WIDTH & HEIGHT](#width--height)
+  - [ALIGNMENT](#alignment)
+  - [POSITION ELEMENTS](#position-elements)
+  - [CONTAINERS](#containers)
+    - [CONTAINERS MARGIN](#containers-margin)
+    - [CONTAINERS PADDING](#containers-padding)
+    - [CONTAINERS BORDER](#containers-border)
+    - [CONTAINERS OUTLINE](#containers-outline)
+    - [CONTAINERS OVERFLOW](#containers-overflow)
+  - [TEXT](#text)
+    - [FONTS](#fonts)
+    - [DECORATION](#decoration)
+  - [BACKGROUND](#background)
+  - [IMAGES](#images)
+  - [LIST](#list)
+  - [TABLES](#tables)
+  - [PAGE STYLE](#page-style)
+  - [FLEXBOX](#flexbox)
+  - [GRID](#grid)
+    - [GRID GENERAL](#grid-general)
+    - [ESTRUCTURATION](#estructuration)
+    - [GRID-ROWS](#grid-rows)
+    - [GRID COLUMNS](#grid-columns)
+    - [GRID-AUTO](#grid-auto)
+  - [CURSOR](#cursor)
+  - [CSS EVENTS](#css-events)
+  - [MEDIA QUERYS](#media-querys)
 
 ---
 
-## **Introduction**
+## INTRODUCTION
 
 - [How to](./how-to.md)
 - [About css](./about.md)
@@ -50,24 +52,24 @@ date: 29th June 2022
   - [Specificity](./selectors.md/#specificity)
   - [!important](./selectors.md/#important)
   - [Combinators](./selectors.md/#combination-selectors)
-- [Units & Math Functions](./units-math.md)
+- [Units & Math Functions](./units_math.md)
 - [Pseudo-Elements](./pseudo-elements.md)
 
-## **Color**
+## COLOR
 
 - [color](./color.md/#color-property)
 - [opacity](./color.md/#opacity-property)
 - [Filter](./color.md/#filter)
 - [Accent-color](./color.md/#accent-color)
 
-## **Width & Height**
+## WIDTH & HEIGHT
 
 - [Height](./width_height.md/#height)
   - [Max-height](./width_height.md/#max-height)
 - [Width](./width_height.md/#width)
   - [Max-Width](./width_height.md/#max-width)
 
-## **Alignment**
+## ALIGNMENT
 
 - [Align-Content](./alignment.md/#align-content)
 - [Align-Items](./alignment.md/#align-items)
@@ -77,7 +79,7 @@ date: 29th June 2022
   - [Text-Align-Last](./alignment.md/#text-align-last)
 - [Vertical-Align](./alignment.md/#vertical-align)
 
-## **Position Elements**
+## POSITION ELEMENTS
 
 - [position](./position-elements.md/#introduction)
 - [top](./position-elements.md/#top-property)
@@ -88,13 +90,13 @@ date: 29th June 2022
 - [object-position](./position-elements.md/#property-object-position)
 - [order](./position-elements.md/#property-order)
 
-## **Containers**
+## CONTAINERS
 
 - [box-shadow](./containers-basic.md/#box-shadow)
 - [box-sizing](./containers-basic.md/#box-sizing)
 - [visibility](./containers-basic.md/#visibility)
 
-### *CONTAINERS MARGIN*
+### CONTAINERS MARGIN
 
 - [margin](./containers-margin.md/#margin)
   - [margin-top](./containers-margin.md/#margin-top)
@@ -102,7 +104,7 @@ date: 29th June 2022
   - [margin-right](./containers-margin.md/#margin-right)
   - [margin-bottom](./containers-margin.md/#margin-bottom)
 
-### *CONTAINERS PADDING*
+### CONTAINERS PADDING
 
 - [padding](./padding.md/#padding)
   - [padding-top](./padding.md/#padding-top)
@@ -110,7 +112,7 @@ date: 29th June 2022
   - [padding-right](./padding.md/#padding-right)
   - [padding-bottom](./padding.md/#padding-bottom)
 
-### *CONTAINERS BORDER*
+### CONTAINERS BORDER
 
 - [border](./containers-border.md/#containers-border)
   - [border-color](./containers-border.md/#border-color)
@@ -119,7 +121,7 @@ date: 29th June 2022
   - [border-width](./containers-border.md/#border-width)
   - [border-right(left, top, bottom)](./containers-border.md/#border-positions)
 
-### *CONTAINERS OUTLINE*
+### CONTAINERS OUTLINE
 
 - [outline](./containers-outline.md/#outline)
   - [outline-color](./containers-outline.md/#outline-color)
@@ -127,12 +129,12 @@ date: 29th June 2022
   - [outline-width](./containers-outline.md/#outline-width)
   - [outline-style](./containers-outline.md/#outline-style)
 
-### *CONTAINERS OVERFLOW*
+### CONTAINERS OVERFLOW
 
 - [overflow](./containers-overflow.md)
   - [overflow-wrap](./containers-overflow.md/#overflow-wrap)
 
-## **Text**
+## TEXT
 
 - [Direction](./text-properties-1to4.md/#direction)
 - [Letter-spacing](./text-properties-1to4.md/#letter-spacing)
@@ -146,14 +148,14 @@ date: 29th June 2022
 - [Quotes](./text-properties-5to12.md/#quote)
 - [Hyphens](./text-properties-5to12.md/#hyphens)
 
-### *FONTS*
+### FONTS
 
 - [Font](./font.md)
   - [Font-size](./font.md/#font-size)
   - [Font-style](./font.md/#font-style)
   - [Font-weight](./font.md/#font-weight)
 
-### *DECORATION*
+### DECORATION
 
 - [Text-decoration](./text-decoration.md/#text-decoration)
   - [Text-decoration-style](./text-decoration.md/#text-decoration-style)
@@ -161,7 +163,7 @@ date: 29th June 2022
   - [Text-decoration-color](./text-decoration.md/#text-decoration-color)
   - [Text-decoration-thickness](./text-decoration.md/#text-decoration-thickness)
 
-## **Background**
+## BACKGROUND
 
 - [Background](./background.md/#background)
 - [Background-color](./background.md/#background-color)
@@ -172,26 +174,26 @@ date: 29th June 2022
 - [Background-origin](./background.md/#background-origin)
 - [Background-Attachment](./background.md/#background-attachment)
 
-## **Images**
+## IMAGES
 
 - [masking](./images.md/#css-masking)
 - [mask-image](./images.md/#css-mask-image-property)
 - [mask-size](./images.md/#css-mask-size-property)
 
-## **List**
+## LIST
 
 - [List-style](./list-page.md/#introduction)
 - [List-style-image](./list-page.md/#list-style-image-property)
 - [List-style-position](./list-page.md/#list-style-position-property)
 - [List-style-type](./list-page.md/#list-style-type-property)
 
-## **Tables**
+## TABLES
 
 - [table-layout](./tables.md/#table-layout)
 - [empty-cells](./tables.md/#empty-cells)
 - [border-collapse](./tables.md/#border-collapse)
 
-## **Page style**
+## PAGE STYLE
 
 - [columns](./columns.md/#columns)
   - [column-gap](./columns.md/#column-gap)
@@ -200,7 +202,7 @@ date: 29th June 2022
   - [column-rule-width](./columns.md/#column-rule-width)
   - [column-rule-color](./columns.md/#column-rule-color)
 
-## **Flexbox**
+## FLEXBOX
 
 - [Flex-basis](./flexbox.md/#flex-basis)
 - [Flex-direction](./flexbox.md/#flex-direction)
@@ -208,50 +210,50 @@ date: 29th June 2022
 - [Flex-shrink](./flexbox.md/#flex-shrink)
 - [Flex-wrap](./flexbox.md/#flex-wrap)
 
-## **Grid**
+## GRID
 
-### *GRID GENERAL*
+### GRID GENERAL
 
 - [grid](./grid-general-page.md/#grid-properties)
   - [grid-gap](./grid-general-page.md/#grid-gap-property)
   - [grid-area](./grid-general-page.md/#grid-area-property)
 
-### *ESTRUCTURACION*
+### ESTRUCTURATION
 
 - [grid-template](./grid-estructuration.md/#grid-template)
   - [grid-template-areas](./grid-estructuration.md/#grid-template-areas)
   - [grid-template-columns](./grid-estructuration.md/#grid-template-columns)
   - [grid-template-rows](./grid-estructuration.md/#grid-template-rows)
 
-### *GRID-ROWS*
+### GRID-ROWS
 
 - [grid-row](./grid-row.md/#grid-row)
   - [grid-row-start](./grid-row.md/#grid-row-start)
   - [grid-row-end](./grid-row.md/#grid-row-end)
 - [row-gap](./grid-row.md/#row-gap)
 
-### *GRID COLUMNS*
+### GRID COLUMNS
 
 - [grid-column](./grid-columns.md/#grid-column)
   - [grid-column-gap](./grid-columns.md/#grid-column-gap)
   - [grid-column-start](./grid-columns.md/#grid-column-start)
   - [grid-column-end](./grid-columns.md/#grid-column-end)
 
-### *GRID-AUTO*
+### GRID-AUTO
 
 - [grid-auto-columns](./grid-auto.md/#grid-auto-columns-property)
 - [grid-auto-rows](./grid-auto.md/#grid-auto-rows-property)
 - [grid-auto-flow](./grid-auto.md/#grid-auto-flow-property)
 
-## **Cursor**
+## CURSOR
 
 - [cursor](./cursor.md/#cursor)
 
-## **CSS events**
+## CSS EVENTS
 
 - [Pointer-event](./css-events.md/#pointer-events)
 - [Pseudo-classes](./css-events.md/#pseudo-classes)
 
-## **Media querys**
+## MEDIA QUERYS
 
 - [@media](./mediaquerys.md/#media-queries)
