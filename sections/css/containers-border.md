@@ -6,7 +6,7 @@ date: 23th June 2022
 
 # CONTAINERS BORDER
 
-## TABLE OF CONTENTS
+## TABLE OF CONTENTS 
 
 - [CONTAINERS BORDER](#containers-border)
   - [TABLE OF CONTENTS](#table-of-contents)
@@ -24,11 +24,15 @@ date: 23th June 2022
   - [BORDER-POSITIONS](#border-positions)
     - [BROWSER SUPPORT](#browser-support-3)
 
+
 The CSS border property allows to change the style, width , and color of an elements's border.
 
 ## BORDER STYLE
 
+
 The `border-style` property specifies what kind of border to display.
+
+
 
 You can use the next values:
 
@@ -71,15 +75,16 @@ p.mix {border-style: dotted dashed solid double;}
 
 The `border-color` property sets the color of an element's four borders. This property can have from one to four values. Also check the [color](./color.md) page.
 
+
 [A quick demo!](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_border-color)
 
-### EXAMPLE
+### EXAMPLE 
 
 ```CSS
 div {border-color: #92a8d1;}
 ```
-
 ### BROWSER SUPPORT
+
 
 | Browser | Version |
 |:----:|:-------------|
@@ -95,7 +100,7 @@ div {border-color: #92a8d1;}
 
 The `border-radius` property defines the radius of the element's corners.
 
-Tip: This property allows you to add rounded corners to elements!
+Tip: This property allows you to add rounded corners to elements! 
 
 [A quick demo!](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_border-radius)
 
@@ -110,7 +115,6 @@ Tip: This property allows you to add rounded corners to elements!
   height: 150px;
 }
 ```
-
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_border-radius2)
 
 ### BROWSER SUPPORT
@@ -125,7 +129,7 @@ Tip: This property allows you to add rounded corners to elements!
 
 ## BORDER-WIDTH
 
-The `border-width` property sets the width of an element's four borders.
+The `border-width` property sets the width of an element's four borders. 
 
 [A quick demo!](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_border-width)
 
@@ -134,9 +138,7 @@ The `border-width` property sets the width of an element's four borders.
 ```CSS
 div {border-width: medium;}
 ```
-
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_border-width2)
-
 ### BROWSER SUPPORT
 
 | Browser | Version |
