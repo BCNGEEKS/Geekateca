@@ -1,14 +1,12 @@
 # Summary
 
-_Provide overview._
-
 ## Details
 
 _Describe the changes you are about to commit._
 
 ## References
 
-[Example](https://www.google.com)
+[Geekateca](https://bcngeeks.github.io/Geekateca/)
 
 ## Select the team
 
