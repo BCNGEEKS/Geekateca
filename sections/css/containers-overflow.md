@@ -9,8 +9,19 @@ date: 23th June 2022
 ## TABLE OF CONTENTS
 
 - [CONTAINERS OVERFLOW](#containers-overflow)
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
+  - [INTRODUCTION](#introduction)
   - [OVERFLOW](#overflow)
+    - [PROPERTY VALUES](#property-values)
+    - [CSS SYNTAX](#css-syntax)
+    - [EXAMPLE](#example)
+    - [BROWSER SUPPORT](#browser-support)
   - [OVERFLOW-WRAP](#overflow-wrap)
+    - [PROPERTY VALUES](#property-values-1)
+    - [CSS SYNTAX](#css-syntax-1)
+    - [EXAMPLE](#example-1)
+    - [BROWSER SUPPORT](#browser-support-1)
   
 ---
 
@@ -101,7 +112,7 @@ The `overflow-wrap` property specifies whether or not the browser can break line
 |   initial   | Sets this property to its default value.              |
 |   inherit   | Inherits this property from its parent element.       |
 
-### CSS SYNTAX 
+### CSS SYNTAX
 
 > overflow-wrap: normal | anywhere | break-word | initial | inherit;
 

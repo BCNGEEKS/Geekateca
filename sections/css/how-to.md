@@ -7,6 +7,7 @@ date: 18th June 2022
 # How To
 
 ## TABLE OF CONTENTS
+
 - [How To](#how-to)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)
@@ -66,7 +67,7 @@ Internal CSS means creating a `<style>` element, inside the head section.
 
 This method is only used when a page has a unique style.
 
-### Example
+### EXAMPLE
 
 ```HTML
     <!DOCTYPE html>
@@ -95,7 +96,7 @@ The use of inline CSS is limited to the element it is inside.
 To use inline styles, add the style attribute to the relevant element.
 The style attribute can contain any CSS property.
 
-### Example
+### EXAMPLE 2
 
 Inline styles are defined within the "style" attribute of the relevant element:
 

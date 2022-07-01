@@ -44,7 +44,6 @@ date: 28th June 2022
 
 ## [INDEX](./index.md)
 
-
 ---
 
 ## TEXT-TRANSFORMS

@@ -37,6 +37,12 @@ date: date
     - [EXAMPLE](#example-4)
     - [BROWSER SUPPORT](#browser-support-4)
 
+---
+
+## [INDEX](./index.md)
+
+---
+
 ## INTRODUCTION
 
 The Flexible Box Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning.
