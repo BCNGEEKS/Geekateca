@@ -11,7 +11,7 @@ date: 21th June 2022
 - [TABLES](#tables)
   - [TABLE OF CONTENT](#table-of-content)
   - [INDEX](#index)
-  - [INTRODUCCION](#introduccion)
+  - [INTRODUCTION](#introduction)
   - [BASIC STRUCTURE](#basic-structure)
     - [TABLE](#table)
       - [PROPERTY EXPLANATION](#property-explanation)
@@ -30,7 +30,7 @@ date: 21th June 2022
       - [PROPERTY EXPLANATION](#property-explanation-5)
     - [COL](#col)
       - [PROPERTY EXPLANATION](#property-explanation-6)
-    - [COLGOROUP EXAMPLE](#colgoroup-example)
+    - [COLGROUP EXAMPLE](#colgroup-example)
   - [TABLES PARTS](#tables-parts)
     - [THEAD](#thead)
       - [PROPERTY EXPLANATION](#property-explanation-7)
@@ -46,11 +46,11 @@ date: 21th June 2022
 
 ---
 
-## INTRODUCCION
+## INTRODUCTION
 
 HTML tables allow web developers to arrange data into rows and columns.
 
-| Day        | Number       | Presenciality |
+| Day        | Number       | face-to-face |
 |:-----------|:------------:|------------:|
 | Monday     |      20      |       Online|
 | Tuesday    |      21      |       Online|
@@ -78,7 +78,7 @@ To create a table in HTML we must use the tag `<table> <\table>`
 
 #### PROPERTY EXPLANATION
 
-Each table cell is defined by a `<td>` and a `</td>` tag (td means table data).Everithing between this two tags are the content of the table cell.
+Each table cell is defined by a `<td>` and a `</td>` tag (td means table data).Everything between this two tags are the content of the table cell.
 
 ---
 
@@ -106,7 +106,7 @@ This is an example of a basic table structure.
         <tr>           <----------------- Example of row
             <th>Day</th>
             <th>Number</th>     
-            <th>Presenciality</th>   <----- Example of header
+            <th>face-to-face</th>   <----- Example of header
         </tr>
         <tr>
             <td>Monday </td>    <----- Example of cell
@@ -160,13 +160,13 @@ The `<caption>` tag must be inserted immediately after the `<table>` tag.
       </tr>
     </table>
 
-This example shows the HTML code used to create the table of the first example úsing the `<caption>` tag.
+This example shows the HTML code used to create the table of the first example using the `<caption>` tag.
 
 ---
 
 ## COLGROUP
 
-colgroup is a property that allows us to apply css atributes using the style tag to a group of columns.
+colgroup is a property that allows us to apply css attributes using the style tag to a group of columns.
 <table>
   <colgroup>
     <col span="2" style="background-color:#404976">
@@ -204,7 +204,7 @@ The `<col>` tag specifies column properties for each column within a `<colgroup>
 <BR>
 The `<col>` tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
 
-### COLGOROUP EXAMPLE
+### COLGROUP EXAMPLE
 
     <table>
       <colgroup>                 <-------------------------------- Example Colgroup 
@@ -228,7 +228,7 @@ This example shows how the `<col>` tag is inside the `<colgroup>` tag and how it
 
 ## TABLES PARTS
 
-A table can be splited in three parts: head (thead), body (tbody), foot (tfoot).
+A table can be splitted in three parts: head (thead), body (tbody), foot (tfoot).
 
 <table>
   <thead style="color: green;">
@@ -334,4 +334,4 @@ The `<tfoot>` tag must be used in the following context: As a child of a `<table
         </tr>
       </tfoot>
     </table>
-This example shows how to apply the diferents parts of a table to output the visual example of this section.
+This example shows how to apply the different parts of a table to output the visual example of this section.
