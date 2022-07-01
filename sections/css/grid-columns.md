@@ -12,21 +12,21 @@ date: 29th June 2022
   - [TABLE OF CONTENT](#table-of-content)
   - [INDEX](#index)
   - [GRID-COLUMN](#grid-column)
-    - [PROPERTY VALUES (GRID-COLUMN)](#property-values-grid-column)
-    - [EXAMPLE (GRID-COLUMN)](#example-grid-column)
-    - [BROWSER SUPPORT (GRID-COLUMN)](#browser-support-grid-column)
+    - [PROPERTY VALUES FOR GRID-COLUMN](#property-values-for-grid-column)
+    - [EXAMPLE FOR GRID-COLUMN](#example-for-grid-column)
+    - [BROWSER SUPPORT FOR GRID-COLUMN](#browser-support-for-grid-column)
   - [GRID-COLUMN-GAP](#grid-column-gap)
-    - [PROPERTY VALUES (GRID-COLUMN-GAP)](#property-values-grid-column-gap)
-    - [EXAMPLE (GRID-COLUMN-GAP)](#example-grid-column-gap)
-    - [BROWSER SUPPORT (GRID-COLUMN-GAP)](#browser-support-grid-column-gap)
+    - [PROPERTY VALUES FOR GRID-COLUMN-GAP](#property-values-for-grid-column-gap)
+    - [EXAMPLE FOR GRID-COLUMN-GAP](#example-for-grid-column-gap)
+    - [BROWSER SUPPORT FOR GRID-COLUMN-GAP](#browser-support-for-grid-column-gap)
   - [GRID-COLUMN-START](#grid-column-start)
-    - [PROPERTY VALUES (GRID-COLUMN-START)](#property-values-grid-column-start)
-    - [EXAMPLE (GRID-COLUMN-START)](#example-grid-column-start)
-    - [BROWSER SUPPORT (GRID-COLUMN-START)](#browser-support-grid-column-start)
+    - [PROPERTY VALUES FOR GRID-COLUMN-START](#property-values-for-grid-column-start)
+    - [EXAMPLE FOR GRID-COLUMN-START](#example-for-grid-column-start)
+    - [BROWSER SUPPORT FOR GRID-COLUMN-START](#browser-support-for-grid-column-start)
   - [GRID-COLUMN-END](#grid-column-end)
-    - [PROPERTY VALUES (GRID-COLUMN-END)](#property-values-grid-column-end)
-    - [EXAMPLE (GRID-COLUMN-END)](#example-grid-column-end)
-    - [BROWSER SUPPORT (GRID-COLUMN-END)](#browser-support-grid-column-end)
+    - [PROPERTY VALUES FOR GRID-COLUMN-END](#property-values-for-grid-column-end)
+    - [EXAMPLE FOR GRID-COLUMN-END](#example-for-grid-column-end)
+    - [BROWSER SUPPORT FOR GRID-COLUMN-END](#browser-support-for-grid-column-end)
 
 ---
 
@@ -42,18 +42,18 @@ The grid-column property specifies a grid item's size and location in a grid lay
 
 `grid-column-end`
 
-### PROPERTY VALUES (GRID-COLUMN)
+### PROPERTY VALUES FOR GRID-COLUMN
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
 |   grid-column-start   |   Specifies on which column to start displaying the item. |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-column-start)    |
 |   grid-column-end |   Specifies on which column-line to stop displaying the item, or how many columns to span.    |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-column-end)  |
 
-> ### CSS SYNTAX (GRID-COLUMN)
+> ### CSS SYNTAX FOR GRID-COLUMN
 >
 > grid-column: grid-column-start / grid-column-end;
 
-### EXAMPLE (GRID-COLUMN)
+### EXAMPLE FOR GRID-COLUMN
 
 Make "item1" start on column 1 and span 2 columns:
 
@@ -63,7 +63,7 @@ Make "item1" start on column 1 and span 2 columns:
 }
 ```
 
-### BROWSER SUPPORT (GRID-COLUMN)
+### BROWSER SUPPORT FOR GRID-COLUMN
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -83,17 +83,17 @@ The grid-column-gap property defines the size of the gap between the columns in 
 
 ***Note:** This property was renamed to `column-gap` in CSS3.*
 
-### PROPERTY VALUES (GRID-COLUMN-GAP)
+### PROPERTY VALUES FOR GRID-COLUMN-GAP
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
 |   length  |   Any legal length value, like px or %. 0 is the default value. Read about length units   |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-column-gap)  |
 
-> ### CSS SYNTAX (GRID-COLUMN-GAP)
+> ### CSS SYNTAX FOR GRID-COLUMN-GAP
 >
 > grid-column-gap: length;
 
-### EXAMPLE (GRID-COLUMN-GAP)
+### EXAMPLE FOR GRID-COLUMN-GAP
 
 Set the gap between columns to 50px:
 
@@ -103,7 +103,7 @@ Set the gap between columns to 50px:
 }
 ```
 
-### BROWSER SUPPORT (GRID-COLUMN-GAP)
+### BROWSER SUPPORT FOR GRID-COLUMN-GAP
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -121,7 +121,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The grid-column-start property defines on which column-line the item will start.
 
-### PROPERTY VALUES (GRID-COLUMN-START)
+### PROPERTY VALUES FOR GRID-COLUMN-START
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -129,11 +129,11 @@ The grid-column-start property defines on which column-line the item will start.
 |   span    |   Specifies the number of columns the item will span  |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-column-start&preval=span%203)    |
 |   column-line |   Specifies on which column to start the display of the item  |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-column-start&preval=3)    |
 
-> ### CSS SYNTAX (GRID-COLUMN-START)
+> ### CSS SYNTAX FOR GRID-COLUMN-START
 >
 > grid-column-start: auto|span n|column-line;
 
-### EXAMPLE (GRID-COLUMN-START)
+### EXAMPLE FOR GRID-COLUMN-START
 
 Make "item1" start on column 2:
 
@@ -143,7 +143,7 @@ Make "item1" start on column 2:
 }
 ```
 
-### BROWSER SUPPORT (GRID-COLUMN-START)
+### BROWSER SUPPORT FOR GRID-COLUMN-START
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -161,7 +161,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The grid-column-end property defines how many columns an item will span, or on which column-line the item will end.
 
-### PROPERTY VALUES (GRID-COLUMN-END)
+### PROPERTY VALUES FOR GRID-COLUMN-END
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -169,11 +169,11 @@ The grid-column-end property defines how many columns an item will span, or on w
 |   span    |   Specifies the number of columns the item will span  |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-column-end&preval=span%203)    |
 |   column-line |   Specifies on which column to end the display of the item    |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-column-end&preval=5)    |
 
-> ### CSS SYNTAX (GRID-COLUMN-END)
+> ### CSS SYNTAX FOR GRID-COLUMN-END
 >
 > grid-column-end: auto|span n|column-line;
 
-### EXAMPLE (GRID-COLUMN-END)
+### EXAMPLE FOR GRID-COLUMN-END
 
 Make "item1" span 3 columns:
 
@@ -183,7 +183,7 @@ Make "item1" span 3 columns:
 }
 ```
 
-### BROWSER SUPPORT (GRID-COLUMN-END)
+### BROWSER SUPPORT FOR GRID-COLUMN-END
 
 The numbers in the table specify the first browser version that fully supports the property.
 

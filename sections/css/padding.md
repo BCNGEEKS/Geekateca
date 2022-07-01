@@ -16,21 +16,21 @@ date: 22th June 2022
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [PADDING-BOTTOM](#padding-bottom)
-    - [PROPERTY VALUES (PADDING-BOTTOM)](#property-values-padding-bottom)
-    - [EXAMPLE (PADDING-BOTTOM)](#example-padding-bottom)
-    - [BROWSER SUPPORT (PADDING-BOTTOM)](#browser-support-padding-bottom)
+    - [PROPERTY VALUES FOR PADDING-BOTTOM](#property-values-for-padding-bottom)
+    - [EXAMPLE FOR PADDING-BOTTOM](#example-for-padding-bottom)
+    - [BROWSER SUPPORT FOR PADDING-BOTTOM](#browser-support-for-padding-bottom)
   - [PADDING-LEFT](#padding-left)
-    - [PROPERTY VALUES (PADDING-LEFT)](#property-values-padding-left)
-    - [EXAMPLE (PADDING-LEFT)](#example-padding-left)
-    - [BROWSER SUPPORT (PADDING-LEFT)](#browser-support-padding-left)
+    - [PROPERTY VALUES FOR PADDING-LEFT](#property-values-for-padding-left)
+    - [EXAMPLE FOR PADDING-LEFT](#example-for-padding-left)
+    - [BROWSER SUPPORT FOR PADDING-LEFT](#browser-support-for-padding-left)
   - [PADDING-RIGHT](#padding-right)
-    - [PROPERTY VALUES (PADDING-RIGHT)](#property-values-padding-right)
-    - [EXAMPLE (PADDING-RIGHT)](#example-padding-right)
-    - [BROWSER SUPPORT (PADDING-RIGHT)](#browser-support-padding-right)
+    - [PROPERTY VALUES FOR PADDING-RIGHT](#property-values-for-padding-right)
+    - [EXAMPLE FOR PADDING-RIGHT](#example-for-padding-right)
+    - [BROWSER SUPPORT FOR PADDING-RIGHT](#browser-support-for-padding-right)
   - [PADDING-TOP](#padding-top)
-    - [PROPERTY VALUES (PADDING-TOP)](#property-values-padding-top)
-    - [EXAMPLE (PADDING-TOP)](#example-padding-top)
-    - [BROWSER SUPPORT (PADDING-TOP)](#browser-support-padding-top)
+    - [PROPERTY VALUES FOR PADDING-TOP](#property-values-for-padding-top)
+    - [EXAMPLE FOR PADDING-TOP](#example-for-padding-top)
+    - [BROWSER SUPPORT FOR PADDING-TOP](#browser-support-for-padding-top)
 
 ---
 
@@ -107,7 +107,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The padding-bottom property sets the bottom padding (space) of an element.
 
-### PROPERTY VALUES (PADDING-BOTTOM)
+### PROPERTY VALUES FOR PADDING-BOTTOM
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -116,7 +116,7 @@ The padding-bottom property sets the bottom padding (space) of an element.
 |   inherit   | Inherits this property from its parent element.       |  |
 |   initial   | Sets this property to its default value     |
 
-### EXAMPLE (PADDING-BOTTOM)
+### EXAMPLE FOR PADDING-BOTTOM
 
 Set the bottom padding for the element to 25 pixels:
 
@@ -126,7 +126,7 @@ p.ex1 {
 }
 ```
 
-### BROWSER SUPPORT (PADDING-BOTTOM)
+### BROWSER SUPPORT FOR PADDING-BOTTOM
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -144,7 +144,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The padding-left property sets the left padding (space) of an element.
 
-### PROPERTY VALUES (PADDING-LEFT)
+### PROPERTY VALUES FOR PADDING-LEFT
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -153,7 +153,7 @@ The padding-left property sets the left padding (space) of an element.
 |   inherit   | Inherits this property from its parent element.       |  |
 |   initial   | Sets this property to its default value     |
 
-### EXAMPLE (PADDING-LEFT)
+### EXAMPLE FOR PADDING-LEFT
 
 Set the left padding for the element to 50 pixels:
 
@@ -163,7 +163,7 @@ p.ex1 {
 }
 ```
 
-### BROWSER SUPPORT (PADDING-LEFT)
+### BROWSER SUPPORT FOR PADDING-LEFT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -181,7 +181,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The padding-right property sets the right padding (space) of an element.
 
-### PROPERTY VALUES (PADDING-RIGHT)
+### PROPERTY VALUES FOR PADDING-RIGHT
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -190,7 +190,7 @@ The padding-right property sets the right padding (space) of an element.
 |   inherit   | Inherits this property from its parent element.       |  |
 |   initial   | Sets this property to its default value     |
 
-### EXAMPLE (PADDING-RIGHT)
+### EXAMPLE FOR PADDING-RIGHT
 
 Set the right padding for the element to 150 pixels:
 
@@ -200,7 +200,7 @@ p.ex1 {
 }
 ```
 
-### BROWSER SUPPORT (PADDING-RIGHT)
+### BROWSER SUPPORT FOR PADDING-RIGHT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -218,7 +218,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The padding-top property sets the top padding (space) of an element.
 
-### PROPERTY VALUES (PADDING-TOP)
+### PROPERTY VALUES FOR PADDING-TOP
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -227,7 +227,7 @@ The padding-top property sets the top padding (space) of an element.
 |   inherit   | Inherits this property from its parent element.       |  |
 |   initial   | Sets this property to its default value     |
 
-### EXAMPLE (PADDING-TOP)
+### EXAMPLE FOR PADDING-TOP
 
 Set the top padding for the element to 25 pixels:
 
@@ -237,7 +237,7 @@ p.ex1 {
 }
 ```
 
-### BROWSER SUPPORT (PADDING-TOP)
+### BROWSER SUPPORT FOR PADDING-TOP
 
 The numbers in the table specify the first browser version that fully supports the property.
 

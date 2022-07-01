@@ -212,9 +212,9 @@ The HTML `<input type="checkbox">` element is an input element that allows you t
 
 #### EXAMPLE
 
-    <label><input type="checkbox" id="cbox1" value="first_checkbox">This is my first checkbox</label><br>
+    <label><input type="checkbox" id="box1" value="first_checkbox">This is my first checkbox</label><br>
 
-    <input type="checkbox" id="cbox2" value="second_checkbox"> <label for="cbox2">This is my second checkbox</label>
+    <input type="checkbox" id="box2" value="second_checkbox"> <label for="box2">This is my second checkbox</label>
 
 In this example two checkboxes are created with the first called first_checkbox and the second called second_checkbox.
 
@@ -236,8 +236,8 @@ The `<input>` elements of type="date" create an input field that allows the user
 
     <form>
     <div class="nativeDatePicker">
-        <label for="bday">Enter your birthday:</label>
-        <input type="date" id="bday" name="bday">
+        <label for="day">Enter your birthday:</label>
+        <input type="date" id="day" name="day">
         <span class="validity"></span>
     </div>
     <p class="fallbackLabel">Enter your birthday:</p>
@@ -283,7 +283,7 @@ The HTML `<input type="datetime">` is a control for entering time and date (hour
     <form>
     <div class="nativeDateTimePicker">
         <label for="party">Choose a date and time for your party:</label>
-        <input type="datetime-local" id="party" name="bday">
+        <input type="datetime-local" id="party" name="day">
         <span class="validity"></span>
     </div>
     <p class="fallbackLabel">Choose a date and time for your party:</p>
@@ -332,7 +332,7 @@ The HTML `<input type="datetime">` is a control for entering time and date (hour
     </div>
     </form>
 
-In this example shows  two sets of UI elements for choosing datetimes — a native `<input type="datetime-local">` picker, and a set of five `<select>` elements for choosing dates and times in older browsers that don't support the native input.
+In this example shows  two sets of UI elements for choosing date times — a native `<input type="datetime-local">` picker, and a set of five `<select>` elements for choosing dates and times in older browsers that don't support the native input.
 
 ### INPUT TYPE EMAIL
 
@@ -374,7 +374,7 @@ The `<input>` elements of type hidden let web developers include data that canno
 
 #### EXAMPLE
 
-     <input type="hidden" id="custId" name="custId" value="3487">
+     <input type="hidden" id="customId" name="customId" value="3487">
 
 In this example shows a input type hidden with value 3487.
 
@@ -485,7 +485,7 @@ The `<input>` elements of type range let the user specify a numeric value which 
     <label for="volume">Volume</label>
     </div>
 
-In this example shows how to user move a volum between 0 and 11.
+In this example shows how to user move a volume between 0 and 11.
 
 ### INPUT TYPE RESET
 
@@ -567,7 +567,7 @@ The `<input>` elements of type text create basic single-line text fields.
     <input type="text" id="name" name="name" required
         minlength="4" maxlength="8" size="10">
 
-In this example shows how to user can introduce a text with characters betweeen four and eight.
+In this example shows how to user can introduce a text with characters between four and eight.
 
 ### INPUT TYPE TIME
 
@@ -582,7 +582,7 @@ The `<input>` elements of type time create input fields designed to let the user
 
     <small>Office hours are 9am to 6pm</small>
 
-In this example shows how to user can introduce hours betwwen 09:00 to 18:00.
+In this example shows how to user can introduce hours between 09:00 to 18:00.
 
 ### INPUT TYPE URL
 
@@ -641,10 +641,10 @@ The fieldset element is used to group related data in a form, and the legend ele
     <form action="/action_page.php">
     <fieldset>
         <legend>Form:</legend>
-        <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" ><br>
-        <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname"><br><br>
+        <label for="first_name">First name:</label><br>
+        <input type="text" id="first_name" name="first_name" ><br>
+        <label for="last_name">Last name:</label><br>
+        <input type="text" id="last_name" name="last_name"><br><br>
         <input type="submit" value="Submit">
     </fieldset>
     </form>
