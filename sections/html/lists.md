@@ -31,11 +31,11 @@ date: 23th June 2022
 
 HTML Lists are used to specify lists of information.
 
-All lists may contain one or more list elements. 
+All lists may contain one or more list elements.
 
-There are three different types of HTML lists: 
+There are three different types of HTML lists:
 
-- Ordered List or Numbered List (ol) 
+- Ordered List or Numbered List (ol)
 - Unordered List or Bulleted List (ul)
 - Description List (dl, dt, dd)
 
@@ -57,7 +57,7 @@ This example shows an unordered list.
 
 ---
 
-## ORDERED LIST 
+## ORDERED LIST
 
 An ordered list starts with the `<ol>` tag. Each list item starts with the `<li>` tag.
 
@@ -73,7 +73,7 @@ This example shows an ordered list.
 
 ---
 
-## DESCRIPTION LIST 
+## DESCRIPTION LIST
 
 A description list starts with the `<dl>` tag.
 
@@ -99,4 +99,3 @@ Describes each term in the description list.
 This example shows a description list with 2 terms and 2 dd describing the term.
 
 ---
-
