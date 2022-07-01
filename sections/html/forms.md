@@ -575,9 +575,9 @@ The `<input>` elements of type time create input fields designed to let the user
 
 #### EXAMPLE
 
-    <label for="appt">Choose a time for your meeting:</label>
+    <label for="appointment">Choose a time for your meeting:</label>
 
-    <input type="time" id="appt" name="appt"
+    <input type="time" id="appointment" name="appointment"
         min="09:00" max="18:00" required>
 
     <small>Office hours are 9am to 6pm</small>
