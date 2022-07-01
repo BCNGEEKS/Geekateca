@@ -76,13 +76,10 @@ alt - Specifies an alternate text for the image, if the image for some reason ca
         </body>
     </html>
 
-
-
 <img src=
 "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
 width="500" height="300"
 alt="html logo">
-
 
 ---
 
@@ -105,11 +102,9 @@ The `<source>` tag or the src attribute is used to indicate the variations of th
         </body>
     </html>
 
-
 <audio controls>
     <source src="media/audio_ascensor.mp3" type="audio/mp3">
 </audio>
-
 
 ---
 
@@ -130,12 +125,10 @@ The text between the `<video>` and `</video>` tags will only be displayed in bro
                 <source src="media/video_prueba.mp4" type="video/mp4">
             </video>
         </body>
-    </html>
- 
+    </html> 
 <video width="400" height="350" controls>
     <source src="media/video_prueba.mp4" type="video/mp4">
 </video>
-
 
 This example illustrates the use of the autoplay attribute in the HTML `<video>` tag.
 
@@ -156,7 +149,7 @@ This example illustrates the use of the autoplay attribute in the HTML `<video>`
 The `<object>` tag is an HTML tag and used to display multimedia like audios, videos, images, PDFs, and Flash in web pages. It can also be used for displaying another webpage inside the HTML page.
 
 #### EXAMPLE
-   
+
     <html>
         <body>
             <h1>HTML Object Tag</h1>
@@ -169,9 +162,7 @@ The `<object>` tag is an HTML tag and used to display multimedia like audios, vi
         </body>
     </html>
 
-
 <object data=
 "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
 width="400px" height="300px">GeeksforGeeks
 </object>
-
