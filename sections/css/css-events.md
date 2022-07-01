@@ -8,10 +8,14 @@ date: 29th June 2022
 
 ## TABLE OF CONTENTS
 
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INDEX](#index)
-- [CSS POINTER-EVENTS](#pointer-events)
-- [PSEUDO-CLASSES](#pseudo-classes)
+- [CSS EVENTS](#css-events)
+  - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
+  - [POINTER-EVENTS](#pointer-events)
+    - [EXAMPLE](#example)
+  - [PSEUDO-CLASSES](#pseudo-classes)
+    - [SYNTAX](#syntax)
+    - [EXAMPLE](#example-1)
 
 ---
 

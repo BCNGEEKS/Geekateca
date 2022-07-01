@@ -7,8 +7,6 @@ date: 18th June 2022
 # How To
 
 ## TABLE OF CONTENTS
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INDEX](#index)
 - [How To](#how-to)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)

@@ -17,4 +17,4 @@ date: 21th June 2022
 - [GRAPHICAL-ELEMENTS](./graphical-elements.md)
 - [FORMS](./forms.md)
 - [HTML EXTERNAL LANGUAGES](./external-lenguages.md)
-- [HOME](../.././index.md)
+- [HOME](../../)

@@ -8,8 +8,6 @@ date: 18th June 2022
 
 ## TABLE OF CONTENTS
 
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INDEX](#index) 
 - [SYNTAXIS](#syntaxis)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)

@@ -8,12 +8,25 @@ date: 28th June 2022
 
 ## TABLE OF CONTENT
 
-- [TABLE OF CONTENT](#table-of-content)
-- [INDEX](#index)
-- [GRID-ROW](#grid-row)
-- [GRID-ROW-START](#grid-row-start)
-- [GRID-ROW-END](#grid-row-end)
-- [ROW-GAP](#row-gap)
+- [GRID](#grid)
+  - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
+  - [GRID-ROW](#grid-row)
+    - [PROPERTY VALUES (GRID-ROW)](#property-values-grid-row)
+    - [EXAMPLE (GRID-ROW)](#example-grid-row)
+    - [BROWSER SUPPORT (GRID-ROW)](#browser-support-grid-row)
+  - [GRID-ROW-START](#grid-row-start)
+    - [PROPERTY VALUES (GRID-ROW-START)](#property-values-grid-row-start)
+    - [EXAMPLE (GRID-ROW-START)](#example-grid-row-start)
+    - [BROWSER SUPPORT (GRID-ROW-START)](#browser-support-grid-row-start)
+  - [GRID-ROW-END](#grid-row-end)
+    - [PROPERTY VALUES (GRID-ROW-END)](#property-values-grid-row-end)
+    - [EXAMPLE (GRID-ROW-END)](#example-grid-row-end)
+    - [BROWSER SUPPORT (GRID-ROW-END)](#browser-support-grid-row-end)
+  - [ROW-GAP](#row-gap)
+    - [PROPERTY VALUES (ROW-GAP)](#property-values-row-gap)
+    - [EXAMPLE (ROW-GAP)](#example-row-gap)
+    - [BROWSER SUPPORT (ROW-GAP)](#browser-support-row-gap)
 
 ---
 

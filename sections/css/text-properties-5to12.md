@@ -8,19 +8,42 @@ date: 28th June 2022
 
 ## TABLE OF CONTENT
 
-- [TABLE OF CONTENT](#table-of-content)
-- [INDEX](#index)
-- [TEXT-TRANSFORMS](#text-transforms)
-- [TEXT-INDENT](#text-indent)
-- [TEXT-EMPHASIS](#text-emphasis)
-- [TEXT-SHADOW](#text-shadow)
-- [TEXT-OVERFLOW](#text-overflow)
-- [QUOTE](#quote)
-- [HYPHENS](#hyphens)
+- [TEXT PROPERTIES](#text-properties)
+  - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
+  - [TEXT-TRANSFORMS](#text-transforms)
+    - [PROPERTY VALUES (TEXT-TRANSFORMS)](#property-values-text-transforms)
+    - [EXAMPLE (TEXT-TRANSFORMS)](#example-text-transforms)
+    - [BROWSER SUPPORT (TEXT-TRANSFORMS)](#browser-support-text-transforms)
+  - [TEXT-INDENT](#text-indent)
+    - [PROPERTY VALUES (TEXT-INDENT)](#property-values-text-indent)
+    - [EXAMPLE (TEXT-INDENT)](#example-text-indent)
+    - [BROWSER SUPPORT (TEXT-INDENT)](#browser-support-text-indent)
+  - [TEXT-EMPHASIS](#text-emphasis)
+    - [PROPERTY VALUES (TEXT-EMPHASIS)](#property-values-text-emphasis)
+    - [EXAMPLE (TEXT-EMPHASIS)](#example-text-emphasis)
+    - [BROWSER SUPPORT (TEXT-EMPHASIS)](#browser-support-text-emphasis)
+  - [TEXT-SHADOW](#text-shadow)
+    - [PROPERTY VALUES (TEXT-SHADOW)](#property-values-text-shadow)
+    - [EXAMPLE (TEXT-SHADOW)](#example-text-shadow)
+    - [BROWSER SUPPORT (TEXT-SHADOW)](#browser-support-text-shadow)
+  - [TEXT-OVERFLOW](#text-overflow)
+    - [PROPERTY VALUES (TEXT-OVERFLOW)](#property-values-text-overflow)
+    - [EXAMPLE (TEXT-OVERFLOW)](#example-text-overflow)
+    - [BROWSER SUPPORT (TEXT-OVERFLOW)](#browser-support-text-overflow)
+  - [QUOTE](#quote)
+    - [PROPERTY VALUES (QUOTE)](#property-values-quote)
+    - [EXAMPLE (QUOTE)](#example-quote)
+    - [BROWSER SUPPORT (QUOTE)](#browser-support-quote)
+  - [HYPHENS](#hyphens)
+    - [PROPERTY VALUES (HYPHENS)](#property-values-hyphens)
+    - [EXAMPLE (HYPHENS)](#example-hyphens)
+    - [BROWSER SUPPORT (HYPHENS)](#browser-support-hyphens)
 
 ---
 
 ## [INDEX](./index.md)
+
 
 ---
 

@@ -80,7 +80,7 @@ alt - Specifies an alternate text for the image, if the image for some reason ca
     </html>
  <!DOCTYPE html>
 <html>
-    <body style="text-align: center;">
+    <body>
         <img src=
     "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1024px-HTML5_logo_and_wordmark.svg.png"
             width="500" height="300"

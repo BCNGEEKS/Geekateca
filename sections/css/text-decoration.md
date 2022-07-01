@@ -8,13 +8,29 @@ date: 27th June 2022
 
 ## TABLE OF CONTENT
 
-- [TABLE OF CONTENT](#table-of-content)
-- [INDEX](#index)
-- [TEXT-DECORATION](#introduction)
-- [TEXT-DECORATION-LINE](#text-decoration-line)
-- [TEXT-DECORATION-STYLE](#text-decoration-style)
-- [TEXT-DECORATION-COLOR](#text-decoration-color)
-- [TEXT-DECORATION-THICKNESS](#text-decoration-thickness)
+- [TEXT-DECORATION](#text-decoration)
+  - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
+  - [INTRODUCTION](#introduction)
+    - [PROPERTY VALUES](#property-values)
+    - [EXAMPLE](#example)
+    - [BROWSER SUPPORT](#browser-support)
+  - [TEXT-DECORATION-LINE](#text-decoration-line)
+    - [PROPERTY VALUES (TEXT-DECORATION-LINE)](#property-values-text-decoration-line)
+    - [EXAMPLE (TEXT-DECORATION-LINE)](#example-text-decoration-line)
+    - [BROWSER SUPPORT (TEXT-DECORATION-LINE)](#browser-support-text-decoration-line)
+  - [TEXT-DECORATION-STYLE](#text-decoration-style)
+    - [PROPERTY VALUES (TEXT-DECORATION-STYLE)](#property-values-text-decoration-style)
+    - [EXAMPLE (TEXT-DECORATION-STYLE)](#example-text-decoration-style)
+    - [BROWSER SUPPORT (TEXT-DECORATION-STYLE)](#browser-support-text-decoration-style)
+  - [TEXT-DECORATION-COLOR](#text-decoration-color)
+    - [PROPERTY VALUES (TEXT-DECORATION-COLOR)](#property-values-text-decoration-color)
+    - [EXAMPLE (TEXT-DECORATION-COLOR)](#example-text-decoration-color)
+    - [BROWSER SUPPORT (TEXT-DECORATION-COLOR)](#browser-support-text-decoration-color)
+  - [TEXT-DECORATION-THICKNESS](#text-decoration-thickness)
+    - [PROPERTY VALUES (TEXT-DECORATION-THICKNESS)](#property-values-text-decoration-thickness)
+    - [EXAMPLE (TEXT-DECORATION-THICKNESS)](#example-text-decoration-thickness)
+    - [BROWSER SUPPORT (TEXT-DECORATION-THICKNESS)](#browser-support-text-decoration-thickness)
 
 ---
 

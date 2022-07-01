@@ -7,8 +7,6 @@ date: 27th June 2022
 # CURSOR
 
 ## TABLE OF CONTENTS
-- [TABLE OF CONTENTS](#table-of-contents)
-- [INDEX](#index)
 - [CURSOR](#cursor)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)

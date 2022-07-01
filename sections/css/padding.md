@@ -8,13 +8,29 @@ date: 22th June 2022
 
 ## TABLE OF CONTENT
 
-- [TABLE OF CONTENT](#table-of-content)
-- [INDEX](#index)
-- [PADDING](#introduction)
-- [PADDING-BOTTOM](#padding-bottom)
-- [PADDING-LEFT](#padding-left)
-- [PADDING-RIGHT](#padding-right)
-- [PADDING-TOP](#padding-top)
+- [PADDING](#padding)
+  - [TABLE OF CONTENT](#table-of-content)
+  - [INDEX](#index)
+  - [INTRODUCTION](#introduction)
+    - [PROPERTY VALUES](#property-values)
+    - [EXAMPLE](#example)
+    - [BROWSER SUPPORT](#browser-support)
+  - [PADDING-BOTTOM](#padding-bottom)
+    - [PROPERTY VALUES (PADDING-BOTTOM)](#property-values-padding-bottom)
+    - [EXAMPLE (PADDING-BOTTOM)](#example-padding-bottom)
+    - [BROWSER SUPPORT (PADDING-BOTTOM)](#browser-support-padding-bottom)
+  - [PADDING-LEFT](#padding-left)
+    - [PROPERTY VALUES (PADDING-LEFT)](#property-values-padding-left)
+    - [EXAMPLE (PADDING-LEFT)](#example-padding-left)
+    - [BROWSER SUPPORT (PADDING-LEFT)](#browser-support-padding-left)
+  - [PADDING-RIGHT](#padding-right)
+    - [PROPERTY VALUES (PADDING-RIGHT)](#property-values-padding-right)
+    - [EXAMPLE (PADDING-RIGHT)](#example-padding-right)
+    - [BROWSER SUPPORT (PADDING-RIGHT)](#browser-support-padding-right)
+  - [PADDING-TOP](#padding-top)
+    - [PROPERTY VALUES (PADDING-TOP)](#property-values-padding-top)
+    - [EXAMPLE (PADDING-TOP)](#example-padding-top)
+    - [BROWSER SUPPORT (PADDING-TOP)](#browser-support-padding-top)
 
 ---
 
