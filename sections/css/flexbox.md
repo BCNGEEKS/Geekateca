@@ -36,7 +36,7 @@ date: date
     - [CSS SYNTAX](#css-syntax-4)
     - [EXAMPLE](#example-4)
     - [BROWSER SUPPORT](#browser-support-4)
-    
+
 ---
 
 ## [INDEX](./index.md)

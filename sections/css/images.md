@@ -68,7 +68,7 @@ The `mask-size` property specifies the size of the mask layer image.
 | initial | Sets this property to its default value.|
 | inherit | Inherits this property from its parent element. |
 
-### EXAMPLE
+### EXAMPLE 2
 
 ```CSS
 .mask1 {

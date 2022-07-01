@@ -44,12 +44,13 @@ The `direction` property specifies the text direction/writing direction within a
 
 | Value       | Description                                             | Demo |
 |:-----------:|:------------------------------------                    | :---: |
-| ltr         | Text direction goes from left-to-right. This is default	| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_direction) |
-| rtl         | Text direction goes from right-to-left	                | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_direction&preval=rtl) |
+| ltr         | Text direction goes from left-to-right. This is default | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_direction) |
+| rtl         | Text direction goes from right-to-left                  | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_direction&preval=rtl) |
 | initial     | Sets this property to its default value.                |  
 | inherit     | Inherits this property from its parent element.         |  
 
-> ### CSS SYNTAX 
+> ### CSS SYNTAX
+>
 > direction: ltr | rtl | initial | inherit;
 
 ### EXAMPLE
@@ -65,6 +66,7 @@ p.rtl {
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_text_direction)
 
 ### BROWSER SUPPORT
+
 The numbers in the table specify the first browser version that fully supports the property.
 
 | Browser        | Version            |
@@ -90,7 +92,8 @@ The `letter-spacing` property increases or decreases the space between character
 | initial     | Sets this property to its default value.                |  
 | inherit     | Inherits this property from its parent element.         |  
 
-> ### CSS SYNTAX 
+> ### CSS SYNTAX
+>
 > letter-spacing: normal | length | initial | inherit;
 
 ### EXAMPLE
@@ -114,6 +117,7 @@ h3 {
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_letter-spacing)
 
 ### BROWSER SUPPORT
+
 The numbers in the table specify the first browser version that fully supports the property.
 
 | Browser  | Version            |
@@ -134,21 +138,20 @@ The `line-height` property specifies the height of a line.
 
 | Value       | Description                                             | Demo |
 |:-----------:|:------------------------------------                    | :---: |
-| normal      | Text direction goes from left-to-right. This is default	| [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height) |
-| number      | Text direction goes from right-to-left	                | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height&preval=2)   |
+| normal      | Text direction goes from left-to-right. This is default | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height) |
+| number      | Text direction goes from right-to-left                  | [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height&preval=2)   |
 | length      | Sets this property to its default value.                |  [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height&preval=25px) |
 | %           | Inherits this property from its parent element.         |  [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_line-height&preval=150%25) |
 | initial     | Inherits this property from its parent element.         |  
 | inherit     | Inherits this property from its parent element.         |  
 
-> ### CSS SYNTAX 
+> ### CSS SYNTAX
+>
 > line-height: normal | number | length | initial | inherit;
-
 
 ### EXAMPLE
 
 Set the line height for different **div** elements:
-
 
 ```CSS
 div.a {
@@ -171,6 +174,7 @@ div.d {
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_line-height)
 
 ### BROWSER SUPPORT
+
 The numbers in the table specify the first browser version that fully supports the property.
 
 | Browser  | Version            |
@@ -191,14 +195,15 @@ The `text-justify` property specifies the justification method of text when text
 
 | Value           |         Description                                             | Demo |
 |:-----------:    |:------------------------------------                    | :---: |
-| auto            | The browser determines the justification algorithm	| [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify) |
-| inter-word      | Increases/Decreases the space between words	        | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=inter-word)   
+| auto            | The browser determines the justification algorithm  | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify) |
+| inter-word      | Increases/Decreases the space between words         | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=inter-word)
 | inter-character | Increases/Decreases the space between characters    | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=inter-character) |
-| none            | Disables justification methods	                    | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=none) |
-| initial         | Sets this property to its default value.            | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=initial) |   
+| none            | Disables justification methods                      | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=none) |
+| initial         | Sets this property to its default value.            | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_text-justify&preval=initial) |  
 | inherit         | Inherits this property from its parent element.     |  
 
-> ### CSS SYNTAX 
+> ### CSS SYNTAX
+>
 > text-justify: auto | inter-word | inter-character | none | initial | inherit;
 
 ### EXAMPLE
@@ -215,6 +220,7 @@ div {
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_text-justify)
 
 ### BROWSER SUPPORT
+
 The numbers in the table specify the first browser version that fully supports the property.
 
 | Browser  | Version            |

@@ -117,7 +117,7 @@ Use calc() to calculate the width of a `<div>` element:
 
 The `max()` function uses the largest value, from a comma-separated list of values, as the property value.
 
-### EXAMPLE
+### EXAMPLE 2
 
 Use max() to set the width of #div1 to whichever value is largest, 50% or 300px:
 
@@ -138,7 +138,7 @@ Use max() to set the width of #div1 to whichever value is largest, 50% or 300px:
 
 The `min()` function uses the smallest value, from a comma-separated list of values, as the property value.
 
-### EXAMPLE
+### EXAMPLE 3
 
 Use min() to set the width of #div1 to whichever value is smallest, 50% or 300px:
 
