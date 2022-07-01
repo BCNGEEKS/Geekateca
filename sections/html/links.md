@@ -174,7 +174,7 @@ People experiencing low vision conditions, navigating with the aid of screen rea
         </a>
 
 <a target="_blank" href="https://www.wikipedia.org">
-        Wikipedia (opens in new tab)
+        Wikipedia (opens in new tab).
         </a>
 
 - Link to a non-HTML resource
