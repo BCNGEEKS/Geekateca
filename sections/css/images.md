@@ -13,10 +13,10 @@ date: 27th June 2022
   - [INDEX](#index)
   - [CSS MASKING](#css-masking)
     - [CSS MASK-IMAGE PROPERTY](#css-mask-image-property)
-    - [EXAMPLE](#example)
+    - [EXAMPLES FOR MASK-IMAGE](#examples-for-mask-image)
     - [CSS MASK-SIZE PROPERTY](#css-mask-size-property)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support)
+    - [EXAMPLES FOR MASK-SIZE](#examples-for-mask-size)
+    - [BROWSER SUPPORT FOR MASK-SIZE](#browser-support-for-mask-size)
 
 ---
 
@@ -34,7 +34,7 @@ This property as the name says is specific for a layer for images.
 
 Tha mask layer itself need to be a PNG, SVG image, a CSS gradient or an SVG `<mask>` element.
 
-### EXAMPLE
+### EXAMPLES FOR MASK-IMAGE
 
 Explanation:
 
@@ -68,7 +68,7 @@ The `mask-size` property specifies the size of the mask layer image.
 | initial | Sets this property to its default value.|
 | inherit | Inherits this property from its parent element. |
 
-### EXAMPLE 2
+### EXAMPLES FOR MASK-SIZE
 
 ```CSS
 .mask1 {
@@ -83,7 +83,7 @@ The `mask-size` property specifies the size of the mask layer image.
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_mask-size2)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR MASK-SIZE
 
 | Browser | Version |
 |:----:|:-------------|

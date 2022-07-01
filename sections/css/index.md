@@ -32,7 +32,7 @@ date: 29th June 2022
   - [FLEXBOX](#flexbox)
   - [GRID](#grid)
     - [GRID GENERAL](#grid-general)
-    - [ESTRUCTURATION](#estructuration)
+    - [STRUCTURATION](#structuration)
     - [GRID-ROWS](#grid-rows)
     - [GRID COLUMNS](#grid-columns)
     - [GRID-AUTO](#grid-auto)
@@ -44,216 +44,216 @@ date: 29th June 2022
 
 ## INTRODUCTION
 
-- [How to](./how-to.md)
-- [About css](./about.md)
-- [Syntax (@import)](./sintaxis.md)
-- [Selectors](./selectors.md)
-  - [Attributes selector](./selectors.md/#attribute-selectors)
-  - [Specificity](./selectors.md/#specificity)
-  - [!important](./selectors.md/#important)
-  - [Combinators](./selectors.md/#combination-selectors)
-- [Units & Math Functions](./units-math.md)
-- [Pseudo-Elements](./pseudo-elements.md)
+- [HOW TO](./how-to.md)
+- [ABOUT CSS](./about.md)
+- [SYNTAX (@IMPORT)](./sintaxis.md)
+- [SELECTORS](./selectors.md)
+  - [ATTRIBUTES SELECTOR](./selectors.md/#attribute-selectors)
+  - [SPECIFICITY](./selectors.md/#specificity)
+  - [!IMPORTANT](./selectors.md/#important)
+  - [COMBINATORS](./selectors.md/#combination-selectors)
+- [UNITS & MATH FUNCTIONS](./units-math.md)
+- [PSEUDO-ELEMENTS](./pseudo-elements.md)
 
 ## COLOR
 
-- [color](./color.md/#color-property)
-- [opacity](./color.md/#opacity-property)
-- [Filter](./color.md/#filter)
-- [Accent-color](./color.md/#accent-color)
+- [COLOR](./color.md/#color-property)
+- [OPACITY](./color.md/#opacity-property)
+- [FILTER](./color.md/#filter)
+- [ACCENT-COLOR](./color.md/#accent-color)
 
 ## WIDTH & HEIGHT
 
-- [Height](./width_height.md/#height)
-  - [Max-height](./width_height.md/#max-height)
-- [Width](./width_height.md/#width)
-  - [Max-Width](./width_height.md/#max-width)
+- [HEIGHT](./width_height.md/#height)
+  - [MAX-HEIGHT](./width_height.md/#max-height)
+- [WIDTH](./width_height.md/#width)
+  - [MAX-WIDTH](./width_height.md/#max-width)
 
 ## ALIGNMENT
 
-- [Align-Content](./alignment.md/#align-content)
-- [Align-Items](./alignment.md/#align-items)
-- [Align-Self](./alignment.md/#align-self)
-- [Justify-Content](./alignment.md/#justify-content)
-- [Text-Align](./alignment.md/#text-align)
-  - [Text-Align-Last](./alignment.md/#text-align-last)
-- [Vertical-Align](./alignment.md/#vertical-align)
+- [ALIGN-CONTENT](./alignment.md/#align-content)
+- [ALIGN-ITEMS](./alignment.md/#align-items)
+- [ALIGN-SELF](./alignment.md/#align-self)
+- [JUSTIFY-CONTENT](./alignment.md/#justify-content)
+- [TEXT-ALIGN](./alignment.md/#text-align)
+  - [TEXT-ALIGN-LAST](./alignment.md/#text-align-last)
+- [VERTICAL-ALIGN](./alignment.md/#vertical-align)
 
 ## POSITION ELEMENTS
 
-- [position](./position-elements.md/#introduction)
-- [top](./position-elements.md/#top-property)
-- [bottom](./position-elements.md/#bottom-property)
-- [right](./position-elements.md/#right-property)
-- [left](./position-elements.md/#left-property)
-- [z-index](./position-elements.md/#property-z-index)
-- [object-position](./position-elements.md/#property-object-position)
-- [order](./position-elements.md/#property-order)
+- [POSITION](./position-elements.md/#introduction)
+- [TOP](./position-elements.md/#top-property)
+- [BOTTOM](./position-elements.md/#bottom-property)
+- [RIGHT](./position-elements.md/#right-property)
+- [LEFT](./position-elements.md/#left-property)
+- [Z-INDEX](./position-elements.md/#property-z-index)
+- [OBJECT-POSITION](./position-elements.md/#property-object-position)
+- [ORDER](./position-elements.md/#property-order)
 
 ## CONTAINERS
 
-- [box-shadow](./containers-basic.md/#box-shadow)
-- [box-sizing](./containers-basic.md/#box-sizing)
-- [visibility](./containers-basic.md/#visibility)
+- [BOX-SHADOW](./containers-basic.md/#box-shadow)
+- [BOX-SIZING](./containers-basic.md/#box-sizing)
+- [VISIBILITY](./containers-basic.md/#visibility)
 
 ### CONTAINERS MARGIN
 
-- [margin](./containers-margin.md/#margin)
-  - [margin-top](./containers-margin.md/#margin-top)
-  - [margin-left](./containers-margin.md/#margin-left)
-  - [margin-right](./containers-margin.md/#margin-right)
-  - [margin-bottom](./containers-margin.md/#margin-bottom)
+- [MARGIN](./containers-margin.md/#margin)
+  - [MARGIN-TOP](./containers-margin.md/#margin-top)
+  - [MARGIN-LEFT](./containers-margin.md/#margin-left)
+  - [MARGIN-RIGHT](./containers-margin.md/#margin-right)
+  - [MARGIN-BOTTOM](./containers-margin.md/#margin-bottom)
 
 ### CONTAINERS PADDING
 
-- [padding](./padding.md/#padding)
-  - [padding-top](./padding.md/#padding-top)
-  - [padding-left](./padding.md/#padding-left)
-  - [padding-right](./padding.md/#padding-right)
-  - [padding-bottom](./padding.md/#padding-bottom)
+- [PADDING](./padding.md/#padding)
+  - [PADDING-TOP](./padding.md/#padding-top)
+  - [PADDING-LEFT](./padding.md/#padding-left)
+  - [PADDING-RIGHT](./padding.md/#padding-right)
+  - [PADDING-BOTTOM](./padding.md/#padding-bottom)
 
 ### CONTAINERS BORDER
 
-- [border](./containers-border.md/#containers-border)
-  - [border-color](./containers-border.md/#border-color)
-  - [border-style](./containers-border.md/#border-style)
-  - [border-radius](./containers-border.md/#border-radius)
-  - [border-width](./containers-border.md/#border-width)
-  - [border-right(left, top, bottom)](./containers-border.md/#border-positions)
+- [BORDER](./containers-border.md/#containers-border)
+  - [BORDER-COLOR](./containers-border.md/#border-color)
+  - [BORDER-STYLE](./containers-border.md/#border-style)
+  - [BORDER-RADIUS](./containers-border.md/#border-radius)
+  - [BORDER-WIDTH](./containers-border.md/#border-width)
+  - [BORDER-RIGHT(LEFT, TOP, BOTTOM)](./containers-border.md/#border-positions)
 
 ### CONTAINERS OUTLINE
 
-- [outline](./containers-outline.md/#outline)
-  - [outline-color](./containers-outline.md/#outline-color)
-  - [outline-offset](./containers-outline.md/#outline-offset)
-  - [outline-width](./containers-outline.md/#outline-width)
-  - [outline-style](./containers-outline.md/#outline-style)
+- [OUTLINE](./containers-outline.md/#outline)
+  - [OUTLINE-COLOR](./containers-outline.md/#outline-color)
+  - [OUTLINE-OFFSET](./containers-outline.md/#outline-offset)
+  - [OUTLINE-WIDTH](./containers-outline.md/#outline-width)
+  - [OUTLINE-STYLE](./containers-outline.md/#outline-style)
 
 ### CONTAINERS OVERFLOW
 
-- [overflow](./containers-overflow.md)
-  - [overflow-wrap](./containers-overflow.md/#overflow-wrap)
+- [OVERFLOW](./containers-overflow.md)
+  - [OVERFLOW-WRAP](./containers-overflow.md/#overflow-wrap)
 
 ## TEXT
 
-- [Direction](./text-properties-1to4.md/#direction)
-- [Letter-spacing](./text-properties-1to4.md/#letter-spacing)
-- [Line-height](./text-properties-1to4.md/#line-height)
-- [Text-justify](./text-properties-1to4.md/#text-justify)
-- [Text-transform](./text-properties-5to12.md/#text-transforms)
-- [Text-indent](./text-properties-5to12.md/#text-indent)
-- [Text-emphasis](./text-properties-5to12.md/#text-emphasis)
-- [Text-shadow](./text-properties-5to12.md/#text-shadow)
-- [Text-overflow](./text-properties-5to12.md/#browser-support-text-overflow)
-- [Quotes](./text-properties-5to12.md/#quote)
-- [Hyphens](./text-properties-5to12.md/#hyphens)
+- [DIRECTION](./text-properties-1to4.md/#direction)
+- [LETTER-SPACING](./text-properties-1to4.md/#letter-spacing)
+- [LINE-HEIGHT](./text-properties-1to4.md/#line-height)
+- [TEXT-JUSTIFY](./text-properties-1to4.md/#text-justify)
+- [TEXT-TRANSFORM](./text-properties-5to12.md/#text-transforms)
+- [TEXT-INDENT](./text-properties-5to12.md/#text-indent)
+- [TEXT-EMPHASIS](./text-properties-5to12.md/#text-emphasis)
+- [TEXT-SHADOW](./text-properties-5to12.md/#text-shadow)
+- [TEXT-OVERFLOW](./text-properties-5to12.md/#browser-support-text-overflow)
+- [QUOTES](./text-properties-5to12.md/#quote)
+- [HYPHENS](./text-properties-5to12.md/#hyphens)
 
 ### FONTS
 
-- [Font](./font.md)
-  - [Font-size](./font.md/#font-size)
-  - [Font-style](./font.md/#font-style)
-  - [Font-weight](./font.md/#font-weight)
+- [FONT](./font.md)
+  - [FONT-SIZE](./font.md/#font-size)
+  - [FONT-STYLE](./font.md/#font-style)
+  - [FONT-WEIGHT](./font.md/#font-weight)
 
 ### DECORATION
 
-- [Text-decoration](./text-decoration.md/#text-decoration)
-  - [Text-decoration-style](./text-decoration.md/#text-decoration-style)
-  - [Text-decoration-line](./text-decoration.md/#text-decoration-line)
-  - [Text-decoration-color](./text-decoration.md/#text-decoration-color)
-  - [Text-decoration-thickness](./text-decoration.md/#text-decoration-thickness)
+- [TEXT-DECORATION](./text-decoration.md/#text-decoration)
+  - [TEXT-DECORATION-STYLE](./text-decoration.md/#text-decoration-style)
+  - [TEXT-DECORATION-LINE](./text-decoration.md/#text-decoration-line)
+  - [TEXT-DECORATION-COLOR](./text-decoration.md/#text-decoration-color)
+  - [TEXT-DECORATION-THICKNESS](./text-decoration.md/#text-decoration-thickness)
 
 ## BACKGROUND
 
-- [Background](./background.md/#background)
-- [Background-color](./background.md/#background-color)
-- [Background-image](./background.md/#background-image)
-- [Background-position](./background.md/#background-position)
-- [Background-size](./background.md/#background-size)
-- [Background-repeat](./background.md/#background-repeat)
-- [Background-origin](./background.md/#background-origin)
-- [Background-Attachment](./background.md/#background-attachment)
+- [BACKGROUND](./background.md/#background)
+- [BACKGROUND-COLOR](./background.md/#background-color)
+- [BACKGROUND-IMAGE](./background.md/#background-image)
+- [BACKGROUND-POSITION](./background.md/#background-position)
+- [BACKGROUND-SIZE](./background.md/#background-size)
+- [BACKGROUND-REPEAT](./background.md/#background-repeat)
+- [BACKGROUND-ORIGIN](./background.md/#background-origin)
+- [BACKGROUND-ATTACHMENT](./background.md/#background-attachment)
 
 ## IMAGES
 
-- [masking](./images.md/#css-masking)
-- [mask-image](./images.md/#css-mask-image-property)
-- [mask-size](./images.md/#css-mask-size-property)
+- [MASKING](./images.md/#css-masking)
+- [MASK-IMAGE](./images.md/#css-mask-image-property)
+- [MASK-SIZE](./images.md/#css-mask-size-property)
 
 ## LIST
 
-- [List-style](./list-page.md/#introduction)
-- [List-style-image](./list-page.md/#list-style-image-property)
-- [List-style-position](./list-page.md/#list-style-position-property)
-- [List-style-type](./list-page.md/#list-style-type-property)
+- [LIST-STYLE](./list-page.md/#introduction)
+- [LIST-STYLE-IMAGE](./list-page.md/#list-style-image-property)
+- [LIST-STYLE-POSITION](./list-page.md/#list-style-position-property)
+- [LIST-STYLE-TYPE](./list-page.md/#list-style-type-property)
 
 ## TABLES
 
-- [table-layout](./tables.md/#table-layout)
-- [empty-cells](./tables.md/#empty-cells)
-- [border-collapse](./tables.md/#border-collapse)
+- [TABLE-LAYOUT](./tables.md/#table-layout)
+- [EMPTY-CELLS](./tables.md/#empty-cells)
+- [BORDER-COLLAPSE](./tables.md/#border-collapse)
 
 ## PAGE STYLE
 
-- [columns](./columns.md/#columns)
-  - [column-gap](./columns.md/#column-gap)
-  - [column-count](./columns.md/#column-count)
-  - [column-rule-style](./columns.md/#column-rule-style)
-  - [column-rule-width](./columns.md/#column-rule-width)
-  - [column-rule-color](./columns.md/#column-rule-color)
+- [COLUMNS](./columns.md/#columns)
+  - [COLUMN-GAP](./columns.md/#column-gap)
+  - [COLUMN-COUNT](./columns.md/#column-count)
+  - [COLUMN-RULE-STYLE](./columns.md/#column-rule-style)
+  - [COLUMN-RULE-WIDTH](./columns.md/#column-rule-width)
+  - [COLUMN-RULE-COLOR](./columns.md/#column-rule-color)
 
 ## FLEXBOX
 
-- [Flex-basis](./flexbox.md/#flex-basis)
-- [Flex-direction](./flexbox.md/#flex-direction)
-- [Flex-grow](./flexbox.md/#flex-grow)
-- [Flex-shrink](./flexbox.md/#flex-shrink)
-- [Flex-wrap](./flexbox.md/#flex-wrap)
+- [FLEX-BASIS](./flexbox.md/#flex-basis)
+- [FLEX-DIRECTION](./flexbox.md/#flex-direction)
+- [FLEX-GROW](./flexbox.md/#flex-grow)
+- [FLEX-SHRINK](./flexbox.md/#flex-shrink)
+- [FLEX-WRRAP](./flexbox.md/#flex-wrap)
 
 ## GRID
 
 ### GRID GENERAL
 
-- [grid](./grid-general-page.md/#grid-properties)
-  - [grid-gap](./grid-general-page.md/#grid-gap-property)
-  - [grid-area](./grid-general-page.md/#grid-area-property)
+- [GRID](./grid-general-page.md/#grid-properties)
+  - [GRID-GAP](./grid-general-page.md/#grid-gap-property)
+  - [GRID-AREA](./grid-general-page.md/#grid-area-property)
 
-### ESTRUCTURATION
+### STRUCTURATION
 
-- [grid-template](./grid-estructuration.md/#grid-template)
-  - [grid-template-areas](./grid-estructuration.md/#grid-template-areas)
-  - [grid-template-columns](./grid-estructuration.md/#grid-template-columns)
-  - [grid-template-rows](./grid-estructuration.md/#grid-template-rows)
+- [GRID-TEMPLATE](./grid-estructuration.md/#grid-template)
+  - [GRID-TEMPLATE-AREAS](./grid-estructuration.md/#grid-template-areas)
+  - [GRID-TEMPLATE-COLUMNS](./grid-estructuration.md/#grid-template-columns)
+  - [GRID-TEMPLATE-ROWS](./grid-estructuration.md/#grid-template-rows)
 
 ### GRID-ROWS
 
-- [grid-row](./grid-row.md/#grid-row)
-  - [grid-row-start](./grid-row.md/#grid-row-start)
-  - [grid-row-end](./grid-row.md/#grid-row-end)
-- [row-gap](./grid-row.md/#row-gap)
+- [GRID-ROW](./grid-row.md/#grid-row)
+  - [GRID-ROW-START](./grid-row.md/#grid-row-start)
+  - [GIRD-ROW-END](./grid-row.md/#grid-row-end)
+- [ROW-GAP](./grid-row.md/#row-gap)
 
 ### GRID COLUMNS
 
-- [grid-column](./grid-columns.md/#grid-column)
-  - [grid-column-gap](./grid-columns.md/#grid-column-gap)
-  - [grid-column-start](./grid-columns.md/#grid-column-start)
-  - [grid-column-end](./grid-columns.md/#grid-column-end)
+- [GRID-COLUMN](./grid-columns.md/#grid-column)
+  - [GRID-COLUMN-GAP](./grid-columns.md/#grid-column-gap)
+  - [GRID-COLUMN-START](./grid-columns.md/#grid-column-start)
+  - [GRID-COLUMN-END](./grid-columns.md/#grid-column-end)
 
 ### GRID-AUTO
 
-- [grid-auto-columns](./grid-auto.md/#grid-auto-columns-property)
-- [grid-auto-rows](./grid-auto.md/#grid-auto-rows-property)
-- [grid-auto-flow](./grid-auto.md/#grid-auto-flow-property)
+- [GRID-AUTO-COLUMNS](./grid-auto.md/#grid-auto-columns-property)
+- [GRID-AUTO-ROWS](./grid-auto.md/#grid-auto-rows-property)
+- [GRID-AUTO-FLOW](./grid-auto.md/#grid-auto-flow-property)
 
 ## CURSOR
 
-- [cursor](./cursor.md/#cursor)
+- [CURSOR](./cursor.md/#cursor)
 
 ## CSS EVENTS
 
-- [Pointer-event](./css-events.md/#pointer-events)
-- [Pseudo-classes](./css-events.md/#pseudo-classes)
+- [POINTER-EVENTS](./css-events.md/#pointer-events)
+- [PSEUDO-CLASSES](./css-events.md/#pseudo-classes)
 
 ## MEDIA QUERYS
 
-- [@media](./mediaquerys.md/#media-queries)
+- [@MEDIA](./mediaquerys.md/#media-queries)
