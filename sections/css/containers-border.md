@@ -6,23 +6,24 @@ date: 23th June 2022
 
 # CONTAINERS BORDER
 
-## TABLE OF CONTENTS 
+## TABLE OF CONTENTS
 
 - [CONTAINERS BORDER](#containers-border)
   - [TABLE OF CONTENTS](#table-of-contents)
-  - [BORDER STYLE](#border-style)
-    - [EXAMPLE](#example)
+  - [INDEX](#index)
+  - [BORDER-STYLE](#border-style)
+    - [EXAMPLE FOR BORDER-STYLE](#example-for-border-style)
   - [BORDER-COLOR](#border-color)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support)
+    - [EXAMPLES FOR BORDER-COLOR](#examples-for-border-color)
+    - [BROWSER SUPPORT FOR BORDER-COLOR](#browser-support-for-border-color)
   - [BORDER-RADIUS](#border-radius)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [EXAMPLES FOR BORDER-RADIUS](#examples-for-border-radius)
+    - [BROWSER SUPPORT FOR BORDER-RADIUS](#browser-support-for-border-radius)
   - [BORDER-WIDTH](#border-width)
-    - [EXAMPLES](#examples)
-    - [BROWSER SUPPORT](#browser-support-2)
+    - [EXAMPLES FOR BORDER-WIDTH](#examples-for-border-width)
+    - [BROWSER SUPPORT FOR BORDER-WIDTH](#browser-support-for-border-width)
   - [BORDER-POSITIONS](#border-positions)
-    - [BROWSER SUPPORT](#browser-support-3)
+    - [BROWSER SUPPORT FOR BORDER-POSITIONS](#browser-support-for-border-positions)
 
 ---
 
@@ -32,12 +33,9 @@ date: 23th June 2022
 
 The CSS border property allows to change the style, width , and color of an elements's border.
 
-## BORDER STYLE
-
+## BORDER-STYLE
 
 The `border-style` property specifies what kind of border to display.
-
-
 
 You can use the next values:
 
@@ -54,7 +52,7 @@ You can use the next values:
 |   noce        |    Defines no border      |
 |   hidden      |      Defines a hidden border      |
 
-### EXAMPLE
+### EXAMPLE FOR BORDER-STYLE
 
 ```CSS
 
@@ -80,16 +78,15 @@ p.mix {border-style: dotted dashed solid double;}
 
 The `border-color` property sets the color of an element's four borders. This property can have from one to four values. Also check the [color](./color.md) page.
 
-
 [A quick demo!](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_border-color)
 
-### EXAMPLE 
+### EXAMPLES FOR BORDER-COLOR
 
 ```CSS
 div {border-color: #92a8d1;}
 ```
-### BROWSER SUPPORT
 
+### BROWSER SUPPORT FOR BORDER-COLOR
 
 | Browser | Version |
 |:----:|:-------------|
@@ -105,11 +102,11 @@ div {border-color: #92a8d1;}
 
 The `border-radius` property defines the radius of the element's corners.
 
-Tip: This property allows you to add rounded corners to elements! 
+Tip: This property allows you to add rounded corners to elements!
 
 [A quick demo!](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_border-radius)
 
-### EXAMPLE
+### EXAMPLES FOR BORDER-RADIUS
 
 ```CSS
 #rcorners1 {
@@ -120,9 +117,10 @@ Tip: This property allows you to add rounded corners to elements!
   height: 150px;
 }
 ```
+
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_border-radius2)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BORDER-RADIUS
 
 | Browser | Version |
 |:----:|:-------------|
@@ -134,17 +132,19 @@ Tip: This property allows you to add rounded corners to elements!
 
 ## BORDER-WIDTH
 
-The `border-width` property sets the width of an element's four borders. 
+The `border-width` property sets the width of an element's four borders.
 
 [A quick demo!](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_border-width)
 
-### EXAMPLES
+### EXAMPLES FOR BORDER-WIDTH
 
 ```CSS
 div {border-width: medium;}
 ```
+
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_border-width2)
-### BROWSER SUPPORT
+
+### BROWSER SUPPORT FOR BORDER-WIDTH
 
 | Browser | Version |
 |:----:|:-------------|
@@ -162,7 +162,7 @@ You have sub properties that you can change just by adding -width, -style or -co
 
 [A quick demo!](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_border-right)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BORDER-POSITIONS
 
 | Browser | Version |
 |:----:|:-------------|

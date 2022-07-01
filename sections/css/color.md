@@ -12,14 +12,14 @@ date: 20th June 2022
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)
   - [COLOR PROPERTY](#color-property)
-    - [COLOR VALUES](#color-values)
+    - [PROPERTY VALUES FOR COLOR](#property-values-for-color)
     - [CSS SYNTAX FOR COLOR](#css-syntax-for-color)
-    - [EXAMPLES](#examples)
+    - [EXAMPLES FOR COLOR](#examples-for-color)
     - [BROWSER SUPPORT FOR COLORS](#browser-support-for-colors)
   - [OPACITY PROPERTY](#opacity-property)
     - [CSS SYNTAX FOR OPACITY](#css-syntax-for-opacity)
-    - [EXAMPLE](#example)
-    - [Browser Support for Opacity](#browser-support-for-opacity)
+    - [EXAMPLE FOR OPACITY](#example-for-opacity)
+    - [BROWSER SUPPORT FOR OPACITY](#browser-support-for-opacity)
   - [FILTER](#filter)
     - [FILTER FUNCTIONS](#filter-functions)
     - [USING MULTIPLE FUNCTIONS](#using-multiple-functions)
@@ -39,7 +39,7 @@ date: 20th June 2022
 
 It can be added with predefined color names or by different values like: RGB, HEX, HSL, RGBA, HSLA...
 
-### COLOR VALUES
+### PROPERTY VALUES FOR COLOR
 
 | Color Value | Example  |
 |:----:|:-------------|
@@ -60,7 +60,7 @@ body {color: hsl(89, 43%, 51%);}
 
 ```
 
-### EXAMPLES
+### EXAMPLES FOR COLOR
 
 | Color | Description | Try yourself |
 |:----:|:-------------|:----:|
@@ -96,13 +96,13 @@ div
 
 ```
 
-### EXAMPLE
+### EXAMPLE FOR OPACITY
 
 | Opacity | Description | Try yourself |
 |:----:|:-------------|:----:|
 | Opacity Property | An example of an element with opacity | [Opacity Property](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_opacity_box) |
 
-### Browser Support for Opacity
+### BROWSER SUPPORT FOR OPACITY
 
 | Property | Opacity |
 |:----:|:-------------|

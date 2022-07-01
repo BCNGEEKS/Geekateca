@@ -18,15 +18,15 @@ date: date
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [EMPTY-CELLS](#empty-cells)
-    - [PROPERTY VALUES](#property-values-1)
-    - [CSS SYNTAX](#css-syntax-1)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [PROPERTY VALUES FOR EMPTY-CELLS](#property-values-for-empty-cells)
+    - [CSS SYNTAX FOR EMPTY-CELLS](#css-syntax-for-empty-cells)
+    - [EXAMPLE FOR EMPTY-CELLS](#example-for-empty-cells)
+    - [BROWSER SUPPORT FOR EMPTY-CELLS](#browser-support-for-empty-cells)
   - [BORDER-COLLAPSE](#border-collapse)
-    - [PROPERTY VALUES](#property-values-2)
-    - [CSS SYNTAX](#css-syntax-2)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-2)
+    - [PROPERTY VALUES FOR BORDER-COLLAPSE](#property-values-for-border-collapse)
+    - [CSS SYNTAX FOR BORDER-COLLAPSE](#css-syntax-for-border-collapse)
+    - [EXAMPLE FOR BORDER-COLLAPSE](#example-for-border-collapse)
+    - [BROWSER SUPPORT FOR BORDER-COLLAPSE](#browser-support-for-border-collapse)
   
 ---
 
@@ -91,7 +91,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `empty-cells` property sets whether or not to display borders on empty cells in a table.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR EMPTY-CELLS
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -100,11 +100,11 @@ The `empty-cells` property sets whether or not to display borders on empty cells
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR EMPTY-CELLS
 
 > empty-cells: show | hide | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR EMPTY-CELLS
 
 Display no borders on empty cells in a table
 
@@ -116,7 +116,7 @@ table {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_empty-cells)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR EMPTY-CELLS
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -134,7 +134,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `border-collapse` property sets whether table borders should collapse into a single border or be separated as in standard HTML.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR BORDER-COLLAPSE
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -143,11 +143,11 @@ The `border-collapse` property sets whether table borders should collapse into a
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR BORDER-COLLAPSE
 
 > border-collapse: separate | collapse | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR BORDER-COLLAPSE
 
 Set the collapsing borders model for two tables
 
@@ -174,7 +174,7 @@ When using "border-collapse: separate", the border-spacing property can be used 
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_border-collapse2)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BORDER-COLLAPSE
 
 The numbers in the table specify the first browser version that fully supports the property.
 

@@ -15,14 +15,14 @@ date: 23th June 2022
   - [TYPES](#types)
     - [ABSOLUTE LENGTHS](#absolute-lengths)
     - [RELATIVE LENGTHS](#relative-lengths)
-    - [BROWSER SUPPORT](#browser-support)
+    - [BROWSER SUPPORT FOR RELATIVE LENGTHS](#browser-support-for-relative-lengths)
   - [MATH FUNCTION](#math-function)
     - [THE calc() FUNCTION](#the-calc-function)
-    - [EXAMPLE](#example)
+    - [EXAMPLES FOR calc() FUNCTION](#examples-for-calc-function)
     - [The max() Function](#the-max-function)
-    - [EXAMPLE](#example-1)
+    - [EXAMPLES FOR max() FUNCTION](#examples-for-max-function)
     - [THE min() FUNCTION](#the-min-function)
-    - [EXAMPLE](#example-2)
+    - [EXAMPLES FOR min() FUNCTION](#examples-for-min-function)
 
 ---
 
@@ -75,7 +75,7 @@ They are normally used when the screen size is not known.
 |   vmax       |     Relative to 1% of viewport's* larger dimension      |     [Demo](https://www.w3schools.com/css/tryit.asp?filename=trycss_unit_vmax)  |
 |   %       |     Relative to the parent element      |     [Demo](https://www.w3schools.com/css/tryit.asp?filename=trycss_unit_percentage)  |
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR RELATIVE LENGTHS
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -96,7 +96,7 @@ The CSS math functions allow mathematical expressions to be used as property val
 
 The `calc()` function performs a calculation to be used as the property value.
 
-### EXAMPLE
+### EXAMPLES FOR calc() FUNCTION
 
 Use calc() to calculate the width of a `<div>` element:
 
@@ -117,7 +117,7 @@ Use calc() to calculate the width of a `<div>` element:
 
 The `max()` function uses the largest value, from a comma-separated list of values, as the property value.
 
-### EXAMPLE
+### EXAMPLES FOR max() FUNCTION
 
 Use max() to set the width of #div1 to whichever value is largest, 50% or 300px:
 
@@ -138,7 +138,7 @@ Use max() to set the width of #div1 to whichever value is largest, 50% or 300px:
 
 The `min()` function uses the smallest value, from a comma-separated list of values, as the property value.
 
-### EXAMPLE
+### EXAMPLES FOR min() FUNCTION
 
 Use min() to set the width of #div1 to whichever value is smallest, 50% or 300px:
 
