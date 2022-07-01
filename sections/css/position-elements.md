@@ -13,37 +13,37 @@ date: 21 June 2022
   - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [PROPERTY POSITION](#property-position)
-    - [POSITION VALUES](#position-values)
-    - [EXAMPLES](#examples)
+    - [POSITION VALUES FOR PROPERTY POSITION](#position-values-for-property-position)
+    - [EXAMPLES FOR PROPERTY POSITION](#examples-for-property-position)
       - [STATIC VALUE](#static-value)
       - [RELATIVE VALUE](#relative-value)
       - [ABSOLUTE VALUE](#absolute-value)
       - [FIXED VALUE](#fixed-value)
       - [STICKY VALUE](#sticky-value)
-    - [BROWSER SUPPORT](#browser-support)
+    - [BROWSER SUPPORT FOR PROPERTY POSITION](#browser-support-for-property-position)
   - [POSITIONING PROPERTIES](#positioning-properties)
-    - [PROPERTY VALUES](#property-values)
+    - [PROPERTY VALUES FOR POSITIONING PROPERTIES](#property-values-for-positioning-properties)
   - [TOP PROPERTY](#top-property)
-    - [EXAMPLE](#example)
+    - [EXAMPLE FOR TOP PROPERTY](#example-for-top-property)
   - [BOTTOM PROPERTY](#bottom-property)
-    - [EXAMPLE](#example-1)
+    - [EXAMPLE FOR BOTTOM PROPERTY](#example-for-bottom-property)
   - [RIGHT PROPERTY](#right-property)
-    - [EXAMPLE](#example-2)
+    - [EXAMPLE FOR RIGHT PROPERTY](#example-for-right-property)
   - [LEFT PROPERTY](#left-property)
-    - [EXAMPLE](#example-3)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [EXAMPLE FOR LEFT PROPERTY](#example-for-left-property)
+    - [BROWSER SUPPORT FOR POSITIONING](#browser-support-for-positioning)
   - [PROPERTY Z-INDEX](#property-z-index)
-    - [PROPERTY VALUES](#property-values-1)
-    - [EXAMPLE](#example-4)
-    - [BROWSER SUPOORT](#browser-supoort)
-  - [PROPERTY OBJECT-POSITION](#property-object-position)
-    - [PROPERTY VALUES](#property-values-2)
-    - [EXAMPLE](#example-5)
-    - [BROWSER SUPPOORT](#browser-suppoort)
+    - [PROPERTY VALUES](#property-values)
+    - [EXAMPLE](#example)
+    - [BROWSER SUPPORT FOR Z-INDEX](#browser-support-for-z-index)
+  - [OBJECT-POSITION PROPERTY](#object-position-property)
+    - [PROPERTY VALUES FOR OBJECT-POSITION PROPERTY](#property-values-for-object-position-property)
+    - [EXAMPLE FOR OBJECT-POSITION PROPERTY](#example-for-object-position-property)
+    - [BROWSER SUPPORT FOR OBJECT-POSITION PROPERTY](#browser-support-for-object-position-property)
   - [PROPERTY ORDER](#property-order)
-    - [PROPERTY VALUES](#property-values-3)
-    - [EXAMPLE](#example-6)
-    - [BROWSER SUPOORT](#browser-supoort-1)
+    - [PROPERTY VALUES FOR PROPERTY ORDER](#property-values-for-property-order)
+    - [EXAMPLE FOR PROPERTY ORDER](#example-for-property-order)
+    - [BROWSER SUPPORT FOR PROPERTY ORDER](#browser-support-for-property-order)
 
 ---
 
@@ -59,23 +59,23 @@ In this article be talk about how to use the `property` position and its values 
 
 The property position is used for define the positioning at the elements in the HTML document, and the properties top, bottom, right, left, have effects if its use the follow values
 
-### POSITION VALUES
+### POSITION VALUES FOR PROPERTY POSITION
 
-|    Value     | Description                                                                                                                                                                                                         |
-| :----------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-|  **static**  | The static value is the default value for positioning the elements in the HTML, the element will be positioning respecting the flow of the HTML                                                                     |
-| **relative** | With this value could can to position an element respect to the flow of the HTML                                                                                                                                    |
-| **absolute** | if is use this value the elment don't be inside at the flow HTML and will take how a reference the browser window or another element that have the position property, except when the element is defined how static |
-|  **fixed**   | This value also don't be inside at the flow at the HTML, but don't there confuse with absolute value, because if do scrolling the element will stay in fixed                                                        |
-|  **sticky**  | This value would be considrered how a hibrid between fixed and relative, because when it reaches the displacement threshold it becomes fixed                                                                        |
+|  Value   | Description                                                                                                                                                                                                          |
+| :------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  static  | The static value is the default value for positioning the elements in the HTML, the element will be positioning respecting the flow of the HTML                                                                      |
+| relative | With this value could can to position an element respect to the flow of the HTML                                                                                                                                     |
+| absolute | if is use this value the element don't be inside at the flow HTML and will take how a reference the browser window or another element that have the position property, except when the element is defined how static |
+|  fixed   | This value also don't be inside at the flow at the HTML, but don't there confuse with absolute value, because if do scrolling the element will stay in fixed                                                         |
+|  sticky  | This value would be considered how a hybrid between fixed and relative, because when it reaches the displacement threshold it becomes fixed                                                                          |
 
-### EXAMPLES
+### EXAMPLES FOR PROPERTY POSITION
 
-Now its will seen some examples for each property, this examples will be acompanied with HTML syntax
+Now its will be seen some examples for each property, this examples will be accompanied with HTML syntax
 
 #### STATIC VALUE
 
-When will want to a element static in the HTML, normally not have to put the property `position`
+When will be want to a element static in the HTML, normally not have to put the property `position`
 
 ```CSS
 .red{
@@ -96,7 +96,7 @@ When will want to a element static in the HTML, normally not have to put the pro
 <div class="red"></div>
 ```
 
-So whether want to put some value for determine the positioning how for example, top, bottom, rigth, left, will haven't effects in the element
+So whether want to put some value for determine the positioning how for example, top, bottom, right, left, will haven't effects in the element
 
 ---
 
@@ -128,7 +128,7 @@ If is put values how top, bottom, left, right, can be used because the element i
 
 #### ABSOLUTE VALUE
 
-Also the propierties top, left, bottom, right, have effects when the element is positioned how absolute.
+Also the properties top, left, bottom, right, have effects when the element is positioned how absolute.
 
 In this case will take how a reference the browser windows and the div with `id="moved"` will moved 40px to top, and 50px to the left.
 
@@ -226,14 +226,14 @@ When a element is defined how a `fixed`, this means that the element always stay
 When this value is used the element acts as if it were positioned relative until the page scroll reaches the element, and this element will remain fixed
 
 ```CSS
-#marca{
+#brand{
   height: 50px;
   width: 100%;
   background-color: green;
   text-align: center;
 }
 
-#marca img{
+#brand img{
   height: 100%;
 }
 
@@ -245,7 +245,7 @@ When this value is used the element acts as if it were positioned relative until
    background-color: red;
 }
 
-#contenido{
+#content{
    height: 1200px;
    width: 100%;
    background-color: yellow;
@@ -253,17 +253,17 @@ When this value is used the element acts as if it were positioned relative until
 ```
 
 ```HTML
-<div id="marca">
+<div id="brand">
   <img src="" alt="test">
 </div>
 
 <div id="menu"></div>
-<div id="contenido">CONTENIDO</div>
+<div id="content">CONTENT</div>
 ```
 
 ---
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR PROPERTY POSITION
 
 | Browser | Version |
 | :-----: | :------ |
@@ -275,9 +275,9 @@ When this value is used the element acts as if it were positioned relative until
 
 ## POSITIONING PROPERTIES
 
-The positioning properties **top,** **bottom,** **left** and **right** are used for posiotining only the elements that not are static, and these properties are applicated when a elemenet have the property `position`
+The positioning properties **top,** **bottom,** **left** and **right** are used for positioning only the elements that not are static, and these properties are applicated when a element have the property `position`
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR POSITIONING PROPERTIES
 
 |  Value  | Description                                                                 |
 | :-----: | :-------------------------------------------------------------------------- |
@@ -289,9 +289,9 @@ The positioning properties **top,** **bottom,** **left** and **right** are used 
 
 ## TOP PROPERTY
 
-The top property affects the vertical position of a posiotioned element.
+The top property affects the vertical position of a positioned element.
 
-### EXAMPLE
+### EXAMPLE FOR TOP PROPERTY
 
 ```CSS
 div {
@@ -305,9 +305,9 @@ div {
 
 ## BOTTOM PROPERTY
 
-### EXAMPLE
+### EXAMPLE FOR BOTTOM PROPERTY
 
-The bottom property affects the vertical position of a posiotione element.
+The bottom property affects the vertical position of a positioned element.
 
 ```CSS
 div {
@@ -323,7 +323,7 @@ div {
 
 The right position affects the horizontal position of a positioned element.
 
-### EXAMPLE
+### EXAMPLE FOR RIGHT PROPERTY
 
 ```CSS
 div {
@@ -341,7 +341,7 @@ div {
 
 The left position affects the horizontal position of a positioned element.
 
-### EXAMPLE
+### EXAMPLE FOR LEFT PROPERTY
 
 ```CSS
 div {
@@ -353,7 +353,7 @@ div {
 }
 ```
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR POSITIONING
 
 | Browser | Version |
 | :------ | :------ |
@@ -369,11 +369,11 @@ The **z-index** property is for indicate the order of a element, when a element 
 
 ### PROPERTY VALUES
 
-|  Value  | Descriptin                                     |
+|  Value  | Description                                     |
 | :-----: | :--------------------------------------------- |
 |  auto   | Specifies the order equal to its parents       |
 | number  | Specifies the order of a element               |
-| initial | Set the property to its deafault value         |
+| initial | Set the property to its default value         |
 | inherit | Inherits the property  from its parent element |
 
 ### EXAMPLE
@@ -387,7 +387,7 @@ img {
 }
 ```
 
-### BROWSER SUPOORT
+### BROWSER SUPPORT FOR Z-INDEX
 
 | Browser | Version |
 | :-----: | :------ |
@@ -397,19 +397,19 @@ img {
 | Safari  | 1.0     |
 |  Opera  | 4.0     |
 
-## PROPERTY OBJECT-POSITION
+## OBJECT-POSITION PROPERTY
 
-The property **object-position** is used together with the property **object-fit** to specify how an `<img>` or `<video>` should be positioned with x/y coodinates.
+The property **object-position** is used together with the property **object-fit** to specify how an `<img>` or `<video>` should be positioned with x/y coordinates.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR OBJECT-POSITION PROPERTY
 
 |  Value   | Description                                                                                                                                                                                                                                              |
 | :------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | position | Specifies the position of the image or video inside a box, the first value is for define the x-axis and the second value is for define the y-axis, This value can be a String (left, center or right), or number for example using units sizes(px or %). |
 | initial  | Set the property to its default value.                                                                                                                                                                                                                   |
-| inherit  | Inhertis the property from its parent element                                                                                                                                                                                                            |
+| inherit  | Inherits the property from its parent element                                                                                                                                                                                                            |
 
-### EXAMPLE
+### EXAMPLE FOR OBJECT-POSITION PROPERTY
 
 ```CSS
 img {
@@ -421,7 +421,7 @@ img {
 }
 ```
 
-### BROWSER SUPPOORT
+### BROWSER SUPPORT FOR OBJECT-POSITION PROPERTY
 
 | Browser | Version |
 | :-----: | :------ |
@@ -435,15 +435,15 @@ img {
 
 This property is used when a element is defined how flexible, si if the element isn't a flexible, the **order** property has not effect
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR PROPERTY ORDER
 
 |  VALUE  | Description                                                 |
 | :-----: | :---------------------------------------------------------- |
 | number  | Specifies the order for the flexible item, for default is 0 |
 | initial | Set the property to its default value.                      |
-| inherit | Inhertis the property from its parent element               |
+| inherit | Inherits the property from its parent element               |
 
-### EXAMPLE
+### EXAMPLE FOR PROPERTY ORDER
 
 ```CSS
 #main {
@@ -486,7 +486,7 @@ div#myPinkDIV {
 
 For use this property first  need to define the elements as flexible, and then possibly use the order property to set the positioning
 
-### BROWSER SUPOORT
+### BROWSER SUPPORT FOR PROPERTY ORDER
 
 | Browser | Description |
 | :-----: | :---------- |

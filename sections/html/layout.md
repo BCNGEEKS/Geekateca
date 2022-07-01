@@ -10,7 +10,6 @@ date: 20th June 2022
 
 - [LAYOUT](#layout)
   - [TABLE OF CONTENTS](#table-of-contents)
-  - [INDEX](#index)
     - [INTRODUCTION](#introduction)
     - [HEADER](#header)
       - [EXAMPLE](#example)
@@ -32,11 +31,7 @@ date: 20th June 2022
 
 ---
 
-## [INDEX](./index.md)
-
----
-
-### INTRODUCTION 
+### INTRODUCTION
 
 HTML has several semantic elements that define the different parts of a web page.
 
@@ -78,7 +73,7 @@ A `<header>` element typically contains:
         <p>Some additional information here</p>
     </header>
     <p>Lorem Ipsum dolor set amet....</p>
-    
+
 This example shows a header before the paragraphs attributes to show the first title in this document.
 
 ---
@@ -110,12 +105,12 @@ The `<section>` tag defines a section in a document.
 
     <section>
     <h2>WWF History</h2>
-    <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+    <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation.</p>
     </section>
 
     <section>
     <h2>WWF's Symbol</h2>
-    <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+    <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi.</p>
     </section>
 
 This example shows the different sections it could be in a document.
@@ -127,11 +122,12 @@ This example shows the different sections it could be in a document.
 The `<aside>` tag defines some content aside from the content it is placed in and should be indirectly related to the surrounding content.
 
 #### EXAMPLE
+
     <p>My family and I visited The Epcot center this summer. The weather was nice, and Epcot was amazing! I had a great summer together with my family!</p>
 
     <aside>
     <h4>Epcot Center</h4>
-    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions and international pavilions, award-winning fireworks.</p>
     </aside>
 
 This example shows how to put the aside tag, and how it can be after a paragraph or have a paragraph inside.
@@ -224,7 +220,7 @@ The `<details>` tag is often used to create an interactive widget that the user 
 
 #### SUMMARY
 
-The `<summary>` tag defines a visible heading for the `<details>` element. The heading can be clicked to view/hide the details. 
+The `<summary>` tag defines a visible heading for the `<details>` element. The heading can be clicked to view/hide the details.
 
 `<summary>` element should be the first child element of `<details>`.
 
@@ -232,7 +228,7 @@ The `<summary>` tag defines a visible heading for the `<details>` element. The h
 
     <details>
       <summary>Epcot Center</summary>
-      <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+      <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions and award-winning fireworks.</p>
     </details>
 
 This example shows the details widget with Epcot Center as a summary name.
