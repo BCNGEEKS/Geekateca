@@ -11,8 +11,8 @@ date: 18th June 2022
 - [SYNTAXIS](#syntaxis)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)
-  - [SYNTAXIS CSS](#syntaxis-css)
-    - [EXAMPLE](#example)
+  - [SYNTAX CSS](#syntax-css)
+    - [EXAMPLES FOR SYNTAX CSS](#examples-for-syntax-css)
 
 ---
 
@@ -20,7 +20,7 @@ date: 18th June 2022
 
 ---
 
-## SYNTAXIS CSS
+## SYNTAX CSS
 
 An element in CSS is called a rule.
 
@@ -34,7 +34,7 @@ Each declaration includes a CSS property name and a value, separated by a colon.
 
 Multiple CSS declarations are separated with semicolons, and declaration blocks are surrounded by curly braces.
 
-### EXAMPLE
+### EXAMPLES FOR SYNTAX CSS
 
 ```CSS
 p {

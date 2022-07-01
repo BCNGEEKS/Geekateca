@@ -13,11 +13,11 @@ date: 18th June 2022
   - [INDEX](#index)
   - [Ways to insert CSS](#ways-to-insert-css)
     - [External CSS](#external-css)
-    - [Example](#example)
+    - [EXAMPLES FOR EXTERNAL CSS](#examples-for-external-css)
     - [Internal CSS](#internal-css)
-    - [Example](#example-1)
+    - [EXAMPLES FOR INTERNAL CSS](#examples-for-internal-css)
     - [Inline CSS](#inline-css)
-    - [Example](#example-2)
+    - [EXAMPLES FOR INLINE CSS](#examples-for-inline-css)
   - [Cascading Order](#cascading-order)
 
 ---
@@ -44,7 +44,7 @@ External CSS means having a CSS page where you can change the look of the websit
 
 Each HTML page must include a reference to the external style sheet file inside the < link > element, inside the head section.
 
-### Example
+### EXAMPLES FOR EXTERNAL CSS
 
 External styles are defined within the `<link>` element, inside the `<head>` section of an HTML page:
 
@@ -67,7 +67,7 @@ Internal CSS means creating a `<style>` element, inside the head section.
 
 This method is only used when a page has a unique style.
 
-### EXAMPLE
+### EXAMPLES FOR INTERNAL CSS
 
 ```HTML
     <!DOCTYPE html>
@@ -96,7 +96,7 @@ The use of inline CSS is limited to the element it is inside.
 To use inline styles, add the style attribute to the relevant element.
 The style attribute can contain any CSS property.
 
-### EXAMPLE 2
+### EXAMPLES FOR INLINE CSS
 
 Inline styles are defined within the "style" attribute of the relevant element:
 

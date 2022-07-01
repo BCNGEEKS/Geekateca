@@ -12,11 +12,11 @@ date: 29th June 2022
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)
   - [POINTER-EVENTS](#pointer-events)
-    - [EXAMPLE](#example)
+    - [EXAMPLES FOR POINTER-EVENTS](#examples-for-pointer-events)
   - [PSEUDO-CLASSES](#pseudo-classes)
-    - [SYNTAX](#syntax)
-    - [EXAMPLE](#example-1)
-
+    - [SYNTAX FOR PSEUDO-CLASSES](#syntax-for-pseudo-classes)
+    - [EXAMPLE FOR PSEUDO-CLASSES](#example-for-pseudo-classes)
+  
 ---
 
 ## [INDEX](./index.md)
@@ -27,7 +27,7 @@ date: 29th June 2022
 
 `Pointer-events` is a property that sets wether or not an elements should react to pointer events:
 
-### EXAMPLE
+### EXAMPLES FOR POINTER-EVENTS
 
 ```CSS
 div.ex1 {
@@ -47,7 +47,7 @@ A `Pseudo-class` is used to define a special state of an element.
 
 This means that you can change the CSS style after a certain event, normally a `hover`.
 
-### SYNTAX
+### SYNTAX FOR PSEUDO-CLASSES
 
 ```CSS
     selector:pseudo-class {
@@ -55,7 +55,7 @@ This means that you can change the CSS style after a certain event, normally a `
     }
 ```
 
-### EXAMPLE
+### EXAMPLE FOR PSEUDO-CLASSES
 
 Pseudo-classes can be combined with HTML classes:
 

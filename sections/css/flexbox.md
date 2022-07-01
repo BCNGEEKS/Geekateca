@@ -10,6 +10,7 @@ date: date
 
 - [FLEXBOX](#flexbox)
   - [TABLE OF CONTENTS](#table-of-contents)
+  - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [FLEX-BASIS](#flex-basis)
     - [PROPERTY VALUES](#property-values)
@@ -17,25 +18,25 @@ date: date
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [FLEX-DIRECTION](#flex-direction)
-    - [PROPERTY VALUES](#property-values-1)
-    - [CSS SYNTAX](#css-syntax-1)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [PROPERTY VALUES FOR FLEX-DIRECTION](#property-values-for-flex-direction)
+    - [CSS SYNTAX FOR FLEX-DIRECTION](#css-syntax-for-flex-direction)
+    - [EXAMPLE FOR FLEX-DIRECTION](#example-for-flex-direction)
+    - [BROWSER SUPPORT FOR FLEX-DIRECTION](#browser-support-for-flex-direction)
   - [FLEX-GROW](#flex-grow)
-    - [PROPERTY VALUES](#property-values-2)
-    - [CSS SYNTAX](#css-syntax-2)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-2)
+    - [PROPERTY VALUES FOR FLEX-GROW](#property-values-for-flex-grow)
+    - [CSS SYNTAX FOR FLEX-GROW](#css-syntax-for-flex-grow)
+    - [EXAMPLE FOR FLEX-GROW](#example-for-flex-grow)
+    - [BROWSER SUPPORT FOR FLEX-GROW](#browser-support-for-flex-grow)
   - [FLEX-SHRINK](#flex-shrink)
-    - [PROPERTY VALUES](#property-values-3)
-    - [CSS SYNTAX](#css-syntax-3)
-    - [EXAMPLE](#example-3)
-    - [BROWSER SUPPORT](#browser-support-3)
+    - [PROPERTY VALUES FOR FLEX-SHRINK](#property-values-for-flex-shrink)
+    - [CSS SYNTAX FOR FLEX-SHRINK](#css-syntax-for-flex-shrink)
+    - [EXAMPLE FOR FLEX-SHRINK](#example-for-flex-shrink)
+    - [BROWSER SUPPORT FOR FLEX-SHRINK](#browser-support-for-flex-shrink)
   - [FLEX-WRAP](#flex-wrap)
-    - [PROPERTY VALUES](#property-values-4)
-    - [CSS SYNTAX](#css-syntax-4)
-    - [EXAMPLE](#example-4)
-    - [BROWSER SUPPORT](#browser-support-4)
+    - [PROPERTY VALUES FOR FLEX-WRAP](#property-values-for-flex-wrap)
+    - [CSS SYNTAX FOR FLEX-WRAP](#css-syntax-for-flex-wrap)
+    - [EXAMPLE FOR FLEX-WRAP](#example-for-flex-wrap)
+    - [BROWSER SUPPORT FOR FLEX-WRAP](#browser-support-for-flex-wrap)
 
 ---
 
@@ -96,7 +97,7 @@ Numbers followed by -webkit- or -moz- specify the first version that worked with
 
 The `flex-direction` property specifies the direction of the flexible items.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR FLEX-DIRECTION
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -107,11 +108,11 @@ The `flex-direction` property specifies the direction of the flexible items.
 |   initial   | Sets this property to its default value. |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR FLEX-DIRECTION
 
 > flex-direction: row | row-reverse | column | column-reverse | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR FLEX-DIRECTION
 
 Set the direction of the flexible items inside the **div** element in reverse order
 
@@ -124,7 +125,7 @@ div {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-direction)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR FLEX-DIRECTION
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -144,7 +145,7 @@ Numbers followed by -webkit- or -moz- specify the first version that worked with
 
 The `flex-grow` property specifies how much the item will grow relative to the rest of the flexible items inside the same container.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR FLEX-GROW
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -152,11 +153,11 @@ The `flex-grow` property specifies how much the item will grow relative to the r
 |   initial   | Sets this property to its default value.             |
 |   inherit   | Inherits this property from its parent element.      |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR FLEX-GROW
 
 > flex-grow: number | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR FLEX-GROW
 
 Let the second flex-item grow three times wider than the rest
 
@@ -168,7 +169,7 @@ div:nth-of-type(3) {flex-grow: 1;}
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-grow)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR FLEX-GROW
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -188,7 +189,7 @@ Numbers followed by -webkit- or -moz- specify the first version that worked with
 
 The `flex-shrink` property specifies how the item will shrink relative to the rest of the flexible items inside the same container.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR FLEX-SHRINK
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -196,11 +197,11 @@ The `flex-shrink` property specifies how the item will shrink relative to the re
 |   initial   | Sets this property to its default value.             | [Demo](https://www.w3schools.com/cssref/playit.asp?filename=playcss_flex-shrink&preval=initial) |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR FLEX-SHRINK
 
 > flex-shrink: number | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR FLEX-SHRINK
 
 Let the second flex-item shrink three times more than the rest
 
@@ -212,7 +213,7 @@ div:nth-of-type(2) {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-shrink)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR FLEX-SHRINK
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -232,7 +233,7 @@ Numbers followed by -webkit- or -moz- specify the first version that worked with
 
 The `flex-wrap` property specifies whether the flexible items should wrap or not.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR FLEX-WRAP
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -242,11 +243,11 @@ The `flex-wrap` property specifies whether the flexible items should wrap or not
 |   initial   | Sets this property to its default value. |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR FLEX-WRAP
 
 > flex-wrap: nowrap | wrap | wrap-reverse | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR FLEX-WRAP
 
 Make the flexible items wrap if necessary
 
@@ -259,7 +260,7 @@ div {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_flex-wrap)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR FLEX-WRAP
 
 The numbers in the table specify the first browser version that fully supports the property.
 

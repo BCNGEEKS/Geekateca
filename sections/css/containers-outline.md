@@ -13,25 +13,25 @@ date: 27 June 2022
   - [INDEX](#index)
   - [INTRODUCTION](#introduction)
   - [OUTLINE PROPERTY](#outline-property)
-    - [PROPERTY VALUES](#property-values)
-    - [EXAMPLE](#example)
-    - [BROWSER SUPPORT](#browser-support)
+    - [PROPERTY VALUES FOR OUTLINE PROPERTY](#property-values-for-outline-property)
+    - [EXAMPLE FOR OUTLINE PROPERTY](#example-for-outline-property)
+    - [BROWSER SUPPORT FOR OUTLINE PROPERTY](#browser-support-for-outline-property)
   - [OUTLINE STYLE](#outline-style)
-    - [PROPERTY VALUES](#property-values-1)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [PROPERTY VALUES FOR OUTLINE STYLE](#property-values-for-outline-style)
+    - [EXAMPLE FOR OUTLINE STYLE](#example-for-outline-style)
+    - [BROWSER SUPPORT OUTLINE STYLE](#browser-support-outline-style)
   - [OUTLINE WIDTH](#outline-width)
-    - [PROPERTY VALUES](#property-values-2)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-2)
+    - [PROPERTY VALUES FOR OUTLINE WIDTH](#property-values-for-outline-width)
+    - [EXAMPLE FOR OUTLINE WIDTH](#example-for-outline-width)
+    - [BROWSER SUPPORT FOR OUTLINE WIDTH](#browser-support-for-outline-width)
   - [OUTLINE COLOR](#outline-color)
-    - [PROPERTY VALUES](#property-values-3)
-    - [EXAMPLE](#example-3)
-    - [BROWSER SUPPORT](#browser-support-3)
+    - [PROPERTY VALUES FOR OUTLINE COLOR](#property-values-for-outline-color)
+    - [EXAMPLE FOR OUTLINE COLOR](#example-for-outline-color)
+    - [BROWSER SUPPORT FOR OUTLINE COLOR](#browser-support-for-outline-color)
   - [OUTLINE OFFSET](#outline-offset)
-    - [PROPERTY VALUES](#property-values-4)
-    - [EXAMPLE](#example-4)
-    - [BROWSER SUPPORT](#browser-support-4)
+    - [PROPERTY VALUES FOR OUTLINE OFFSET](#property-values-for-outline-offset)
+    - [EXAMPLE FOR OUTLINE OFFSET](#example-for-outline-offset)
+    - [BROWSER SUPPORT FOR OUTLINE OFFSET](#browser-support-for-outline-offset)
 
 ---
 
@@ -45,9 +45,9 @@ For this article will be explain about how to the property `outline` works. This
 
 ## OUTLINE PROPERTY
 
-This property is used for drawn outside the elements a border, this is for to make that the element stand out, and aslo have to say that the `outline` property is a shorthand for another properties.
+This property is used for drawn outside the elements a border, this is for to make that the element stand out, and also have to say that the `outline` property is a shorthand for another properties.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR OUTLINE PROPERTY
 
 |     Value      | Description                                                                 |
 | :------------: | :-------------------------------------------------------------------------- |
@@ -58,7 +58,7 @@ This property is used for drawn outside the elements a border, this is for to ma
 |    Initial     | Sets the property to its default value.                                     |
 |    Inherit     | Inherits this property from its parent element.                             |
 
-### EXAMPLE
+### EXAMPLE FOR OUTLINE PROPERTY
 
 In this example there are 3 values, the first define the width of the outline, the second value is the style of the outline, and the last value is for set a color
 
@@ -68,7 +68,7 @@ h2{
 }
 ```
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR OUTLINE PROPERTY
 
 | Browser | Version |
 | :-----: | :------ |
@@ -82,7 +82,7 @@ h2{
 
 This property specifies the style of the outline.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR OUTLINE STYLE
 
 |  Value  | Description                                                              |
 | :-----: | :----------------------------------------------------------------------- |
@@ -93,12 +93,12 @@ This property specifies the style of the outline.
 |  solid  | Specifies a solid outline                                                |
 | double  | Specifies a double outline                                               |
 | groove  | Display a affect as 3D grooved, the effects depends of the outline color |
-|  ridge  | Display a effect as 3D riged, the effects depends of the outline color   |
+|  ridge  | Display a effect as 3D ridge, the effects depends of the outline color   |
 | outset  | Display a effect as 3D outset, the effects depends of the outline color  |
 | Initial | Sets the property to its default value.                                  |
 | Inherit | Inherits this property from its parent element.                          |
 
-### EXAMPLE
+### EXAMPLE FOR OUTLINE STYLE
 
 Set a dashed outline
 
@@ -124,7 +124,7 @@ div{
 }
 ```
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT OUTLINE STYLE
 
 | Browser | Version |
 | :-----: | :------ |
@@ -136,11 +136,11 @@ div{
 
 ## OUTLINE WIDTH
 
-This property is for define the width of an outilne of the element
+This property is for define the width of an outline of the element
 
 > Note before to use the `outline-width` property there are declare the `outline-style` property, this is because an element must have an outline before change the width
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR OUTLINE WIDTH
 
 |  Value  | Description                                                                        |
 | :-----: | :--------------------------------------------------------------------------------- |
@@ -151,7 +151,7 @@ This property is for define the width of an outilne of the element
 | Initial | Sets the property to its default value.                                            |
 | Inherit | Inherits this property from its parent element.                                    |
 
-### EXAMPLE
+### EXAMPLE FOR OUTLINE WIDTH
 
 Set the width of the outline to medium
 
@@ -189,7 +189,7 @@ div{
 }
 ```
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR OUTLINE WIDTH
 
 | Browser | Version |
 | :-----: | :------ |
@@ -205,7 +205,7 @@ This property is for define the color of the outline
 
 The color can be defined by the name, HEX, RGB, HSL, and invert that is used for a color inversion
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR OUTLINE COLOR
 
 |  Value  | Description                                                                       |
 | :-----: | :-------------------------------------------------------------------------------- |
@@ -214,7 +214,7 @@ The color can be defined by the name, HEX, RGB, HSL, and invert that is used for
 | Initial | Sets the property to its default value.                                           |
 | Inherit | Inherits this property from its parent element.                                   |
 
-### EXAMPLE
+### EXAMPLE FOR OUTLINE COLOR
 
 Set the color in HEX
 
@@ -240,7 +240,7 @@ div{
 }
 ```
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR OUTLINE COLOR
 
 | Browser | Version |
 | :-----: | :------ |
@@ -254,7 +254,7 @@ div{
 
 This property is for add space between the outline and the border of the container, the space that leave the `outline-offset` is transparent
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR OUTLINE OFFSET
 
 |  Value  | Description                                                                                              |
 | :-----: | :------------------------------------------------------------------------------------------------------- |
@@ -262,7 +262,7 @@ This property is for add space between the outline and the border of the contain
 | Initial | Sets the property to its default value.                                                                  |
 | Inherit | Inherits this property from its parent element.                                                          |
 
-### EXAMPLE
+### EXAMPLE FOR OUTLINE OFFSET
 
 ```CSS
 div {
@@ -271,7 +271,7 @@ div {
 }
 ```
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR OUTLINE OFFSET
 
 | Browser | Version |
 | :-----: | :------ |
