@@ -24,15 +24,12 @@ date: 23th June 2022
   - [BORDER-POSITIONS](#border-positions)
     - [BROWSER SUPPORT](#browser-support-3)
 
-<<<<<<< HEAD
-=======
 ---
 
 ## [INDEX](./index.md)
 
 ---
 
->>>>>>> 132865b0d16c67c047651b89df2f754528770e4e
 The CSS border property allows to change the style, width , and color of an elements's border.
 
 ## BORDER STYLE
