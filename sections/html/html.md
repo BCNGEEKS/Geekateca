@@ -37,9 +37,7 @@ date: 21th June 2022
 ## INTRODUCTION
 
 - HTML *(HyperText Markup Language)* is the standard markup language for Web pages.
-
 - You can create your own Website. This markup language is used to give an estructure to a web page and tells web browsers how to structure the web pages you visit, is like the skeleton, and the css it's the make up.
-
 - HTML uses “markup” to annotate text, images, and other content for display in a Web browser. HTML markup includes special “elements”.
 
 ---
