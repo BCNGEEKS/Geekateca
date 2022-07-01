@@ -106,7 +106,7 @@ The `box-sizing` property defines how the width and height of an element are cal
 |   initial   | Sets this property to its default value.  |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX 
+### CSS SYNTAX
 
 > box-sizing: content-box | border-box | initial | inherit;
 
@@ -167,7 +167,7 @@ The `visibility` property specifies whether or not an element is visible.
 |   initial   | Sets this property to its default value. |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX 
+### CSS SYNTAX
 
 > visibility: visible | hidden | collapse | initial | inherit;
 
