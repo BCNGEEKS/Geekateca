@@ -112,7 +112,7 @@ The `overflow-wrap` property specifies whether or not the browser can break line
 |   initial   | Sets this property to its default value.              |
 |   inherit   | Inherits this property from its parent element.       |
 
-### CSS SYNTAX 
+### CSS SYNTAX
 
 > overflow-wrap: normal | anywhere | break-word | initial | inherit;
 
