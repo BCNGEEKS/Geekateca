@@ -94,7 +94,7 @@ Every element on HMTL has open content and closing structure.
     </body>
     </html>
 
-What's mean's the tags?
+what do the tags mean?
 
 - The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document.
 - The `<html>` element is the root element of an HTML page.
