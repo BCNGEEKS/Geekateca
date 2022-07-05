@@ -18,7 +18,7 @@ date: 27th June 2022
     - [COLUMN-RULE-WIDTH](#column-rule-width)
     - [COLUMN-RULE-COLOR](#column-rule-color)
     - [COLUMN-RULE-STYLE](#column-rule-style)
-  - [BROWSER SUPPORT](#browser-support)
+  - [BROWSER SUPPORT FOR COLUMNS](#browser-support-for-columns)
 
 ---
 
@@ -107,7 +107,7 @@ p
 
 ```
 
-## BROWSER SUPPORT
+## BROWSER SUPPORT FOR COLUMNS
 
 | Browser | Version |
 |:----:|:-------------|

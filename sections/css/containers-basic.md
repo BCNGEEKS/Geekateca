@@ -18,15 +18,15 @@ date: date
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [BOX-SIZING](#box-sizing)
-    - [PROPERTY VALUES](#property-values-1)
-    - [CSS SYNTAX](#css-syntax-1)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [PROPERTY VALUES FOR BOX-SIZING](#property-values-for-box-sizing)
+    - [CSS SYNTAX FOR BOX-SIZING](#css-syntax-for-box-sizing)
+    - [EXAMPLE FOR BOX-SIZING](#example-for-box-sizing)
+    - [BROWSER SUPPORT FOR BOX-SIZING](#browser-support-for-box-sizing)
   - [VISIBILITY](#visibility)
-    - [PROPERTY VALUES](#property-values-2)
-    - [CSS SYNTAX](#css-syntax-2)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-2)
+    - [PROPERTY VALUES FOR VISIBILITY](#property-values-for-visibility)
+    - [CSS SYNTAX FOR VISIBILITY](#css-syntax-for-visibility)
+    - [EXAMPLE FOR VISIBILITY](#example-for-visibility)
+    - [BROWSER SUPPORT FOR VISIBILITY](#browser-support-for-visibility)
 
 ---
 
@@ -97,7 +97,7 @@ Numbers followed by -webkit- or -moz- specify the first version that worked with
 
 The `box-sizing` property defines how the width and height of an element are calculated: should they include padding and borders, or not.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR BOX-SIZING
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -106,11 +106,11 @@ The `box-sizing` property defines how the width and height of an element are cal
 |   initial   | Sets this property to its default value.  |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX 
+### CSS SYNTAX FOR BOX-SIZING
 
 > box-sizing: content-box | border-box | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR BOX-SIZING
 
 Include padding and border in the element's total width and height
 
@@ -137,7 +137,7 @@ div {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-sizing2)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BOX-SIZING
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -157,7 +157,7 @@ Numbers followed by -webkit- or -moz- specify the first version that worked with
 
 The `visibility` property specifies whether or not an element is visible.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR VISIBILITY
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -167,11 +167,11 @@ The `visibility` property specifies whether or not an element is visible.
 |   initial   | Sets this property to its default value. |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX 
+### CSS SYNTAX FOR VISIBILITY
 
 > visibility: visible | hidden | collapse | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR VISIBILITY
 
 Make **h2** elements visible and hidden
 
@@ -187,7 +187,7 @@ h2.b {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_visibility)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR VISIBILITY
 
 The numbers in the table specify the first browser version that fully supports the property.
 

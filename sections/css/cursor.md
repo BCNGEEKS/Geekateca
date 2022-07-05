@@ -7,12 +7,13 @@ date: 27th June 2022
 # CURSOR
 
 ## TABLE OF CONTENTS
+
 - [CURSOR](#cursor)
   - [TABLE OF CONTENTS](#table-of-contents)
   - [INDEX](#index)
     - [INTRODUCTION](#introduction)
-    - [EXAMPLE](#example)
-    - [BROWSER SUPPORT](#browser-support)
+    - [EXAMPLES FOR CURSORS](#examples-for-cursors)
+    - [BROWSER SUPPORT FOR CURSORS](#browser-support-for-cursors)
 
 ---
 
@@ -27,7 +28,7 @@ The `cursor` property specifies the mouse cursor that will be displayed on the e
 CSS can generate a lots of different cursors.
 You usually use them with hover.
 
-### EXAMPLE
+### EXAMPLES FOR CURSORS
 
 CSS can generate a bunch of different mouse cursors
 
@@ -72,7 +73,7 @@ CSS can generate a bunch of different mouse cursors
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_cursor)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR CURSORS
 
 | Browser | Version |
 |:----:|:-------------|

@@ -18,35 +18,35 @@ date: date
     - [EXAMPLE](#example)
     - [BROWSER SUPPORT](#browser-support)
   - [BACKGROUND-IMAGE](#background-image)
-    - [PROPERTY VALUES](#property-values-1)
-    - [CSS SYNTAX](#css-syntax-1)
-    - [EXAMPLE](#example-1)
-    - [BROWSER SUPPORT](#browser-support-1)
+    - [PROPERTY VALUES FOR BACKGROUND-IMAGE](#property-values-for-background-image)
+    - [CSS SYNTAX FOR BACKGROUND-IMAGE](#css-syntax-for-background-image)
+    - [EXAMPLE FOR BACKGROUND-IMAGE](#example-for-background-image)
+    - [BROWSER SUPPORT FOR BACKGROUND-IMAGE](#browser-support-for-background-image)
   - [BACKGROUND-POSITION](#background-position)
-    - [PROPERTY VALUES](#property-values-2)
-    - [CSS SYNTAX](#css-syntax-2)
-    - [EXAMPLE](#example-2)
-    - [BROWSER SUPPORT](#browser-support-2)
+    - [PROPERTY VALUES FOR BACKGROUND-POSITION](#property-values-for-background-position)
+    - [CSS SYNTAX FOR BACKGROUND-POSITION](#css-syntax-for-background-position)
+    - [EXAMPLE FOR BACKGROUND-POSITION](#example-for-background-position)
+    - [BROWSER SUPPORT FOR BACKGROUND-POSITION](#browser-support-for-background-position)
   - [BACKGROUND-SIZE](#background-size)
-    - [PROPERTY VALUES](#property-values-3)
-    - [CSS SYNTAX](#css-syntax-3)
-    - [EXAMPLE](#example-3)
-    - [BROWSER SUPPORT](#browser-support-3)
+    - [PROPERTY VALUES FOR BACKGROUND-SIZE](#property-values-for-background-size)
+    - [CSS SYNTAX FOR BACKGROUND-SIZE](#css-syntax-for-background-size)
+    - [EXAMPLE FOR BACKGROUND-SIZE](#example-for-background-size)
+    - [BROWSER SUPPORT FOR BACKGROUND-SIZE](#browser-support-for-background-size)
   - [BACKGROUND-REPEAT](#background-repeat)
-    - [PROPERTY VALUES](#property-values-4)
-    - [CSS SYNTAX](#css-syntax-4)
-    - [EXAMPLE](#example-4)
-    - [BROWSER SUPPORT](#browser-support-4)
+    - [PROPERTY VALUES FOR BACKGROUND-REPEAT](#property-values-for-background-repeat)
+    - [CSS SYNTAX FOR BACKGROUND-REPEAT](#css-syntax-for-background-repeat)
+    - [EXAMPLE FOR BACKGROUND-REPEAT](#example-for-background-repeat)
+    - [BROWSER SUPPORT FOR BACKGROUND-REPEAT](#browser-support-for-background-repeat)
   - [BACKGROUND-ORIGIN](#background-origin)
-    - [PROPERTY VALUES](#property-values-5)
-    - [CSS SYNTAX](#css-syntax-5)
-    - [EXAMPLE](#example-5)
-    - [BROWSER SUPPORT](#browser-support-5)
+    - [PROPERTY VALUES FOR BACKGROUND-ORIGIN](#property-values-for-background-origin)
+    - [CSS SYNTAX FOR BACKGROUND-ORIGIN](#css-syntax-for-background-origin)
+    - [EXAMPLE FOR BACKGROUND-ORIGIN](#example-for-background-origin)
+    - [BROWSER SUPPORT FOR BACKGROUND-ORIGIN](#browser-support-for-background-origin)
   - [BACKGROUND-ATTACHMENT](#background-attachment)
-    - [PROPERTY VALUES](#property-values-6)
-    - [CSS SYNTAX](#css-syntax-6)
-    - [EXAMPLE](#example-6)
-    - [BROWSER SUPPORT](#browser-support-6)
+    - [PROPERTY VALUES FOR BACKGROUND-ATTACHMENT](#property-values-for-background-attachment)
+    - [CSS SYNTAX BACKGROUND-ATTACHMENT](#css-syntax-background-attachment)
+    - [EXAMPLE BACKGROUND-ATTACHMENT](#example-background-attachment)
+    - [BROWSER SUPPORT BACKGROUND-ATTACHMENT](#browser-support-background-attachment)
 
 ---
 
@@ -120,7 +120,7 @@ The `background-image` property sets one or more background images for an elemen
 
 By default, a background-image is placed at the top-left corner of an element, and repeated both vertically and horizontally.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR BACKGROUND-IMAGE
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -135,11 +135,11 @@ By default, a background-image is placed at the top-left corner of an element, a
 |   initial   | Sets this property to its default value. |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR BACKGROUND-IMAGE
 
 > background-image: url | none | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR BACKGROUND-IMAGE
 
 Set a background-image for the **body** element
 
@@ -163,7 +163,7 @@ body {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background_multiple)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BACKGROUND-IMAGE
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -181,7 +181,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `background-position` property sets the starting position of a background image.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR BACKGROUND-POSITION
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -191,11 +191,11 @@ The `background-position` property sets the starting position of a background im
 |   initial   | Sets this property to its default value.      |
 |   inherit   | Inherits this property from its parent element.      |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR BACKGROUND-POSITION
 
 > background-position: value;
 
-### EXAMPLE
+### EXAMPLE FOR BACKGROUND-POSITION
 
 How to position a background-image
 
@@ -210,7 +210,7 @@ body {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_background-position)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BACKGROUND-POSITION
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -228,7 +228,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `background-size` property specifies the size of the background images.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR BACKGROUND-SIZE
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -240,11 +240,11 @@ The `background-size` property specifies the size of the background images.
 |   initial   | Sets this property to its default value.  |
 |   inherit   | Inherits this property from its parent element.      |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR BACKGROUND-SIZE
 
 > background-size: auto | length | cover | contain | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR BACKGROUND-SIZE
 
 Specify the size of a background-image with "auto" and in pixels
 
@@ -264,7 +264,7 @@ Specify the size of a background-image with "auto" and in pixels
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background-size)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BACKGROUND-SIZE
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -286,7 +286,7 @@ The `background-repeat` property sets if/how a background image will be repeated
 
 By default, a background-image is repeated both vertically and horizontally.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR BACKGROUND-REPEAT
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -299,11 +299,11 @@ By default, a background-image is repeated both vertically and horizontally.
 |   initial   | Inherits this property from its parent element.      |
 |   inherit   | Inherits this property from its parent element.      |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR BACKGROUND-REPEAT
 
 > background-repeat: repeat | repeat-x | repeat-y | no-repeat | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR BACKGROUND-REPEAT
 
 Repeat a background-image only vertically
 
@@ -327,7 +327,7 @@ body {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_background-repeatx)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BACKGROUND-REPEAT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -345,7 +345,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `background-origin` property specifies the origin position (the background positioning area) of a background image.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR BACKGROUND-ORIGIN
 
 |    Value    |                      Description                     | Demo |
 |:-----------:|                      :-----------                    | :--: |
@@ -355,11 +355,11 @@ The `background-origin` property specifies the origin position (the background p
 |   initial   | Sets this property to its default value      |
 |   inherit   | Inherits this property from its parent element. |
 
-### CSS SYNTAX
+### CSS SYNTAX FOR BACKGROUND-ORIGIN
 
 > background-origin: padding-box | border-box | content-box | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE FOR BACKGROUND-ORIGIN
 
 Let the background-image start from the upper left corner of the content
 
@@ -375,7 +375,7 @@ Let the background-image start from the upper left corner of the content
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_background-origin)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT FOR BACKGROUND-ORIGIN
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -393,7 +393,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The `background-attachment` property sets whether a background image scrolls with the rest of the page, or is fixed.
 
-### PROPERTY VALUES
+### PROPERTY VALUES FOR BACKGROUND-ATTACHMENT
 
 |    Value    |                      Description                                |
 |:-----------:|                      :-----------                               |
@@ -403,11 +403,11 @@ The `background-attachment` property sets whether a background image scrolls wit
 |   initial   | Sets this property to its default value.                        |
 |   inherit   | Inherits this property from its parent element.                 |
 
-### CSS SYNTAX
+### CSS SYNTAX BACKGROUND-ATTACHMENT
 
 > background-attachment: scroll | fixed | local | initial | inherit;
 
-### EXAMPLE
+### EXAMPLE BACKGROUND-ATTACHMENT
 
 A background-image that will not scroll with the page (fixed).
 
@@ -433,7 +433,7 @@ body {
 
 [Try it yourself](https://www.w3schools.com/cssref/tryit.asp?filename=trycss_background-attachment2)
 
-### BROWSER SUPPORT
+### BROWSER SUPPORT BACKGROUND-ATTACHMENT
 
 The numbers in the table specify the first browser version that fully supports the property.
 
