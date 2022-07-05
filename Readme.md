@@ -1,14 +1,16 @@
+---
+title: Readme
+date: July 5th 2022
+author: BCNGeeks
+---
 
-# Javi
+# Readme
+
+This is a readme test file for branches and github
+
+## Javi
 
 ## Xavi
----
-layout: default
-author: BCNGeek
-date: 5th July 2022
----
-
-# Readme file
 
 This is just a text written by Marc
 
