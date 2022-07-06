@@ -1,3 +1,0 @@
-# Javi
-## Walid
-## Pol
