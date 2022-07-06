@@ -67,3 +67,12 @@ To fork a repo you have to:
 ![Repo_fork_button](./img/Fork_button.png)
 2. Select the owner and repo name (like in the normal way), add a description and click on __Create fork__
 ![Repo_fork_page](./img/Fork_page.png)
+
+#### Recommendation about how to work with forks
+
+These recommendations try to help you to avoid merge conflicts.
+
+__Don't use the main branch__: Once you made the fork try to create a new branch for make your stuff and let the main branch only for getting updates from the main repo.
+__Use pull requests__: When you have made some changes, and you want to push your code to the main repository start a pull request.
+
+__Delete the merged branches__: When your pull request is accepted and the branch is merged, remove that branch and after update your main create a new branch.
