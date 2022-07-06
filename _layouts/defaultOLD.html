@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ page.title }}</title>
+	<link href="https://bcngeeks.github.io/Geekateca/style/style.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/icon" href="https://bcngeeks.github.io/Geekateca/img/favicon.ico">
+</head>
+<body>
+	<header>
+		<img id="HeaderImage" src="https://bcngeeks.github.io/Geekateca/img/bcngeeklogo.png" alt="Geekateca">
+		<hr>
+		<nav id="HeaderMenu"class="Hmenu">
+			<ul class="Hmenu-ul">
+				<li><a href="https://bcngeeks.github.io/Geekateca/">INDEX</a></li>
+				<li><a onclick="history.back()">LAST PAGE</a></li>
+				<li><a href="https://bcngeeks.github.io/Geekateca/sections/html/">HTML SUMMARY</a></li>
+				<li><a href="https://bcngeeks.github.io/Geekateca/sections/css/">CSS SUMMARY</a></li>
+			</ul>
+		</nav>
+		<hr>
+		<div id="searchBox">
+			<p id="searchTitle">🔍 Key-Words Search Box</p>
+			<button alt="Search button" onclick="showInput()">Search</button>
+			<form autocomplete="off">
+				<input type="text" name="find" id="find">
+				<button alt="Find button" id="submit">Find</button>
+			</form>
+			<div class="searchBoxButtons hide">
+				<button alt="Find next word button" onclick="findNextWord()">Next</button>
+				<button alt="Find previous word button" id="back" onclick="findBack()">Prev</button>
+			</div>
+		</div>
+		<hr>
+	</header>
+	<div class="container">
+		<div class="content">
+			{{ content }}
+		</div>
+	</div>
+	<script src="https://bcngeeks.github.io/Geekateca/script/script.js"></script>
+</body>
+</html>

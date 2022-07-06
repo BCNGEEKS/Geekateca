@@ -1,45 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE-edge">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ page.title }}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link href="https://bcngeeks.github.io/Geekateca/style/style.css" rel="stylesheet" type="text/css">
-        <link rel="icon" type="image/icon" href="https://bcngeeks.github.io/Geekateca/img/favicon.ico">
+    <link rel="icon" type="image/icon" href="https://bcngeeks.github.io/Geekateca/img/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ page.title }}</title>
 </head>
 <body>
-	<header>
-		<img id="HeaderImage" src="https://bcngeeks.github.io/Geekateca/img/bcngeeklogo.png" alt="Geekateca">
-		<hr>
-		<nav id="HeaderMenu"class="Hmenu">
-			<ul class="Hmenu-ul">
-				<li><a href="https://bcngeeks.github.io/Geekateca/">INDEX</a></li>
-				<li><a onclick="history.back()">LAST PAGE</a></li>
-				<li><a href="https://bcngeeks.github.io/Geekateca/sections/html/">HTML SUMMARY</a></li>
-				<li><a href="https://bcngeeks.github.io/Geekateca/sections/css/">CSS SUMMARY</a></li>
-			</ul>
-		</nav>
-		<hr>
-		<div id="searchBox">
-			<p id="searchTitle">🔍 Key-Words Search Box</p>
-			<button alt="Search button" onclick="showInput()">Search</button>
-			<form autocomplete="off">
-				<input type="text" name="find" id="find">
-				<button alt="Find button" id="submit">Find</button>
-			</form>
-			<div class="searchBoxButtons hide">
-				<button alt="Find next word button" onclick="findNextWord()">Next</button>
-				<button alt="Find previous word button" id="back" onclick="findBack()">Prev</button>
-			</div>
-		</div>
-		<hr>
-	</header>
-	<div class="container">
-		<div class="content">
-			{{ content }}
-		</div>
-	</div>
-	<script src="https://bcngeeks.github.io/Geekateca/script/script.js"></script>
+    <header class="HGeekateca">
+        <div class="HLogoTitle">
+            <img class="LogoGeek" src="https://bcngeeks.github.io/Geekateca/img/bcngeeklogo.png" alt="BCNGeekLogo">
+            <h1 class="HTitle">GEEKATECA</h1>
+        </div>
+        <nav class="NavBar">
+            <button class="HtmlIndexBtn" href="#">HTML</button>
+            <button class="CssIndexBtn">CSS</button>
+            <form class="form">
+                <label for="search">
+                    <input class="input" type="text" required="" placeholder="Search article" id="search">
+                    <div class="fancy-bg"></div>
+                    <div class="search">
+                        <svg viewBox="0 0 24 24" aria-hidden="true" class="r-14j79pv r-4qtqp9 r-yyyyoo r-1xvli5t r-dnmrzs r-4wgw6l r-f727ji r-bnwqim r-1plcrui r-lrvibr">
+                            <g>
+                                <path d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z"></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <button class="close-btn" type="reset">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                        </svg>
+                    </button>
+                </label>
+            </form>
+        </nav>
+        <div class="container">
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+        <script src="https://bcngeeks.github.io/Geekateca/script/script.js"></script>
+    </header>
 </body>
 </html>
