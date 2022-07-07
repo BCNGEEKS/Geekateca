@@ -66,7 +66,7 @@ Explanation of the `specific` property.
 
 ```
 
-This are some code example in css
+These are some code example in CSS
 
 ```HTML
 <!DOCTYPE html>
@@ -82,7 +82,7 @@ This are some code example in css
 </html>
 ```
 
-This is a code example in html
+This is a code example in HTML
 
 ### BROWSER SUPPORT
 

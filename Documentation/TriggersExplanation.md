@@ -10,12 +10,12 @@ date: 27nd June 2022
 ## Table of Contents  
 
 - [How does triggers work](#how-does-triggers-work)  
-- [Diferences between Pipeline and workflow](#diferences-between-pipeline-and-workflow)  
+- [Differences between Pipeline and workflow](#diferences-between-pipeline-and-workflow)  
 - [CI/CD Pipelines](#cicd-pipelines)
 
 ## How does triggers work  
 
-Each trigger has a pipelane or workflow that executes an action in the desired field.
+Each trigger has a pipeline or workflow that executes an action in the desired field.
 The main function is to keep the Continuous integration up to date in order to help all developers working copies to a shared mainline several times a day.  
 
 In our project we currently have a trigger that checks if the input link is operative, if the link is not operative then the merge it would not happen.  
@@ -23,7 +23,7 @@ In our project we currently have a trigger that checks if the input link is oper
 > This is our trigger example.
 ![Trigger Example](./img/linkcheck_example.png)
 
-## Diferences between Pipeline and Workflow  
+## Differences between Pipeline and Workflow  
 
 A **pipeline** is a series of processes, usually linear, which filter or transform data. The processes are generally assumed to be running concurrently. The data flow diagram of a pipeline does not normally branch or loop.
 The first process takes raw data as input, does something to it, then sends its results to the second process, and so on, eventually ending with the final result being produced by the last process in the pipeline.
@@ -35,8 +35,8 @@ There may be no single "final result" from a single process; rather, multiple pr
 
 ## CI/CD Pipelines  
 
-Developers, in order to share their application source code, will use an SCM system like Github, Git, AzureRepo etc, creating the CI Pipeline or build. From this we create a build pipeline. The goal is to compile the application by creating an application package in formats like ddl file.
-Following this, the next step would be the release, deploying the application onto a web server. All of this helps the developers and the project to keep in continuous integration, making commits and having automation tests in order to keep software quickly and efficiently.
+Developers, in order to share their application source code, will use an SCM system like GitHub, Git, AzureRepo etc., creating the CI Pipeline or build. From this we create a build pipeline. The goal is to compile the application by creating an application package in formats like DDL file.
+Following this, the next step would be the release, deploying the application onto a web server. All of these helps the developers and the project to keep in continuous integration, making commits and having automation tests in order to keep software quickly and efficiently.
 
 > This would be how CI/CD is implemented.
 ![CI/CD Example](./img/CICDpipeline.png)
