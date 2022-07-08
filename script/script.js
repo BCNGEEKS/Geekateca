@@ -52,3 +52,10 @@ inputFind.addEventListener('keydown', e => {
       document.getElementById("back").click();
     }
   });
+
+//Function to use an API from google translate and translate automatically in any language
+
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+
