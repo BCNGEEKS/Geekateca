@@ -9,9 +9,9 @@ date: 22nd June 2022
 
 1. Do a Fork of the original project.
 
-    This will create a copy of the project under your possession. It is your responsability to keep that project up to date.
+    This will create a copy of the project under your possession. It is your responsibility to keep that project up to date.
 
-    [WHAT HAPPENS IF THE PROJECT IS NOT UP TO DATE?](./uptodate.md)
+    [WHAT HAPPENS IF THE PROJECT IS NOT UP-TO-DATE?](./uptodate.md)
  ![Fork Button](./img/Fork.png)
 2. Clone the project to your machine.
 
@@ -32,11 +32,11 @@ date: 22nd June 2022
         git push https://<GITHUB_ACCESS_TOKEN>@github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 
  ![Visual-Studio-Push](./img/Push.png)
-5. Go to your Github project and you will find the button "Compare & Pull Request". Click it to request the changes to be pushed into the original project!
+5. Go to your GitHub project, and you will find the button "Compare & Pull Request". Click it to request the changes to be pushed into the original project!
 
  ![Pull-Request](./img/ComparePullRequest.png)
 
  ![Open-Request](./img/OpenPullRequest.png)
-6. Finally when you are done with the Pull Request we will ask of you to fill in a Summary of Changes just like the one in the image:
+6. Finally, when you are done with the Pull Request we will ask of you to fill in a Summary of Changes just like the one in the image:
 
  ![Summary Of Changes](./img/Pull%20Request%20Summary.png)

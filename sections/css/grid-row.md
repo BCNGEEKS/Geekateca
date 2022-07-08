@@ -12,21 +12,21 @@ date: 28th June 2022
   - [TABLE OF CONTENT](#table-of-content)
   - [INDEX](#index)
   - [GRID-ROW](#grid-row)
-    - [PROPERTY VALUES (GRID-ROW)](#property-values-grid-row)
-    - [EXAMPLE (GRID-ROW)](#example-grid-row)
-    - [BROWSER SUPPORT (GRID-ROW)](#browser-support-grid-row)
+    - [PROPERTY VALUES FOR GRID-ROW](#property-values-for-grid-row)
+    - [EXAMPLE FOR GRID-ROW](#example-for-grid-row)
+    - [BROWSER SUPPORT FOR GRID-ROW](#browser-support-for-grid-row)
   - [GRID-ROW-START](#grid-row-start)
-    - [PROPERTY VALUES (GRID-ROW-START)](#property-values-grid-row-start)
-    - [EXAMPLE (GRID-ROW-START)](#example-grid-row-start)
-    - [BROWSER SUPPORT (GRID-ROW-START)](#browser-support-grid-row-start)
+    - [PROPERTY VALUES FOR GRID-ROW-START](#property-values-for-grid-row-start)
+    - [EXAMPLE FOR GRID-ROW-START](#example-for-grid-row-start)
+    - [BROWSER SUPPORT FOR GRID-ROW-START](#browser-support-for-grid-row-start)
   - [GRID-ROW-END](#grid-row-end)
-    - [PROPERTY VALUES (GRID-ROW-END)](#property-values-grid-row-end)
-    - [EXAMPLE (GRID-ROW-END)](#example-grid-row-end)
-    - [BROWSER SUPPORT (GRID-ROW-END)](#browser-support-grid-row-end)
+    - [PROPERTY VALUES FOR GRID-ROW-END](#property-values-for-grid-row-end)
+    - [EXAMPLE FOR GRID-ROW-END](#example-for-grid-row-end)
+    - [BROWSER SUPPORT FOR GRID-ROW-END](#browser-support-for-grid-row-end)
   - [ROW-GAP](#row-gap)
-    - [PROPERTY VALUES (ROW-GAP)](#property-values-row-gap)
-    - [EXAMPLE (ROW-GAP)](#example-row-gap)
-    - [BROWSER SUPPORT (ROW-GAP)](#browser-support-row-gap)
+    - [PROPERTY VALUES FOR ROW-GAP](#property-values-for-row-gap)
+    - [EXAMPLE FOR ROW-GAP](#example-for-row-gap)
+    - [BROWSER SUPPORT FOR ROW-GAP](#browser-support-for-row-gap)
 
 ---
 
@@ -42,18 +42,18 @@ The `grid-row` property specifies a grid item's size and location in a grid layo
 
 `grid-row-end`
 
-### PROPERTY VALUES (GRID-ROW)
+### PROPERTY VALUES FOR GRID-ROW
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
 |   grid-row-start  |   Specifies on which row to start displaying the item.    |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-row-start)   |
 |   grid-row-end    |   Specifies on which row-line to stop displaying the item, or how many rows to span.  |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-row-end) |
 
-> ### CSS SYNTAX (GRID-ROW)
+> ### CSS SYNTAX FOR GRID-ROW
 >
 > grid-row: grid-row-start / grid-row-end;
 
-### EXAMPLE (GRID-ROW)
+### EXAMPLE FOR GRID-ROW
 
 Make "item1" start on row 1 and span 2 rows:
 
@@ -63,7 +63,7 @@ Make "item1" start on row 1 and span 2 rows:
 }
 ```
 
-### BROWSER SUPPORT (GRID-ROW)
+### BROWSER SUPPORT FOR GRID-ROW
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -81,18 +81,18 @@ The numbers in the table specify the first browser version that fully supports t
 
 The grid-row-start property defines on which row-line the item will start.
 
-### PROPERTY VALUES (GRID-ROW-START)
+### PROPERTY VALUES FOR GRID-ROW-START
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
 |   auto    |   Default value. The item will be placed by following the flow.   |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-row-start)    |
 |   row-line    |   Specifies on which row to start the display of the item.    |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-row-start&preval=3)    |
 
-> ### CSS SYNTAX (GRID-ROW-START)
+> ### CSS SYNTAX FOR GRID-ROW-START
 >
 > grid-row-start: auto|row-line;
 
-### EXAMPLE (GRID-ROW-START)
+### EXAMPLE FOR GRID-ROW-START
 
 Make "item1" start on row 2:
 
@@ -102,7 +102,7 @@ Make "item1" start on row 2:
 }
 ```
 
-### BROWSER SUPPORT (GRID-ROW-START)
+### BROWSER SUPPORT FOR GRID-ROW-START
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -120,7 +120,7 @@ The numbers in the table specify the first browser version that fully supports t
 
 The grid-row-end property defines how many rows an item will span, or on which row-line the item will end.
 
-### PROPERTY VALUES (GRID-ROW-END)
+### PROPERTY VALUES FOR GRID-ROW-END
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
@@ -128,11 +128,11 @@ The grid-row-end property defines how many rows an item will span, or on which r
 |   span    |   Specifies the number of rows the item will span.    |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-row-end&preval=span%203)    |
 |   row-line    |   Specifies on which row to end the display of the item.  |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-row-end&preval=5)    |
 
-> ### CSS SYNTAX (GRID-ROW-END)
+> ### CSS SYNTAX FOR GRID-ROW-END
 >
 > grid-row-end: auto|row-line|span n;
 
-### EXAMPLE (GRID-ROW-END)
+### EXAMPLE FOR GRID-ROW-END
 
 Make "item1" span 3 rows:
 
@@ -142,7 +142,7 @@ Make "item1" span 3 rows:
 }
 ```
 
-### BROWSER SUPPORT (GRID-ROW-END)
+### BROWSER SUPPORT FOR GRID-ROW-END
 
 The numbers in the table specify the first browser version that fully supports the property.
 
@@ -160,17 +160,17 @@ The numbers in the table specify the first browser version that fully supports t
 
 The row-gap property defines the size of the gap between the rows in a grid layout.
 
-### PROPERTY VALUES (ROW-GAP)
+### PROPERTY VALUES FOR ROW-GAP
 
 |    Value    |                      Description                      | Demo |
 |:-----------:|                      :-----------                     | :--: |
 |   length  |   Any legal length value, like px or %. 0 is the default value    |   [Demo](https://www.w3schools.com/cssref/playdemo.asp?filename=playcss_grid-row-gap) |
 
-> ### CSS SYNTAX (ROW-GAP)
+> ### CSS SYNTAX FOR ROW-GAP
 >
 > row-gap: length;
 
-### EXAMPLE (ROW-GAP)
+### EXAMPLE FOR ROW-GAP
 
 Set the gap between rows to 50px:
 
@@ -180,7 +180,7 @@ Set the gap between rows to 50px:
 }
 ```
 
-### BROWSER SUPPORT (ROW-GAP)
+### BROWSER SUPPORT FOR ROW-GAP
 
 The numbers in the table specify the first browser version that fully supports the property.
 

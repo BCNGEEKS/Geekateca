@@ -36,7 +36,7 @@ date: 21th June 2022
     - [INPUT TYPE EMAIL](#input-type-email)
       - [EXAMPLE](#example-10)
     - [INPUT TYPE FILE](#input-type-file)
-    - [EXAMPLE](#example-11)
+      - [EXAMPLE](#example-11)
     - [INPUT TYPE HIDDEN](#input-type-hidden)
       - [EXAMPLE](#example-12)
     - [INPUT TYPE IMAGE](#input-type-image)
@@ -351,7 +351,7 @@ In this example shows a form the user enter a email with direction "gmail" and s
 
 The `<input>` elements with type="file" let the user choose one or more files from their device storage. Once chosen, the files can be uploaded to a server using form submission, or manipulated using JavaScript code and the File API.
 
-### EXAMPLE
+#### EXAMPLE
 
     <form method="post" enctype="multipart/form-data">
     <div>
@@ -575,9 +575,9 @@ The `<input>` elements of type time create input fields designed to let the user
 
 #### EXAMPLE
 
-    <label for="appt">Choose a time for your meeting:</label>
+    <label for="appointment">Choose a time for your meeting:</label>
 
-    <input type="time" id="appt" name="appt"
+    <input type="time" id="appointment" name="appointment"
         min="09:00" max="18:00" required>
 
     <small>Office hours are 9am to 6pm</small>

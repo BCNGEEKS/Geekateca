@@ -49,7 +49,7 @@ The table of contents should never use numbers (since they won't be shown in the
 
 ## General Structure
 
-Every markdown document should start with a commented section including layout, title, author and date.
+Every Markdown document should start with a commented section including layout, title, author and date.
 
     ---
     layout: default
@@ -65,7 +65,7 @@ Please add a Table of Contents for easy navigation.
 
 Documents should be written in impersonal form. That means they shouldn't refer to "you" or "me".
 
-The _look_ of your markdown document should be taken into account. It won't be shown in the final result, but both the markdown document and the resulting HTML should be easily readable.
+The _look_ of your Markdown document should be taken into account. It won't be shown in the final result, but both the Markdown document and the resulting HTML should be easily readable.
 
 ## Examples
 
@@ -97,7 +97,7 @@ You can also use blockquotes by using the character `>` but do not use it for co
 
 ### Mixing Examples
 
-You can also mix both blockquotes and code snippets but we don't recommend such practice unless completely needed; the final style will not look great. Take into account that to mix these two you need to intend 5 spaces instead of 4.
+You can also mix both blockquotes and code snippets, but we don't recommend such practice unless completely needed; the final style will not look great. Take into account that to mix these two you need to intend 5 spaces instead of 4.
 
 #### _Markdown Code:_
 
@@ -117,7 +117,7 @@ You can also mix both blockquotes and code snippets but we don't recommend such 
 
 ## Lists
 
-There are two kind of lists: ordered or unordered. Please use them accordingly, sorting only a series of consecutive steps causally connected.
+There are two kinds of lists: ordered or unordered. Please use them accordingly, sorting only a series of consecutive steps causally connected.
 
 Sometimes lists like to misbehave so adding a `<!-- end of the list -->` at the end of them prevents any problems.
 
@@ -136,11 +136,11 @@ Sometimes lists like to misbehave so adding a `<!-- end of the list -->` at the 
 
 #### _Result:_
 
-There are different kind of selectors in HTML:
+There are different kinds of selectors in HTML:
 
 - id: must be unique
 - name: must be unique
-  - id and name have different properties in `<form>`
+  - ID and name have different properties in `<form>`
 - class: can be repeated
 
 <!-- end of the list -->
@@ -165,13 +165,13 @@ To do a tortilla de patatas you will need both potatoes, eggs and onion.
 
 1. First peel the potatoes and fry them.
 2. Then fry the onion.
-3. Finally merge everything with the eggs.
+3. Finally, merge everything with the eggs.
 
 <!-- end of the list -->
 
 ### Nested Lists
 
-Making nested lists is easy. Only problem is that there is only 2 indexes: either numbers or unordered lists (as previously shown). So to prevent confusion we recommend that all sublists be unordered.
+Making nested lists is easy. Only problem is that there is only 2 indexes: either numbers or unordered lists (as previously shown). So to prevent confusion we recommend that all sub lists be unordered.
 
 #### _Markdown Code:_
 
@@ -229,7 +229,7 @@ Making nested lists is easy. Only problem is that there is only 2 indexes: eithe
 
 ### Roman indices
 
-If you really need roman indeces (or any other kind) you will have to work with HTML:
+If you really need roman indices (or any other kind) you will have to work with HTML:
 
 #### _Markdown Code:_
 
